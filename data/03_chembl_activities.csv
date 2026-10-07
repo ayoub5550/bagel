@@ -1,0 +1,1388 @@
+compound,chembl_id,target_chembl_id,target,target_type,organism,n,median_pchembl,max_pchembl
+quercetin,CHEMBL50,CHEMBL2362975,No relevant target,NO TARGET,-,46,5.23,9.96
+quercetin,CHEMBL50,CHEMBL612545,Unchecked,UNCHECKED,-,108,5.29,9.74
+myricetin,CHEMBL164,CHEMBL1293317,Muscleblind-like protein 1,SINGLE PROTEIN,Homo sapiens,1,9.6,9.6
+ascorbic acid,CHEMBL196,CHEMBL1942,Alpha-2B adrenergic receptor,SINGLE PROTEIN,Homo sapiens,1,9.3,9.3
+myricetin,CHEMBL164,CHEMBL1075189,Pyruvate kinase PKM,SINGLE PROTEIN,Homo sapiens,2,7.79,9.29
+caffeine,CHEMBL113,CHEMBL218,Cannabinoid receptor 1,SINGLE PROTEIN,Homo sapiens,1,9.22,9.22
+kaempferol,CHEMBL150,CHEMBL3397,Cytochrome P450 2C9,SINGLE PROTEIN,Homo sapiens,4,7.05,8.9
+caffeic acid,CHEMBL145,CHEMBL614361,T47D,CELL-LINE,Homo sapiens,1,8.7,8.7
+myricetin,CHEMBL164,CHEMBL1293238,Inositol monophosphatase 1,SINGLE PROTEIN,Rattus norvegicus,2,7.4,8.7
+ascorbic acid,CHEMBL196,CHEMBL613712,Radical scavenging activity,UNKNOWN,-,48,4.63,8.7
+rutin,CHEMBL226335,CHEMBL4822,Beta-secretase 1,SINGLE PROTEIN,Homo sapiens,1,8.42,8.42
+oleanolic acid,CHEMBL168,CHEMBL387,MCF7,CELL-LINE,Homo sapiens,7,4.45,8.37
+oleanolic acid,CHEMBL168,CHEMBL4081,Tissue factor,SINGLE PROTEIN,Homo sapiens,1,8.3,8.3
+epigallocatechin gallate,CHEMBL297453,CHEMBL4150,Enoyl-acyl-carrier protein reductase,SINGLE PROTEIN,Plasmodium falciparum,5,6.73,8.1
+ascorbic acid,CHEMBL196,CHEMBL2362975,No relevant target,NO TARGET,-,99,4.74,8.08
+oleanolic acid,CHEMBL168,CHEMBL378,Human immunodeficiency virus 1,ORGANISM,Human immunodeficiency virus 1,2,6.16,8.0
+caffeic acid,CHEMBL145,CHEMBL321,Matrix metalloproteinase-9,SINGLE PROTEIN,Homo sapiens,2,7.83,8.0
+quercetin,CHEMBL50,CHEMBL3254,Amine oxidase [flavin-containing] A,SINGLE PROTEIN,Bos taurus,1,8.0,8.0
+ascorbic acid,CHEMBL196,CHEMBL383,HL-60,CELL-LINE,Homo sapiens,3,5.01,8.0
+rutin,CHEMBL226335,CHEMBL220,Acetylcholinesterase,SINGLE PROTEIN,Homo sapiens,1,7.92,7.92
+quercetin,CHEMBL50,CHEMBL1978,Aromatase,SINGLE PROTEIN,Homo sapiens,1,7.92,7.92
+myricetin,CHEMBL164,CHEMBL220,Acetylcholinesterase,SINGLE PROTEIN,Homo sapiens,2,6.17,7.92
+beta-carotene,CHEMBL1293,CHEMBL613124,Human gammaherpesvirus 4,ORGANISM,human gammaherpesvirus 4,1,7.9,7.9
+ellagic acid,CHEMBL6246,CHEMBL5619,DNA repair nuclease/redox regulator APEX1,SINGLE PROTEIN,Homo sapiens,1,7.85,7.85
+quercetin,CHEMBL50,CHEMBL1900,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Homo sapiens,6,5.66,7.83
+morin,CHEMBL28626,CHEMBL335,Tyrosine-protein phosphatase non-receptor type 1,SINGLE PROTEIN,Homo sapiens,1,7.82,7.82
+bis(2-ethylhexyl) phthalate,CHEMBL1242017,CHEMBL612545,Unchecked,UNCHECKED,-,1,7.8,7.8
+ellagic acid,CHEMBL6246,CHEMBL612545,Unchecked,UNCHECKED,-,19,5.35,7.72
+morin,CHEMBL28626,CHEMBL3807,Tyrosine-protein phosphatase non-receptor type 2,SINGLE PROTEIN,Homo sapiens,1,7.72,7.72
+mandelic acid,CHEMBL1609,CHEMBL2366353,OPM-2,CELL-LINE,Homo sapiens,1,7.72,7.72
+ellagic acid,CHEMBL6246,CHEMBL3629,Casein kinase II subunit alpha,SINGLE PROTEIN,Homo sapiens,2,7.55,7.7
+morin,CHEMBL28626,CHEMBL276,Muscarinic acetylcholine receptor M1,SINGLE PROTEIN,Rattus norvegicus,1,7.7,7.7
+quercetin,CHEMBL50,CHEMBL4150,Enoyl-acyl-carrier protein reductase,SINGLE PROTEIN,Plasmodium falciparum,6,5.89,7.66
+quercetin,CHEMBL50,CHEMBL4878,Cytochrome P450 1B1,SINGLE PROTEIN,Homo sapiens,8,6.55,7.64
+gallic acid,CHEMBL288114,CHEMBL2362975,No relevant target,NO TARGET,-,12,5.12,7.62
+caffeic acid,CHEMBL145,CHEMBL333,72 kDa type IV collagenase,SINGLE PROTEIN,Homo sapiens,1,7.62,7.62
+epigallocatechin gallate,CHEMBL297453,CHEMBL612545,Unchecked,UNCHECKED,-,42,5.42,7.6
+quercetin,CHEMBL50,CHEMBL2147,Serine/threonine-protein kinase pim-1,SINGLE PROTEIN,Homo sapiens,5,6.3,7.6
+kaempferol,CHEMBL150,CHEMBL2326,Carbonic anhydrase 7,SINGLE PROTEIN,Homo sapiens,1,7.6,7.6
+myricetin,CHEMBL164,CHEMBL4878,Cytochrome P450 1B1,SINGLE PROTEIN,Homo sapiens,2,7.57,7.57
+epigallocatechin gallate,CHEMBL297453,CHEMBL4373,Orphan methyltransferase M.SssI,SINGLE PROTEIN,Spiroplasma monobiae,1,7.55,7.55
+kaempferol,CHEMBL150,CHEMBL3201,Aryl hydrocarbon receptor,SINGLE PROTEIN,Homo sapiens,1,7.55,7.55
+epigallocatechin gallate,CHEMBL297453,CHEMBL4512,Fatty acid synthase,SINGLE PROTEIN,Plasmodium falciparum,2,6.96,7.52
+epigallocatechin gallate,CHEMBL297453,CHEMBL612556,PC-12,CELL-LINE,Rattus norvegicus,1,7.52,7.52
+quercetin,CHEMBL50,CHEMBL5393,Broad substrate specificity ATP-binding cassette transporter ABCG2,SINGLE PROTEIN,Homo sapiens,5,6.56,7.52
+ellagic acid,CHEMBL6246,CHEMBL1075126,Pyruvate kinase PKLR,SINGLE PROTEIN,Homo sapiens,1,7.5,7.5
+myricetin,CHEMBL164,CHEMBL612545,Unchecked,UNCHECKED,-,43,5.45,7.46
+caffeine,CHEMBL113,CHEMBL276,Muscarinic acetylcholine receptor M1,SINGLE PROTEIN,Rattus norvegicus,1,7.45,7.45
+ellagic acid,CHEMBL6246,CHEMBL612558,ADMET,ADMET,-,5,6.51,7.43
+quercetin,CHEMBL50,CHEMBL204,Prothrombin,SINGLE PROTEIN,Homo sapiens,3,5.82,7.41
+ellagic acid,CHEMBL6246,CHEMBL2095191,Casein kinase II,PROTEIN COMPLEX GROUP,Homo sapiens,2,7.4,7.4
+ellagic acid,CHEMBL6246,CHEMBL3988629,Casein kinase 2,PROTEIN COMPLEX,Rattus norvegicus,1,7.4,7.4
+ellagic acid,CHEMBL6246,CHEMBL4680034,5'-nucleotidase,SINGLE PROTEIN,Mus musculus,1,7.4,7.4
+epigallocatechin gallate,CHEMBL297453,CHEMBL614910,SH-SY5Y,CELL-LINE,Homo sapiens,1,7.4,7.4
+epigallocatechin gallate,CHEMBL297453,CHEMBL6119,Small ribosomal subunit protein uS2,SINGLE PROTEIN,Homo sapiens,1,7.4,7.4
+butylated hydroxytoluene,CHEMBL146,CHEMBL613712,Radical scavenging activity,UNKNOWN,-,20,4.42,7.4
+pedunculagin,CHEMBL506204,CHEMBL4471,Prothrombin,SINGLE PROTEIN,Bos taurus,3,6.82,7.38
+syringic acid,CHEMBL1414,CHEMBL2362975,No relevant target,NO TARGET,-,1,7.37,7.37
+kaempferol,CHEMBL150,CHEMBL4878,Cytochrome P450 1B1,SINGLE PROTEIN,Homo sapiens,2,7.35,7.37
+quercetin,CHEMBL50,CHEMBL1075214,5'-nucleotidase,SINGLE PROTEIN,Rattus norvegicus,1,7.34,7.34
+caffeic acid,CHEMBL145,CHEMBL2362975,No relevant target,NO TARGET,-,16,4.71,7.32
+gallic acid,CHEMBL288114,CHEMBL4159,3-hydroxyacyl-CoA dehydrogenase type-2,SINGLE PROTEIN,Homo sapiens,2,6.0,7.3
+ellagic acid,CHEMBL6246,CHEMBL1075138,Tyrosyl-DNA phosphodiesterase 1,SINGLE PROTEIN,Homo sapiens,3,7.15,7.3
+oleanolic acid,CHEMBL168,CHEMBL612545,Unchecked,UNCHECKED,-,18,4.88,7.22
+gallic acid,CHEMBL288114,CHEMBL3596077,"Alpha-(1,3)-fucosyltransferase 7",SINGLE PROTEIN,Homo sapiens,1,7.22,7.22
+catechin,CHEMBL311498,CHEMBL6066154,Mushroom tyrosinase,PROTEIN FAMILY,Agaricus bisporus,2,7.19,7.22
+quercetin,CHEMBL50,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,41,4.96,7.22
+ellagic acid,CHEMBL6246,CHEMBL5542,DNA polymerase eta,SINGLE PROTEIN,Homo sapiens,2,7.21,7.21
+ellagic acid,CHEMBL6246,CHEMBL5391,DNA polymerase iota,SINGLE PROTEIN,Homo sapiens,1,7.21,7.21
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL612545,Unchecked,UNCHECKED,-,13,5.85,7.16
+oleanolic acid,CHEMBL168,CHEMBL5983,Aldo-keto reductase family 1 member B10,SINGLE PROTEIN,Homo sapiens,8,6.12,7.14
+oleanolic acid,CHEMBL168,CHEMBL6067457,FUN14 domain-containing protein 1,SINGLE PROTEIN,Homo sapiens,1,7.14,7.14
+epigallocatechin gallate,CHEMBL297453,CHEMBL364,Plasmodium falciparum,ORGANISM,Plasmodium falciparum,5,5.85,7.14
+epigallocatechin gallate,CHEMBL297453,CHEMBL4224,Dual specificity protein kinase CLK1,SINGLE PROTEIN,Homo sapiens,1,7.14,7.14
+kaempferol,CHEMBL150,CHEMBL3356,Cytochrome P450 1A2,SINGLE PROTEIN,Homo sapiens,2,6.62,7.1
+epigallocatechin gallate,CHEMBL297453,CHEMBL4662,Proteasome Macropain subunit MB1,SINGLE PROTEIN,Homo sapiens,3,6.0,7.07
+quercetin,CHEMBL50,CHEMBL613740,Influenza A virus,ORGANISM,Influenza A virus,3,6.25,7.07
+pyrogallol,CHEMBL307145,CHEMBL1075138,Tyrosyl-DNA phosphodiesterase 1,SINGLE PROTEIN,Homo sapiens,1,7.06,7.06
+caffeic acid,CHEMBL145,CHEMBL2372,Catechol O-methyltransferase,SINGLE PROTEIN,Rattus norvegicus,2,6.13,7.03
+epigallocatechin gallate,CHEMBL297453,CHEMBL4372,Lethal factor,SINGLE PROTEIN,Bacillus anthracis,1,7.01,7.01
+oleanolic acid,CHEMBL168,CHEMBL2265,Liver carboxylesterase 1,SINGLE PROTEIN,Homo sapiens,1,7.0,7.0
+chlorogenic acid,CHEMBL284616,CHEMBL335,Tyrosine-protein phosphatase non-receptor type 1,SINGLE PROTEIN,Homo sapiens,3,4.96,7.0
+ellagic acid,CHEMBL6246,CHEMBL1293267,G-protein coupled receptor 35,SINGLE PROTEIN,Homo sapiens,3,6.96,7.0
+epigallocatechin gallate,CHEMBL297453,CHEMBL2318,A disintegrin and metalloproteinase with thrombospondin motifs 4,SINGLE PROTEIN,Homo sapiens,1,7.0,7.0
+epigallocatechin gallate,CHEMBL297453,CHEMBL2285,A disintegrin and metalloproteinase with thrombospondin motifs 5,SINGLE PROTEIN,Homo sapiens,1,7.0,7.0
+ellagic acid,CHEMBL6246,CHEMBL364,Plasmodium falciparum,ORGANISM,Plasmodium falciparum,13,6.09,6.98
+morin,CHEMBL28626,CHEMBL1293224,Microtubule-associated protein tau,SINGLE PROTEIN,Homo sapiens,9,4.85,6.95
+quercetin,CHEMBL50,CHEMBL267,Proto-oncogene tyrosine-protein kinase Src,SINGLE PROTEIN,Homo sapiens,2,5.87,6.92
+morin,CHEMBL28626,CHEMBL612545,Unchecked,UNCHECKED,-,16,4.97,6.92
+butylated hydroxytoluene,CHEMBL146,CHEMBL1973,Tyrosinase,SINGLE PROTEIN,Homo sapiens,1,6.92,6.92
+caffeic acid,CHEMBL145,CHEMBL612545,Unchecked,UNCHECKED,-,26,5.4,6.91
+epigallocatechin gallate,CHEMBL297453,CHEMBL4302,ATP-dependent translocase ABCB1,SINGLE PROTEIN,Homo sapiens,2,6.91,6.91
+caffeic acid,CHEMBL145,CHEMBL227,Type-1 angiotensin II receptor,SINGLE PROTEIN,Homo sapiens,1,6.9,6.9
+ellagic acid,CHEMBL6246,CHEMBL1293236,ATP-dependent DNA helicase Q1,SINGLE PROTEIN,Homo sapiens,4,6.45,6.9
+ellagic acid,CHEMBL6246,CHEMBL1293255,15-hydroxyprostaglandin dehydrogenase [NAD(+)],SINGLE PROTEIN,Homo sapiens,3,6.05,6.9
+quercetin,CHEMBL50,CHEMBL4159,3-hydroxyacyl-CoA dehydrogenase type-2,SINGLE PROTEIN,Homo sapiens,5,6.6,6.9
+myricetin,CHEMBL164,CHEMBL4159,3-hydroxyacyl-CoA dehydrogenase type-2,SINGLE PROTEIN,Homo sapiens,6,6.0,6.9
+kaempferol,CHEMBL150,CHEMBL1795168,CDGSH iron-sulfur domain-containing protein 1,SINGLE PROTEIN,Homo sapiens,2,6.2,6.88
+chlorogenic acid,CHEMBL284616,CHEMBL2093865,Histone deacetylase,PROTEIN FAMILY,Homo sapiens,1,6.87,6.87
+epigallocatechin gallate,CHEMBL297453,CHEMBL3984,Membrane-associated tyrosine- and threonine-specific cdc2-inhibitory kinase,SINGLE PROTEIN,Homo sapiens,2,6.86,6.86
+caffeic acid,CHEMBL145,CHEMBL3251,Nuclear factor NF-kappa-B p105 subunit,SINGLE PROTEIN,Homo sapiens,2,6.85,6.85
+p-coumaric acid,CHEMBL66879,CHEMBL1900,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Homo sapiens,2,5.48,6.85
+ellagic acid,CHEMBL6246,CHEMBL1293258,Mothers against decapentaplegic homolog 3,SINGLE PROTEIN,Homo sapiens,1,6.85,6.85
+epigallocatechin gallate,CHEMBL297453,CHEMBL2487,Amyloid-beta precursor protein,SINGLE PROTEIN,Homo sapiens,6,5.91,6.85
+kaempferol,CHEMBL150,CHEMBL3242,Carbonic anhydrase 12,SINGLE PROTEIN,Homo sapiens,1,6.84,6.84
+caffeic acid,CHEMBL145,CHEMBL613712,Radical scavenging activity,UNKNOWN,-,14,4.79,6.82
+quercitrin,CHEMBL82242,CHEMBL1900,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Homo sapiens,2,6.26,6.82
+ellagic acid,CHEMBL6246,CHEMBL2392,DNA polymerase beta,SINGLE PROTEIN,Homo sapiens,1,6.8,6.8
+quercetin,CHEMBL50,CHEMBL5162,Neuropeptide S receptor,SINGLE PROTEIN,Homo sapiens,1,6.8,6.8
+myricetin,CHEMBL164,CHEMBL1075138,Tyrosyl-DNA phosphodiesterase 1,SINGLE PROTEIN,Homo sapiens,4,6.62,6.8
+quercitrin,CHEMBL82242,CHEMBL2622,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Rattus norvegicus,1,6.8,6.8
+myricetin,CHEMBL164,CHEMBL4005,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform",SINGLE PROTEIN,Homo sapiens,1,6.77,6.77
+quercetin,CHEMBL50,CHEMBL321,Matrix metalloproteinase-9,SINGLE PROTEIN,Homo sapiens,2,6.28,6.76
+caffeic acid,CHEMBL145,CHEMBL375,Mus musculus,ORGANISM,Mus musculus,2,6.72,6.72
+p-coumaric acid,CHEMBL66879,CHEMBL375,Mus musculus,ORGANISM,Mus musculus,1,6.72,6.72
+chlorogenic acid,CHEMBL284616,CHEMBL375,Mus musculus,ORGANISM,Mus musculus,1,6.7,6.7
+ellagic acid,CHEMBL6246,CHEMBL1900,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Homo sapiens,1,6.7,6.7
+ellagic acid,CHEMBL6246,CHEMBL2622,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Rattus norvegicus,1,6.7,6.7
+epigallocatechin gallate,CHEMBL297453,CHEMBL2292,Dual specificity tyrosine-phosphorylation-regulated kinase 1A,SINGLE PROTEIN,Homo sapiens,10,6.48,6.7
+epigallocatechin gallate,CHEMBL297453,CHEMBL4523582,Replicase polyprotein 1ab,SINGLE PROTEIN,Severe acute respiratory syndrome coronavirus 2,3,6.14,6.7
+quercetin,CHEMBL50,CHEMBL312,Polyunsaturated fatty acid 5-lipoxygenase,SINGLE PROTEIN,Rattus norvegicus,6,6.46,6.7
+quercetin,CHEMBL50,CHEMBL2392,DNA polymerase beta,SINGLE PROTEIN,Homo sapiens,1,6.7,6.7
+morin,CHEMBL28626,CHEMBL1075138,Tyrosyl-DNA phosphodiesterase 1,SINGLE PROTEIN,Homo sapiens,1,6.7,6.7
+myricetin,CHEMBL164,CHEMBL2392,DNA polymerase beta,SINGLE PROTEIN,Homo sapiens,1,6.7,6.7
+myricetin,CHEMBL164,CHEMBL4523582,Replicase polyprotein 1ab,SINGLE PROTEIN,Severe acute respiratory syndrome coronavirus 2,11,6.2,6.7
+kaempferol,CHEMBL150,CHEMBL3832943,Casein kinase 2,PROTEIN FAMILY,Homo sapiens,2,6.54,6.68
+myricetin,CHEMBL164,CHEMBL6152,Alpha-synuclein,SINGLE PROTEIN,Homo sapiens,2,5.77,6.66
+ascorbic acid,CHEMBL196,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,27,4.62,6.66
+kaempferol,CHEMBL150,CHEMBL612853,Entamoeba histolytica,ORGANISM,Entamoeba histolytica,1,6.64,6.64
+epigallocatechin gallate,CHEMBL297453,CHEMBL4860,Apoptosis regulator Bcl-2,SINGLE PROTEIN,Homo sapiens,2,6.55,6.63
+caffeic acid,CHEMBL145,CHEMBL332,Interstitial collagenase,SINGLE PROTEIN,Homo sapiens,1,6.62,6.62
+ellagic acid,CHEMBL6246,CHEMBL4159,3-hydroxyacyl-CoA dehydrogenase type-2,SINGLE PROTEIN,Homo sapiens,3,5.8,6.6
+ellagic acid,CHEMBL6246,CHEMBL1957,Insulin-like growth factor 1 receptor,SINGLE PROTEIN,Homo sapiens,1,6.6,6.6
+epigallocatechin gallate,CHEMBL297453,CHEMBL1075249,Glucose-6-phosphate 1-dehydrogenase,SINGLE PROTEIN,Saccharomyces cerevisiae S288c,1,6.6,6.6
+ellagic acid,CHEMBL6246,CHEMBL4128,Angiopoietin-1 receptor,SINGLE PROTEIN,Homo sapiens,1,6.58,6.58
+rutin,CHEMBL226335,CHEMBL2311236,High mobility group protein B1,SINGLE PROTEIN,Homo sapiens,1,6.58,6.58
+beta-sitosterol,CHEMBL221542,CHEMBL204,Prothrombin,SINGLE PROTEIN,Homo sapiens,3,5.04,6.57
+ellagic acid,CHEMBL6246,CHEMBL1641347,Solute carrier family 22 member 6,SINGLE PROTEIN,Homo sapiens,1,6.57,6.57
+epigallocatechin gallate,CHEMBL297453,CHEMBL2362978,DNA repair protein RAD52 homolog,SINGLE PROTEIN,Homo sapiens,5,5.8,6.56
+gallic acid,CHEMBL288114,CHEMBL1293235,Prelamin-A/C,SINGLE PROTEIN,Homo sapiens,1,6.55,6.55
+quercetin,CHEMBL50,CHEMBL1929,Xanthine dehydrogenase/oxidase,SINGLE PROTEIN,Homo sapiens,6,5.55,6.55
+quercetin,CHEMBL50,CHEMBL279,Vascular endothelial growth factor receptor 2,SINGLE PROTEIN,Homo sapiens,2,6.17,6.55
+quercetin,CHEMBL50,CHEMBL4886,Sulfotransferase 1A1,SINGLE PROTEIN,Rattus norvegicus,1,6.54,6.54
+kaempferol,CHEMBL150,CHEMBL4886,Sulfotransferase 1A1,SINGLE PROTEIN,Rattus norvegicus,1,6.54,6.54
+anabasine,CHEMBL1526229,CHEMBL612545,Unchecked,UNCHECKED,-,3,5.9,6.54
+chlorogenic acid,CHEMBL284616,CHEMBL1900,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Homo sapiens,3,5.75,6.52
+ellagic acid,CHEMBL6246,CHEMBL267,Proto-oncogene tyrosine-protein kinase Src,SINGLE PROTEIN,Homo sapiens,2,6.31,6.52
+epigallocatechin gallate,CHEMBL297453,CHEMBL4513,3-oxoacyl-acyl-carrier protein reductase,SINGLE PROTEIN,Plasmodium falciparum,1,6.52,6.52
+quercetin,CHEMBL50,CHEMBL1957,Insulin-like growth factor 1 receptor,SINGLE PROTEIN,Homo sapiens,1,6.52,6.52
+myricetin,CHEMBL164,CHEMBL612558,ADMET,ADMET,-,2,6.04,6.52
+epigallocatechin gallate,CHEMBL297453,CHEMBL1075138,Tyrosyl-DNA phosphodiesterase 1,SINGLE PROTEIN,Homo sapiens,1,6.5,6.5
+epigallocatechin gallate,CHEMBL297453,CHEMBL2424511,3-oxoacyl-(Acyl-carrier protein) reductase,SINGLE PROTEIN,Plasmodium falciparum (isolate 3D7),1,6.5,6.5
+epigallocatechin gallate,CHEMBL297453,CHEMBL2842,Serine/threonine-protein kinase mTOR,SINGLE PROTEIN,Homo sapiens,1,6.5,6.5
+quercetin,CHEMBL50,CHEMBL3356,Cytochrome P450 1A2,SINGLE PROTEIN,Homo sapiens,3,5.81,6.5
+myricetin,CHEMBL164,CHEMBL5619,DNA repair nuclease/redox regulator APEX1,SINGLE PROTEIN,Homo sapiens,4,6.47,6.5
+epigallocatechin gallate,CHEMBL297453,CHEMBL5508,Dual specificity tyrosine-phosphorylation-regulated kinase 1A,SINGLE PROTEIN,Rattus norvegicus,1,6.48,6.48
+myricetin,CHEMBL164,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,8,5.12,6.48
+ellagic acid,CHEMBL6246,CHEMBL1981,Insulin receptor,SINGLE PROTEIN,Homo sapiens,1,6.47,6.47
+beta-carotene,CHEMBL1293,CHEMBL1697668,Solute carrier organic anion transporter family member 1B1,SINGLE PROTEIN,Homo sapiens,2,6.34,6.47
+gallic acid,CHEMBL288114,CHEMBL1293226,Lysine-specific demethylase 4E,SINGLE PROTEIN,Homo sapiens,1,6.45,6.45
+epigallocatechin gallate,CHEMBL297453,CHEMBL4106139,GroEL/GroES,PROTEIN COMPLEX,Escherichia coli,2,6.34,6.44
+epigallocatechin gallate,CHEMBL297453,CHEMBL5169272,BCL2L10/BID,PROTEIN-PROTEIN INTERACTION,Homo sapiens,1,6.44,6.44
+epigallocatechin gallate,CHEMBL297453,CHEMBL4937,Casein kinase I isoform epsilon,SINGLE PROTEIN,Homo sapiens,1,6.44,6.44
+epigallocatechin gallate,CHEMBL297453,CHEMBL1795089,Latent membrane protein 1,SINGLE PROTEIN,Human herpesvirus 4 (strain B95-8),1,6.44,6.44
+kaempferol,CHEMBL150,CHEMBL2789,17-beta-hydroxysteroid dehydrogenase type 2,SINGLE PROTEIN,Homo sapiens,2,6.44,6.44
+ellagic acid,CHEMBL6246,CHEMBL3713355,Polypeptide N-acetylgalactosaminyltransferase 2,SINGLE PROTEIN,Homo sapiens,3,6.29,6.43
+epigallocatechin gallate,CHEMBL297453,CHEMBL4203,Dual specificity protein kinase CLK4,SINGLE PROTEIN,Homo sapiens,1,6.43,6.43
+epigallocatechin gallate,CHEMBL297453,CHEMBL1841,Tyrosine-protein kinase Fyn,SINGLE PROTEIN,Homo sapiens,1,6.43,6.43
+myricetin,CHEMBL164,CHEMBL2231,Cytochrome P450 1A1,SINGLE PROTEIN,Homo sapiens,1,6.43,6.43
+epigallocatechin gallate,CHEMBL297453,CHEMBL4005,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform",SINGLE PROTEIN,Homo sapiens,1,6.42,6.42
+oleanolic acid,CHEMBL168,CHEMBL392,A549,CELL-LINE,Homo sapiens,13,4.19,6.41
+epigallocatechin gallate,CHEMBL297453,CHEMBL613740,Influenza A virus,ORGANISM,Influenza A virus,5,4.52,6.41
+myricetin,CHEMBL164,CHEMBL1806,DNA topoisomerase 2-alpha,SINGLE PROTEIN,Homo sapiens,1,6.41,6.41
+anabasine,CHEMBL1526229,CHEMBL4980,Neuronal acetylcholine receptor subunit alpha-7,SINGLE PROTEIN,Rattus norvegicus,2,5.58,6.41
+epigallocatechin gallate,CHEMBL297453,CHEMBL3194,Transthyretin,SINGLE PROTEIN,Homo sapiens,2,6.4,6.4
+myricetin,CHEMBL164,CHEMBL4150,Enoyl-acyl-carrier protein reductase,SINGLE PROTEIN,Plasmodium falciparum,1,6.4,6.4
+kaempferol,CHEMBL150,CHEMBL3988629,Casein kinase 2,PROTEIN COMPLEX,Rattus norvegicus,1,6.4,6.4
+myricetin,CHEMBL164,CHEMBL5925,Ectonucleotide pyrophosphatase/phosphodiesterase family member 1,SINGLE PROTEIN,Homo sapiens,1,6.38,6.38
+epigallocatechin gallate,CHEMBL297453,CHEMBL1907600,Cyclin-dependent kinase 5/CDK5 activator 1,PROTEIN COMPLEX,Homo sapiens,1,6.37,6.37
+quercetin,CHEMBL50,CHEMBL4358,Polyunsaturated fatty acid lipoxygenase ALOX15,SINGLE PROTEIN,Oryctolagus cuniculus,2,5.4,6.37
+quercetin,CHEMBL50,CHEMBL3687,Polyunsaturated fatty acid lipoxygenase ALOX12,SINGLE PROTEIN,Homo sapiens,3,6.0,6.36
+epigallocatechin gallate,CHEMBL297453,CHEMBL2392,DNA polymerase beta,SINGLE PROTEIN,Homo sapiens,1,6.35,6.35
+epigallocatechin gallate,CHEMBL297453,CHEMBL5169265,BCL2/BID,PROTEIN-PROTEIN INTERACTION,Homo sapiens,1,6.35,6.35
+quercetin,CHEMBL50,CHEMBL308,Cyclin-dependent kinase 1,SINGLE PROTEIN,Homo sapiens,1,6.35,6.35
+myricetin,CHEMBL164,CHEMBL1287622,Lethal(3)malignant brain tumor-like protein 1,SINGLE PROTEIN,Homo sapiens,1,6.35,6.35
+myricetin,CHEMBL164,CHEMBL3308,Caspase-6,SINGLE PROTEIN,Homo sapiens,1,6.34,6.34
+quercetin,CHEMBL50,CHEMBL2073,Tyrosine-protein kinase Yes,SINGLE PROTEIN,Homo sapiens,1,6.33,6.33
+epigallocatechin gallate,CHEMBL297453,CHEMBL3334418,Phosphoglycerate mutase 1,SINGLE PROTEIN,Homo sapiens,2,6.31,6.31
+epigallocatechin gallate,CHEMBL297453,CHEMBL5169266,BCL2/BAD,PROTEIN-PROTEIN INTERACTION,Homo sapiens,1,6.31,6.31
+kaempferol,CHEMBL150,CHEMBL284,Dipeptidyl peptidase 4,SINGLE PROTEIN,Homo sapiens,3,5.18,6.31
+pyrogallol,CHEMBL307145,CHEMBL352,Staphylococcus aureus,ORGANISM,Staphylococcus aureus,1,6.31,6.31
+oleanolic acid,CHEMBL168,CHEMBL335,Tyrosine-protein phosphatase non-receptor type 1,SINGLE PROTEIN,Homo sapiens,51,5.57,6.3
+ellagic acid,CHEMBL6246,CHEMBL4739681,Ectonucleoside triphosphate diphosphohydrolase 1,SINGLE PROTEIN,Mus musculus,1,6.3,6.3
+epigallocatechin gallate,CHEMBL297453,CHEMBL1993,DNA (cytosine-5)-methyltransferase 1,SINGLE PROTEIN,Homo sapiens,1,6.3,6.3
+diethyl phthalate,CHEMBL388558,CHEMBL614696,Lymphoblastoid cell,CELL-LINE,Homo sapiens,1,6.3,6.3
+ellagic acid,CHEMBL6246,CHEMBL5784,NUAK family SNF1-like kinase 1,SINGLE PROTEIN,Homo sapiens,1,6.29,6.29
+gallic acid,CHEMBL288114,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,7,4.7,6.28
+chlorogenic acid,CHEMBL284616,CHEMBL2362975,No relevant target,NO TARGET,-,2,5.27,6.28
+pyrogallol,CHEMBL307145,CHEMBL3025,Carbonic anhydrase 6,SINGLE PROTEIN,Homo sapiens,1,6.28,6.28
+ellagic acid,CHEMBL6246,CHEMBL1293308,Likely tRNA 2'-phosphotransferase,SINGLE PROTEIN,Candida albicans (strain SC5314 / ATCC MYA-2876) (Yeast),1,6.27,6.27
+pyrogallol,CHEMBL307145,CHEMBL205,Carbonic anhydrase 2,SINGLE PROTEIN,Homo sapiens,1,6.27,6.27
+ascorbic acid,CHEMBL196,CHEMBL221,Prostaglandin G/H synthase 1,SINGLE PROTEIN,Homo sapiens,2,6.24,6.27
+quercetin,CHEMBL50,CHEMBL4822,Beta-secretase 1,SINGLE PROTEIN,Homo sapiens,6,5.22,6.26
+quercetin,CHEMBL50,CHEMBL2095191,Casein kinase II,PROTEIN COMPLEX GROUP,Homo sapiens,3,6.26,6.26
+quercetin,CHEMBL50,CHEMBL3832943,Casein kinase 2,PROTEIN FAMILY,Homo sapiens,2,6.09,6.26
+quercetin,CHEMBL50,CHEMBL3988629,Casein kinase 2,PROTEIN COMPLEX,Rattus norvegicus,1,6.26,6.26
+caffeic acid,CHEMBL145,CHEMBL1293226,Lysine-specific demethylase 4E,SINGLE PROTEIN,Homo sapiens,5,4.8,6.25
+pedunculagin,CHEMBL506204,CHEMBL244,Coagulation factor X,SINGLE PROTEIN,Homo sapiens,2,6.12,6.25
+morin,CHEMBL28626,CHEMBL2392,DNA polymerase beta,SINGLE PROTEIN,Homo sapiens,2,5.8,6.25
+myricetin,CHEMBL164,CHEMBL2424,Lactoylglutathione lyase,SINGLE PROTEIN,Homo sapiens,3,6.25,6.25
+ellagic acid,CHEMBL6246,CHEMBL3717,Hepatocyte growth factor receptor,SINGLE PROTEIN,Homo sapiens,1,6.24,6.24
+quercetin,CHEMBL50,CHEMBL3717,Hepatocyte growth factor receptor,SINGLE PROTEIN,Homo sapiens,1,6.24,6.24
+epigallocatechin gallate,CHEMBL297453,CHEMBL3883285,Bcl-xL/BH3-interacting domain death agonist,PROTEIN-PROTEIN INTERACTION,Homo sapiens,1,6.23,6.23
+quercetin,CHEMBL50,CHEMBL1974,Receptor-type tyrosine-protein kinase FLT3,SINGLE PROTEIN,Homo sapiens,1,6.23,6.23
+ellagic acid,CHEMBL6246,CHEMBL2094138,cAMP-dependent protein kinase (PKA),PROTEIN FAMILY,Homo sapiens,2,5.84,6.22
+ellagic acid,CHEMBL6246,CHEMBL4105924,ELAV-like protein 3,SINGLE PROTEIN,Homo sapiens,1,6.22,6.22
+catechin,CHEMBL311498,CHEMBL3108635,Arginase,SINGLE PROTEIN,Leishmania amazonensis,2,5.99,6.22
+quercetin,CHEMBL50,CHEMBL3471,Human immunodeficiency virus type 1 integrase,SINGLE PROTEIN,Human immunodeficiency virus 1,4,4.98,6.22
+myricetin,CHEMBL164,CHEMBL3471,Human immunodeficiency virus type 1 integrase,SINGLE PROTEIN,Human immunodeficiency virus 1,4,5.65,6.22
+myricetin,CHEMBL164,CHEMBL1900,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Homo sapiens,2,5.38,6.21
+quercetin,CHEMBL50,CHEMBL1293236,ATP-dependent DNA helicase Q1,SINGLE PROTEIN,Homo sapiens,7,5.95,6.2
+myricetin,CHEMBL164,CHEMBL1293248,4'-phosphopantetheinyl transferase ffp,SINGLE PROTEIN,Bacillus subtilis,3,6.0,6.2
+kaempferol,CHEMBL150,CHEMBL2231,Cytochrome P450 1A1,SINGLE PROTEIN,Homo sapiens,2,6.16,6.2
+pyrogallol,CHEMBL307145,CHEMBL4159,3-hydroxyacyl-CoA dehydrogenase type-2,SINGLE PROTEIN,Homo sapiens,1,6.2,6.2
+butylated hydroxytoluene,CHEMBL146,CHEMBL205,Carbonic anhydrase 2,SINGLE PROTEIN,Homo sapiens,1,6.2,6.2
+quercetin,CHEMBL50,CHEMBL2231,Cytochrome P450 1A1,SINGLE PROTEIN,Homo sapiens,6,5.49,6.18
+quercetin,CHEMBL50,CHEMBL1250375,NADPH oxidase 4,SINGLE PROTEIN,Homo sapiens,1,6.17,6.17
+oleanolic acid,CHEMBL168,CHEMBL3807,Tyrosine-protein phosphatase non-receptor type 2,SINGLE PROTEIN,Homo sapiens,16,5.3,6.16
+ellagic acid,CHEMBL6246,CHEMBL203,Epidermal growth factor receptor,SINGLE PROTEIN,Homo sapiens,1,6.16,6.16
+epigallocatechin gallate,CHEMBL297453,CHEMBL4241,Squalene monooxygenase,SINGLE PROTEIN,Rattus norvegicus,2,6.16,6.16
+epigallocatechin gallate,CHEMBL297453,CHEMBL6101,Signal transducer and activator of transcription 1-alpha/beta,SINGLE PROTEIN,Homo sapiens,1,6.16,6.16
+quercetin,CHEMBL50,CHEMBL613710,Neutrophil,CELL-LINE,-,9,5.55,6.16
+quercetin,CHEMBL50,CHEMBL4523488,Inositol hexakisphosphate kinase 2,SINGLE PROTEIN,Homo sapiens,1,6.16,6.16
+myricetin,CHEMBL164,CHEMBL4523488,Inositol hexakisphosphate kinase 2,SINGLE PROTEIN,Homo sapiens,1,6.16,6.16
+caffeine,CHEMBL113,CHEMBL4461,"NAD-dependent protein deacetylase sirtuin-3, mitochondrial",SINGLE PROTEIN,Homo sapiens,1,6.16,6.16
+epigallocatechin gallate,CHEMBL297453,CHEMBL5543,Dual specificity tyrosine-phosphorylation-regulated kinase 1B,SINGLE PROTEIN,Homo sapiens,1,6.15,6.15
+butylated hydroxytoluene,CHEMBL146,CHEMBL1293232,Survival motor neuron protein,SINGLE PROTEIN,Homo sapiens,1,6.15,6.15
+epigallocatechin gallate,CHEMBL297453,CHEMBL247,Human immunodeficiency virus type 1 reverse transcriptase,SINGLE PROTEIN,Human immunodeficiency virus 1,1,6.14,6.14
+epigallocatechin gallate,CHEMBL297453,CHEMBL3404,"6-phosphogluconate dehydrogenase, decarboxylating",SINGLE PROTEIN,Homo sapiens,1,6.14,6.14
+epigallocatechin gallate,CHEMBL297453,CHEMBL1293319,Zinc finger protein mex-5,SINGLE PROTEIN,Caenorhabditis elegans,1,6.14,6.14
+ellagic acid,CHEMBL6246,CHEMBL4394,Sphingosine kinase 1,SINGLE PROTEIN,Homo sapiens,1,6.13,6.13
+oleanolic acid,CHEMBL168,CHEMBL613710,Neutrophil,CELL-LINE,-,2,5.99,6.12
+ellagic acid,CHEMBL6246,CHEMBL5460,Heat shock 70 kDa protein 1A,SINGLE PROTEIN,Homo sapiens,1,6.12,6.12
+epigallocatechin gallate,CHEMBL297453,CHEMBL4822,Beta-secretase 1,SINGLE PROTEIN,Homo sapiens,3,5.8,6.12
+myricetin,CHEMBL164,CHEMBL2147,Serine/threonine-protein kinase pim-1,SINGLE PROTEIN,Homo sapiens,2,5.75,6.11
+caffeic acid,CHEMBL145,CHEMBL1075138,Tyrosyl-DNA phosphodiesterase 1,SINGLE PROTEIN,Homo sapiens,3,5.2,6.1
+ellagic acid,CHEMBL6246,CHEMBL1293226,Lysine-specific demethylase 4E,SINGLE PROTEIN,Homo sapiens,3,5.6,6.1
+ellagic acid,CHEMBL6246,CHEMBL279,Vascular endothelial growth factor receptor 2,SINGLE PROTEIN,Homo sapiens,1,6.1,6.1
+quercetin,CHEMBL50,CHEMBL215,Polyunsaturated fatty acid 5-lipoxygenase,SINGLE PROTEIN,Homo sapiens,6,5.5,6.1
+quercetin,CHEMBL50,CHEMBL2903,Polyunsaturated fatty acid lipoxygenase ALOX15,SINGLE PROTEIN,Homo sapiens,2,5.88,6.1
+myricetin,CHEMBL164,CHEMBL4523954,Nonstructural protein 3,SINGLE PROTEIN,Zika virus,3,5.89,6.1
+quercetin,CHEMBL50,CHEMBL2487,Amyloid-beta precursor protein,SINGLE PROTEIN,Homo sapiens,4,5.36,6.09
+quercetin,CHEMBL50,CHEMBL1865,Protein deacetylase HDAC6,SINGLE PROTEIN,Homo sapiens,1,6.09,6.09
+kaempferol,CHEMBL150,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,2,5.07,6.08
+myricetin,CHEMBL164,CHEMBL2010633,Protein E6,SINGLE PROTEIN,Human papillomavirus 16,1,6.07,6.07
+quercetin,CHEMBL50,CHEMBL203,Epidermal growth factor receptor,SINGLE PROTEIN,Homo sapiens,2,5.44,6.05
+myricetin,CHEMBL164,CHEMBL1293236,ATP-dependent DNA helicase Q1,SINGLE PROTEIN,Homo sapiens,5,5.85,6.05
+myricetin,CHEMBL164,CHEMBL3832943,Casein kinase 2,PROTEIN FAMILY,Homo sapiens,1,6.05,6.05
+myricetin,CHEMBL164,CHEMBL4303835,SARS-CoV-2,ORGANISM,Severe acute respiratory syndrome coronavirus 2,8,5.1,6.05
+butylated hydroxytoluene,CHEMBL146,CHEMBL376,Rattus norvegicus,ORGANISM,Rattus norvegicus,11,5.23,6.05
+epigallocatechin gallate,CHEMBL297453,CHEMBL3430886,Induced myeloid leukemia cell differentiation protein Mcl-1/BH3-interacting domain death agonist,PROTEIN-PROTEIN INTERACTION,Homo sapiens,1,6.04,6.04
+quercetin,CHEMBL50,CHEMBL2185,Aurora kinase B,SINGLE PROTEIN,Homo sapiens,1,6.04,6.04
+myricetin,CHEMBL164,CHEMBL2095191,Casein kinase II,PROTEIN COMPLEX GROUP,Homo sapiens,1,6.04,6.04
+myricetin,CHEMBL164,CHEMBL3988629,Casein kinase 2,PROTEIN COMPLEX,Rattus norvegicus,1,6.04,6.04
+gallic acid,CHEMBL288114,CHEMBL3713355,Polypeptide N-acetylgalactosaminyltransferase 2,SINGLE PROTEIN,Homo sapiens,2,5.95,6.03
+chlorogenic acid,CHEMBL284616,CHEMBL2622,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Rattus norvegicus,1,6.02,6.02
+epigallocatechin gallate,CHEMBL297453,CHEMBL6177,NAD kinase,SINGLE PROTEIN,Homo sapiens,3,5.75,6.02
+quercetin,CHEMBL50,CHEMBL4895,Tyrosine-protein kinase receptor UFO,SINGLE PROTEIN,Homo sapiens,1,6.02,6.02
+oleanolic acid,CHEMBL168,CHEMBL4804,M-phase inducer phosphatase 2,SINGLE PROTEIN,Homo sapiens,1,6.01,6.01
+p-coumaric acid,CHEMBL66879,CHEMBL205,Carbonic anhydrase 2,SINGLE PROTEIN,Homo sapiens,1,6.01,6.01
+oleanolic acid,CHEMBL168,CHEMBL3243,Receptor-type tyrosine-protein phosphatase C,SINGLE PROTEIN,Homo sapiens,1,6.0,6.0
+gallic acid,CHEMBL288114,CHEMBL1075138,Tyrosyl-DNA phosphodiesterase 1,SINGLE PROTEIN,Homo sapiens,2,5.8,6.0
+caffeic acid,CHEMBL145,CHEMBL2093861,Menin/Histone-lysine N-methyltransferase MLL,PROTEIN-PROTEIN INTERACTION,Homo sapiens,2,5.2,6.0
+ellagic acid,CHEMBL6246,CHEMBL4372,Lethal factor,SINGLE PROTEIN,Bacillus anthracis,1,6.0,6.0
+ellagic acid,CHEMBL6246,CHEMBL612408,Salmon testes DNA,NUCLEIC-ACID,Salmonidae,1,6.0,6.0
+epigallocatechin gallate,CHEMBL297453,CHEMBL2916,Telomerase reverse transcriptase,SINGLE PROTEIN,Homo sapiens,4,5.98,6.0
+epigallocatechin gallate,CHEMBL297453,CHEMBL3094,MAP kinase-activated protein kinase 5,SINGLE PROTEIN,Homo sapiens,1,6.0,6.0
+quercetin,CHEMBL50,CHEMBL2622,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Rattus norvegicus,8,5.11,6.0
+quercetin,CHEMBL50,CHEMBL4096,Cellular tumor antigen p53,SINGLE PROTEIN,Homo sapiens,2,5.8,6.0
+myricetin,CHEMBL164,CHEMBL4105924,ELAV-like protein 3,SINGLE PROTEIN,Homo sapiens,1,6.0,6.0
+kaempferol,CHEMBL150,CHEMBL1973,Tyrosinase,SINGLE PROTEIN,Homo sapiens,2,5.1,6.0
+pyrogallol,CHEMBL307145,CHEMBL353,Staphylococcus epidermidis,ORGANISM,Staphylococcus epidermidis,1,6.0,6.0
+pyrogallol,CHEMBL307145,CHEMBL1841,Tyrosine-protein kinase Fyn,SINGLE PROTEIN,Homo sapiens,1,6.0,6.0
+caffeine,CHEMBL113,CHEMBL4372,Lethal factor,SINGLE PROTEIN,Bacillus anthracis,2,5.95,6.0
+kaempferol,CHEMBL150,CHEMBL3181,17-beta-hydroxysteroid dehydrogenase type 1,SINGLE PROTEIN,Homo sapiens,1,5.98,5.98
+gallic acid,CHEMBL288114,CHEMBL6066154,Mushroom tyrosinase,PROTEIN FAMILY,Agaricus bisporus,2,5.89,5.97
+p-coumaric acid,CHEMBL66879,CHEMBL261,Carbonic anhydrase 1,SINGLE PROTEIN,Homo sapiens,1,5.97,5.97
+quercetin,CHEMBL50,CHEMBL230,Prostaglandin G/H synthase 2,SINGLE PROTEIN,Homo sapiens,2,5.25,5.97
+kaempferol,CHEMBL150,CHEMBL1929,Xanthine dehydrogenase/oxidase,SINGLE PROTEIN,Homo sapiens,1,5.97,5.97
+ellagic acid,CHEMBL6246,CHEMBL1907601,Cyclin-dependent kinase 4/cyclin D1,PROTEIN COMPLEX,Homo sapiens,1,5.96,5.96
+myricetin,CHEMBL164,CHEMBL4523401,Inositol polyphosphate multikinase,SINGLE PROTEIN,Homo sapiens,1,5.96,5.96
+anabasine,CHEMBL1526229,CHEMBL1907596,Neuronal acetylcholine receptor; alpha4/beta2,PROTEIN COMPLEX,Rattus norvegicus,1,5.96,5.96
+ellagic acid,CHEMBL6246,CHEMBL1293227,Ubiquitin carboxyl-terminal hydrolase 2,SINGLE PROTEIN,Homo sapiens,1,5.95,5.95
+ellagic acid,CHEMBL6246,CHEMBL1293237,RecQ-like DNA helicase BLM,SINGLE PROTEIN,Homo sapiens,3,5.7,5.95
+quercetin,CHEMBL50,CHEMBL2439,Myeloperoxidase,SINGLE PROTEIN,Homo sapiens,4,5.9,5.94
+rutin,CHEMBL226335,CHEMBL2362975,No relevant target,NO TARGET,-,9,4.73,5.93
+quercetin,CHEMBL50,CHEMBL3629,Casein kinase II subunit alpha,SINGLE PROTEIN,Homo sapiens,2,5.93,5.93
+ellagic acid,CHEMBL6246,CHEMBL4651321,Heme,SMALL MOLECULE,-,1,5.92,5.92
+rutin,CHEMBL226335,CHEMBL1075144,Neuromedin-U receptor 2,SINGLE PROTEIN,Homo sapiens,1,5.92,5.92
+quercetin,CHEMBL50,CHEMBL3649,Xanthine dehydrogenase/oxidase,SINGLE PROTEIN,Bos taurus,2,5.21,5.92
+quercetin,CHEMBL50,CHEMBL2695,Focal adhesion kinase 1,SINGLE PROTEIN,Homo sapiens,1,5.92,5.92
+quercetin,CHEMBL50,CHEMBL3721,Cytochrome P450 2C8,SINGLE PROTEIN,Homo sapiens,5,5.46,5.92
+quercetin,CHEMBL50,CHEMBL3706568,HEK-293T,CELL-LINE,Homo sapiens,1,5.92,5.92
+myricetin,CHEMBL164,CHEMBL1293224,Microtubule-associated protein tau,SINGLE PROTEIN,Homo sapiens,7,5.1,5.92
+myricetin,CHEMBL164,CHEMBL3108635,Arginase,SINGLE PROTEIN,Leishmania amazonensis,2,5.8,5.92
+kaempferol,CHEMBL150,CHEMBL1250375,NADPH oxidase 4,SINGLE PROTEIN,Homo sapiens,1,5.92,5.92
+butylated hydroxytoluene,CHEMBL146,CHEMBL613617,Brain,TISSUE,Rattus norvegicus,4,5.3,5.92
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL289,Cytochrome P450 2D6,SINGLE PROTEIN,Homo sapiens,1,5.92,5.92
+pyrogallol,CHEMBL307145,CHEMBL203,Epidermal growth factor receptor,SINGLE PROTEIN,Homo sapiens,1,5.91,5.91
+gallic acid,CHEMBL288114,CHEMBL1293224,Microtubule-associated protein tau,SINGLE PROTEIN,Homo sapiens,3,5.7,5.9
+quercetin,CHEMBL50,CHEMBL6136,Lysine-specific histone demethylase 1A,SINGLE PROTEIN,Homo sapiens,1,5.9,5.9
+myricetin,CHEMBL164,CHEMBL1293227,Ubiquitin carboxyl-terminal hydrolase 2,SINGLE PROTEIN,Homo sapiens,2,5.59,5.9
+kaempferol,CHEMBL150,CHEMBL5508,Dual specificity tyrosine-phosphorylation-regulated kinase 1A,SINGLE PROTEIN,Rattus norvegicus,1,5.9,5.9
+ellagic acid,CHEMBL6246,CHEMBL1913,Platelet-derived growth factor receptor beta,SINGLE PROTEIN,Homo sapiens,1,5.89,5.89
+quercetin,CHEMBL50,CHEMBL612557,RAW264.7,CELL-LINE,Mus musculus,33,4.78,5.89
+quercetin,CHEMBL50,CHEMBL613712,Radical scavenging activity,UNKNOWN,-,10,5.12,5.89
+epigallocatechin gallate,CHEMBL297453,CHEMBL4225,Dual specificity protein kinase CLK2,SINGLE PROTEIN,Homo sapiens,1,5.88,5.88
+morin,CHEMBL28626,CHEMBL1293267,G-protein coupled receptor 35,SINGLE PROTEIN,Homo sapiens,3,5.8,5.88
+kaempferol,CHEMBL150,CHEMBL2622,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Rattus norvegicus,1,5.88,5.88
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL3575,2-5A-dependent ribonuclease,SINGLE PROTEIN,Homo sapiens,4,5.86,5.88
+myricetin,CHEMBL164,CHEMBL1812,Pancreatic triacylglycerol lipase,SINGLE PROTEIN,Homo sapiens,1,5.87,5.87
+ellagic acid,CHEMBL6246,CHEMBL4434621,Ebolavirus,ORGANISM,Ebolavirus,1,5.85,5.85
+quercetin,CHEMBL50,CHEMBL1250379,ELAV-like protein 1,SINGLE PROTEIN,Homo sapiens,1,5.85,5.85
+catechin,CHEMBL311498,CHEMBL4042,Prostaglandin G/H synthase 1,SINGLE PROTEIN,Rattus norvegicus,1,5.83,5.83
+quercetin,CHEMBL50,CHEMBL613617,Brain,TISSUE,Rattus norvegicus,5,5.82,5.83
+quercetin,CHEMBL50,CHEMBL4512,Fatty acid synthase,SINGLE PROTEIN,Plasmodium falciparum,1,5.82,5.82
+quercetin,CHEMBL50,CHEMBL1951,Amine oxidase [flavin-containing] A,SINGLE PROTEIN,Homo sapiens,7,5.55,5.82
+quercetin,CHEMBL50,CHEMBL1812,Pancreatic triacylglycerol lipase,SINGLE PROTEIN,Homo sapiens,2,4.94,5.82
+pyrogallol,CHEMBL307145,CHEMBL3577,Aldehyde dehydrogenase 1A1,SINGLE PROTEIN,Homo sapiens,1,5.82,5.82
+ellagic acid,CHEMBL6246,CHEMBL1955,Vascular endothelial growth factor receptor 3,SINGLE PROTEIN,Homo sapiens,1,5.81,5.81
+quercetin,CHEMBL50,CHEMBL2789,17-beta-hydroxysteroid dehydrogenase type 2,SINGLE PROTEIN,Homo sapiens,2,5.81,5.81
+myricetin,CHEMBL164,CHEMBL5145,Serine/threonine-protein kinase B-raf,SINGLE PROTEIN,Homo sapiens,1,5.81,5.81
+myricetin,CHEMBL164,CHEMBL1865,Protein deacetylase HDAC6,SINGLE PROTEIN,Homo sapiens,1,5.81,5.81
+ellagic acid,CHEMBL6246,CHEMBL1951,Amine oxidase [flavin-containing] A,SINGLE PROTEIN,Homo sapiens,1,5.8,5.8
+epigallocatechin gallate,CHEMBL297453,CHEMBL612877,Leishmania amazonensis,ORGANISM,Leishmania amazonensis,1,5.8,5.8
+catechin,CHEMBL311498,CHEMBL3580487,Sclerostin,SINGLE PROTEIN,Homo sapiens,2,5.77,5.8
+morin,CHEMBL28626,CHEMBL2558,Death-associated protein kinase 1,SINGLE PROTEIN,Homo sapiens,2,5.38,5.8
+myricetin,CHEMBL164,CHEMBL2903,Polyunsaturated fatty acid lipoxygenase ALOX15,SINGLE PROTEIN,Homo sapiens,3,5.6,5.8
+kaempferol,CHEMBL150,CHEMBL612548,Osteoclast,CELL-LINE,-,1,5.8,5.8
+kaempferol,CHEMBL150,CHEMBL4261,Hypoxia-inducible factor 1-alpha,SINGLE PROTEIN,Homo sapiens,2,5.8,5.8
+pyrogallol,CHEMBL307145,CHEMBL612545,Unchecked,UNCHECKED,-,3,5.77,5.8
+caffeic acid,CHEMBL145,CHEMBL205,Carbonic anhydrase 2,SINGLE PROTEIN,Homo sapiens,1,5.79,5.79
+epigallocatechin gallate,CHEMBL297453,CHEMBL4575,Dual specificity tyrosine-phosphorylation-regulated kinase 3,SINGLE PROTEIN,Homo sapiens,1,5.79,5.79
+catechin,CHEMBL311498,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,5,5.02,5.79
+morin,CHEMBL28626,CHEMBL1865,Protein deacetylase HDAC6,SINGLE PROTEIN,Homo sapiens,1,5.79,5.79
+rutin,CHEMBL226335,CHEMBL613757,Dengue virus,ORGANISM,Dengue virus,1,5.77,5.77
+quercetin,CHEMBL50,CHEMBL5189,Sialidase,SINGLE PROTEIN,Clostridium perfringens,5,5.01,5.77
+myricetin,CHEMBL164,CHEMBL2428,"Myosin light chain kinase, smooth muscle",SINGLE PROTEIN,Homo sapiens,1,5.77,5.77
+myricetin,CHEMBL164,CHEMBL1974,Receptor-type tyrosine-protein kinase FLT3,SINGLE PROTEIN,Homo sapiens,1,5.77,5.77
+kaempferol,CHEMBL150,CHEMBL612545,Unchecked,UNCHECKED,-,16,4.58,5.77
+kaempferol,CHEMBL150,CHEMBL1865,Protein deacetylase HDAC6,SINGLE PROTEIN,Homo sapiens,1,5.77,5.77
+kaempferol,CHEMBL150,CHEMBL2345,Ribosomal protein S6 kinase alpha-3,SINGLE PROTEIN,Homo sapiens,1,5.77,5.77
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL613757,Dengue virus,ORGANISM,Dengue virus,1,5.77,5.77
+quercitrin,CHEMBL82242,CHEMBL613757,Dengue virus,ORGANISM,Dengue virus,1,5.77,5.77
+quercitrin,CHEMBL82242,CHEMBL4295629,Nonstructural protein 5,SINGLE PROTEIN,Dengue virus,2,5.72,5.77
+ellagic acid,CHEMBL6246,CHEMBL5145,Serine/threonine-protein kinase B-raf,SINGLE PROTEIN,Homo sapiens,1,5.75,5.75
+epigallocatechin gallate,CHEMBL297453,CHEMBL1293224,Microtubule-associated protein tau,SINGLE PROTEIN,Homo sapiens,4,4.88,5.75
+epigallocatechin gallate,CHEMBL297453,CHEMBL5658,Prostaglandin E synthase,SINGLE PROTEIN,Homo sapiens,1,5.75,5.75
+epigallocatechin gallate,CHEMBL297453,CHEMBL5169268,BCL2A1/BID,PROTEIN-PROTEIN INTERACTION,Homo sapiens,1,5.75,5.75
+catechin,CHEMBL311498,CHEMBL612545,Unchecked,UNCHECKED,-,7,4.7,5.75
+quercetin,CHEMBL50,CHEMBL613642,Liver,TISSUE,Rattus norvegicus,3,5.34,5.75
+quercetin,CHEMBL50,CHEMBL4105924,ELAV-like protein 3,SINGLE PROTEIN,Homo sapiens,1,5.75,5.75
+myricetin,CHEMBL164,CHEMBL5708,Tyrosine-protein kinase transforming protein Fps,SINGLE PROTEIN,Fujinami sarcoma virus,1,5.75,5.75
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL1293226,Lysine-specific demethylase 4E,SINGLE PROTEIN,Homo sapiens,1,5.75,5.75
+ellagic acid,CHEMBL6246,CHEMBL5147,Ephrin type-B receptor 4,SINGLE PROTEIN,Homo sapiens,1,5.74,5.74
+ellagic acid,CHEMBL6246,CHEMBL5957,5'-nucleotidase,SINGLE PROTEIN,Homo sapiens,1,5.73,5.73
+rutin,CHEMBL226335,CHEMBL612545,Unchecked,UNCHECKED,-,5,4.99,5.72
+quercetin,CHEMBL50,CHEMBL2163182,NAD-dependent protein deacylase sirtuin-6,SINGLE PROTEIN,Homo sapiens,1,5.72,5.72
+quercetin,CHEMBL50,CHEMBL5983,Aldo-keto reductase family 1 member B10,SINGLE PROTEIN,Homo sapiens,1,5.72,5.72
+anthrone,CHEMBL124440,CHEMBL1951,Amine oxidase [flavin-containing] A,SINGLE PROTEIN,Homo sapiens,1,5.72,5.72
+ellagic acid,CHEMBL6246,CHEMBL2085,Macrophage migration inhibitory factor,SINGLE PROTEIN,Homo sapiens,2,5.52,5.71
+gallic acid,CHEMBL288114,CHEMBL3577,Aldehyde dehydrogenase 1A1,SINGLE PROTEIN,Homo sapiens,2,5.38,5.7
+caffeic acid,CHEMBL145,CHEMBL4159,3-hydroxyacyl-CoA dehydrogenase type-2,SINGLE PROTEIN,Homo sapiens,2,5.35,5.7
+p-coumaric acid,CHEMBL66879,CHEMBL1973,Tyrosinase,SINGLE PROTEIN,Homo sapiens,3,5.7,5.7
+ellagic acid,CHEMBL6246,CHEMBL4241,Squalene monooxygenase,SINGLE PROTEIN,Rattus norvegicus,1,5.7,5.7
+ellagic acid,CHEMBL6246,CHEMBL1293234,Fructose-bisphosphate aldolase,SINGLE PROTEIN,Giardia intestinalis,4,5.12,5.7
+ellagic acid,CHEMBL6246,CHEMBL1991,Inhibitor of nuclear factor kappa-B kinase subunit beta,SINGLE PROTEIN,Homo sapiens,1,5.7,5.7
+pedunculagin,CHEMBL506204,CHEMBL4241,Squalene monooxygenase,SINGLE PROTEIN,Rattus norvegicus,1,5.7,5.7
+epigallocatechin gallate,CHEMBL297453,CHEMBL4376,Dual specificity tyrosine-phosphorylation-regulated kinase 2,SINGLE PROTEIN,Homo sapiens,1,5.7,5.7
+quercetin,CHEMBL50,CHEMBL612558,ADMET,ADMET,-,2,4.9,5.7
+quercetin,CHEMBL50,CHEMBL4426,Phospholipase A2,SINGLE PROTEIN,Homo sapiens,1,5.7,5.7
+quercetin,CHEMBL50,CHEMBL262,Glycogen synthase kinase-3 beta,SINGLE PROTEIN,Homo sapiens,1,5.7,5.7
+quercetin,CHEMBL50,CHEMBL4662,Proteasome Macropain subunit MB1,SINGLE PROTEIN,Homo sapiens,2,5.58,5.7
+morin,CHEMBL28626,CHEMBL6120,Solute carrier family 22 member 12,SINGLE PROTEIN,Homo sapiens,3,5.7,5.7
+myricetin,CHEMBL164,CHEMBL4512,Fatty acid synthase,SINGLE PROTEIN,Plasmodium falciparum,1,5.7,5.7
+myricetin,CHEMBL164,CHEMBL5149,Pyruvate kinase,SINGLE PROTEIN,Leishmania mexicana,2,5.7,5.7
+myricetin,CHEMBL164,CHEMBL4261,Hypoxia-inducible factor 1-alpha,SINGLE PROTEIN,Homo sapiens,2,5.7,5.7
+myricetin,CHEMBL164,CHEMBL3356,Cytochrome P450 1A2,SINGLE PROTEIN,Homo sapiens,2,5.5,5.7
+kaempferol,CHEMBL150,CHEMBL1075138,Tyrosyl-DNA phosphodiesterase 1,SINGLE PROTEIN,Homo sapiens,1,5.7,5.7
+pyrogallol,CHEMBL307145,CHEMBL6100,Autoinducer 2-binding periplasmic protein LuxP,SINGLE PROTEIN,Vibrio harveyi,1,5.7,5.7
+anabasine,CHEMBL1526229,CHEMBL3622,Cytochrome P450 2C19,SINGLE PROTEIN,Homo sapiens,2,5.7,5.7
+anthrone,CHEMBL124440,CHEMBL2980,Arachidonate 5-lipoxygenase,SINGLE PROTEIN,Bos taurus,1,5.7,5.7
+pyrogallol,CHEMBL307145,CHEMBL4393,Macrophage metalloelastase,SINGLE PROTEIN,Homo sapiens,1,5.69,5.69
+rutin,CHEMBL226335,CHEMBL4295629,Nonstructural protein 5,SINGLE PROTEIN,Dengue virus,1,5.68,5.68
+quercetin,CHEMBL50,CHEMBL2095188,Glycogen synthase kinase-3,PROTEIN FAMILY,Homo sapiens,1,5.68,5.68
+quercetin,CHEMBL50,CHEMBL340,Cytochrome P450 3A4,SINGLE PROTEIN,Homo sapiens,4,5.2,5.68
+rutin,CHEMBL226335,CHEMBL6136,Lysine-specific histone demethylase 1A,SINGLE PROTEIN,Homo sapiens,1,5.67,5.67
+myricetin,CHEMBL164,CHEMBL1293267,G-protein coupled receptor 35,SINGLE PROTEIN,Homo sapiens,3,5.52,5.67
+pyrogallol,CHEMBL307145,CHEMBL4358,Polyunsaturated fatty acid lipoxygenase ALOX15,SINGLE PROTEIN,Oryctolagus cuniculus,1,5.67,5.67
+caffeic acid,CHEMBL145,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,9,4.9,5.66
+ellagic acid,CHEMBL6246,CHEMBL205,Carbonic anhydrase 2,SINGLE PROTEIN,Homo sapiens,1,5.66,5.66
+epigallocatechin gallate,CHEMBL297453,CHEMBL260,Mitogen-activated protein kinase 14,SINGLE PROTEIN,Homo sapiens,1,5.66,5.66
+quercetin,CHEMBL50,CHEMBL6135,Neuraminidase,SINGLE PROTEIN,Influenza A virus,5,4.23,5.66
+kaempferol,CHEMBL150,CHEMBL4358,Polyunsaturated fatty acid lipoxygenase ALOX15,SINGLE PROTEIN,Oryctolagus cuniculus,1,5.66,5.66
+quercitrin,CHEMBL82242,CHEMBL2362975,No relevant target,NO TARGET,-,1,5.66,5.66
+oleanolic acid,CHEMBL168,CHEMBL5409,G-protein coupled bile acid receptor 1,SINGLE PROTEIN,Homo sapiens,2,5.65,5.65
+gallic acid,CHEMBL288114,CHEMBL205,Carbonic anhydrase 2,SINGLE PROTEIN,Homo sapiens,1,5.65,5.65
+kaempferol,CHEMBL150,CHEMBL2439,Myeloperoxidase,SINGLE PROTEIN,Homo sapiens,1,5.65,5.65
+beta-carotene,CHEMBL1293,CHEMBL1743121,Solute carrier organic anion transporter family member 1B3,SINGLE PROTEIN,Homo sapiens,2,5.59,5.65
+p-coumaric acid,CHEMBL66879,CHEMBL612545,Unchecked,UNCHECKED,-,5,5.05,5.64
+epigallocatechin gallate,CHEMBL297453,CHEMBL4106131,HSP60/HSP10,PROTEIN COMPLEX,Homo sapiens,1,5.64,5.64
+quercetin,CHEMBL50,CHEMBL4523401,Inositol polyphosphate multikinase,SINGLE PROTEIN,Homo sapiens,1,5.64,5.64
+morin,CHEMBL28626,CHEMBL4513,3-oxoacyl-acyl-carrier protein reductase,SINGLE PROTEIN,Plasmodium falciparum,1,5.64,5.64
+ellagic acid,CHEMBL6246,CHEMBL261,Carbonic anhydrase 1,SINGLE PROTEIN,Homo sapiens,2,4.9,5.63
+epigallocatechin gallate,CHEMBL297453,CHEMBL5169271,BCL2L2/BID,PROTEIN-PROTEIN INTERACTION,Homo sapiens,1,5.63,5.63
+quercetin,CHEMBL50,CHEMBL3871,Aldo-keto reductase family 1 member A1,SINGLE PROTEIN,Rattus norvegicus,1,5.63,5.63
+kaempferol,CHEMBL150,CHEMBL1974,Receptor-type tyrosine-protein kinase FLT3,SINGLE PROTEIN,Homo sapiens,1,5.63,5.63
+butylated hydroxytoluene,CHEMBL146,CHEMBL2362975,No relevant target,NO TARGET,-,18,4.62,5.63
+oleanolic acid,CHEMBL168,CHEMBL5533,Transcription factor p65,SINGLE PROTEIN,Homo sapiens,1,5.62,5.62
+caffeic acid,CHEMBL145,CHEMBL261,Carbonic anhydrase 1,SINGLE PROTEIN,Homo sapiens,1,5.62,5.62
+ellagic acid,CHEMBL6246,CHEMBL4899,Mitogen-activated protein kinase kinase kinase 8,SINGLE PROTEIN,Homo sapiens,1,5.62,5.62
+quercetin,CHEMBL50,CHEMBL614781,BV-2,CELL-LINE,Mus musculus,16,5.04,5.62
+quercetin,CHEMBL50,CHEMBL3004,Multidrug resistance-associated protein 1,SINGLE PROTEIN,Homo sapiens,2,5.36,5.62
+quercetin,CHEMBL50,CHEMBL4303835,SARS-CoV-2,ORGANISM,Severe acute respiratory syndrome coronavirus 2,1,5.62,5.62
+myricetin,CHEMBL164,CHEMBL1929,Xanthine dehydrogenase/oxidase,SINGLE PROTEIN,Homo sapiens,1,5.62,5.62
+myricetin,CHEMBL164,CHEMBL3004,Multidrug resistance-associated protein 1,SINGLE PROTEIN,Homo sapiens,3,4.88,5.62
+myricetin,CHEMBL164,CHEMBL1741217,DNA dC->dU-editing enzyme APOBEC-3G,SINGLE PROTEIN,Homo sapiens,1,5.62,5.62
+kaempferol,CHEMBL150,CHEMBL3004,Multidrug resistance-associated protein 1,SINGLE PROTEIN,Homo sapiens,2,5.62,5.62
+ellagic acid,CHEMBL6246,CHEMBL4722,Aurora kinase A,SINGLE PROTEIN,Homo sapiens,1,5.61,5.61
+quercetin,CHEMBL50,CHEMBL318,Adenosine receptor A1,SINGLE PROTEIN,Rattus norvegicus,1,5.61,5.61
+quercitrin,CHEMBL82242,CHEMBL5422,Protein disulfide-isomerase,SINGLE PROTEIN,Homo sapiens,1,5.61,5.61
+caffeine,CHEMBL113,CHEMBL251,Adenosine receptor A2a,SINGLE PROTEIN,Homo sapiens,26,4.63,5.61
+beta-sitosterol,CHEMBL221542,CHEMBL614580,HT-1080,CELL-LINE,Homo sapiens,1,5.6,5.6
+ellagic acid,CHEMBL6246,CHEMBL2185,Aurora kinase B,SINGLE PROTEIN,Homo sapiens,1,5.6,5.6
+quercetin,CHEMBL50,CHEMBL1293224,Microtubule-associated protein tau,SINGLE PROTEIN,Homo sapiens,15,4.95,5.6
+quercetin,CHEMBL50,CHEMBL5401,Signal transducer and activator of transcription 6,SINGLE PROTEIN,Homo sapiens,2,5.6,5.6
+quercetin,CHEMBL50,CHEMBL385,K562,CELL-LINE,Homo sapiens,1,5.6,5.6
+myricetin,CHEMBL164,CHEMBL1293226,Lysine-specific demethylase 4E,SINGLE PROTEIN,Homo sapiens,5,5.52,5.6
+myricetin,CHEMBL164,CHEMBL4372,Lethal factor,SINGLE PROTEIN,Bacillus anthracis,3,5.2,5.6
+kaempferol,CHEMBL150,CHEMBL4523488,Inositol hexakisphosphate kinase 2,SINGLE PROTEIN,Homo sapiens,1,5.6,5.6
+butylated hydroxytoluene,CHEMBL146,CHEMBL2392,DNA polymerase beta,SINGLE PROTEIN,Homo sapiens,1,5.6,5.6
+oleanolic acid,CHEMBL168,CHEMBL614526,BGC-823,CELL-LINE,Homo sapiens,1,5.59,5.59
+epigallocatechin gallate,CHEMBL297453,CHEMBL4226,Dual specificity protein kinase CLK3,SINGLE PROTEIN,Homo sapiens,1,5.59,5.59
+epigallocatechin gallate,CHEMBL297453,CHEMBL6152,Alpha-synuclein,SINGLE PROTEIN,Homo sapiens,3,5.59,5.59
+quercetin,CHEMBL50,CHEMBL205,Carbonic anhydrase 2,SINGLE PROTEIN,Homo sapiens,1,5.59,5.59
+morin,CHEMBL28626,CHEMBL2331065,Alpha-ketoglutarate-dependent dioxygenase FTO,SINGLE PROTEIN,Homo sapiens,2,5.22,5.59
+epigallocatechin gallate,CHEMBL297453,CHEMBL612848,Leishmania infantum,ORGANISM,Leishmania infantum,1,5.58,5.58
+morin,CHEMBL28626,CHEMBL3396943,DNA-3-methyladenine glycosylase,SINGLE PROTEIN,Homo sapiens,1,5.58,5.58
+myricetin,CHEMBL164,CHEMBL1981,Insulin receptor,SINGLE PROTEIN,Homo sapiens,1,5.58,5.58
+quercitrin,CHEMBL82242,CHEMBL612545,Unchecked,UNCHECKED,-,9,4.59,5.58
+oleanolic acid,CHEMBL168,CHEMBL3831201,20S proteasome,PROTEIN COMPLEX GROUP,Homo sapiens,1,5.57,5.57
+gallic acid,CHEMBL288114,CHEMBL613712,Radical scavenging activity,UNKNOWN,-,10,5.07,5.57
+quercetin,CHEMBL50,CHEMBL261,Carbonic anhydrase 1,SINGLE PROTEIN,Homo sapiens,1,5.57,5.57
+quercetin,CHEMBL50,CHEMBL4106140,METTL3/METTL14,PROTEIN COMPLEX,Homo sapiens,3,5.56,5.57
+quercetin,CHEMBL50,CHEMBL4296410,EA.hy 926,CELL-LINE,Homo sapiens,1,5.57,5.57
+kaempferol,CHEMBL150,CHEMBL215,Polyunsaturated fatty acid 5-lipoxygenase,SINGLE PROTEIN,Homo sapiens,1,5.57,5.57
+kaempferol,CHEMBL150,CHEMBL614076,Monocyte,CELL-LINE,Homo sapiens,2,5.13,5.57
+caffeic acid,CHEMBL145,CHEMBL353,Staphylococcus epidermidis,ORGANISM,Staphylococcus epidermidis,1,5.56,5.56
+caffeic acid,CHEMBL145,CHEMBL352,Staphylococcus aureus,ORGANISM,Staphylococcus aureus,1,5.56,5.56
+caffeic acid,CHEMBL145,CHEMBL3471,Human immunodeficiency virus type 1 integrase,SINGLE PROTEIN,Human immunodeficiency virus 1,3,5.55,5.55
+caffeic acid,CHEMBL145,CHEMBL1293235,Prelamin-A/C,SINGLE PROTEIN,Homo sapiens,1,5.55,5.55
+quercetin,CHEMBL50,CHEMBL4394,Sphingosine kinase 1,SINGLE PROTEIN,Homo sapiens,1,5.55,5.55
+myricetin,CHEMBL164,CHEMBL4822,Beta-secretase 1,SINGLE PROTEIN,Homo sapiens,4,5.55,5.55
+caffeic acid,CHEMBL145,CHEMBL3774295,Lysine-specific demethylase 5B,SINGLE PROTEIN,Homo sapiens,1,5.54,5.54
+ellagic acid,CHEMBL6246,CHEMBL4363,Tyrosine-protein kinase Lyn,SINGLE PROTEIN,Rattus norvegicus,1,5.54,5.54
+quercetin,CHEMBL50,CHEMBL3081,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Bos taurus,6,4.99,5.54
+quercetin,CHEMBL50,CHEMBL364,Plasmodium falciparum,ORGANISM,Plasmodium falciparum,7,5.0,5.54
+quercetin,CHEMBL50,CHEMBL220,Acetylcholinesterase,SINGLE PROTEIN,Homo sapiens,2,4.98,5.54
+quercetin,CHEMBL50,CHEMBL284,Dipeptidyl peptidase 4,SINGLE PROTEIN,Homo sapiens,2,5.02,5.54
+daucosterol,CHEMBL506678,CHEMBL367,Leishmania donovani,ORGANISM,Leishmania donovani,1,5.53,5.53
+ellagic acid,CHEMBL6246,CHEMBL3788,Serine/threonine-protein kinase PLK4,SINGLE PROTEIN,Homo sapiens,1,5.53,5.53
+quercetin,CHEMBL50,CHEMBL614316,HT-22,CELL-LINE,Mus musculus,3,5.5,5.53
+morin,CHEMBL28626,CHEMBL242,Estrogen receptor beta,SINGLE PROTEIN,Homo sapiens,1,5.53,5.53
+morin,CHEMBL28626,CHEMBL4361,Induced myeloid leukemia cell differentiation protein Mcl-1,SINGLE PROTEIN,Homo sapiens,1,5.53,5.53
+oleanolic acid,CHEMBL168,CHEMBL2392,DNA polymerase beta,SINGLE PROTEIN,Homo sapiens,5,5.06,5.52
+oleanolic acid,CHEMBL168,CHEMBL4426,Phospholipase A2,SINGLE PROTEIN,Homo sapiens,1,5.52,5.52
+caffeic acid,CHEMBL145,CHEMBL4586,Seed linoleate 13S-lipoxygenase-1,SINGLE PROTEIN,Glycine max,1,5.52,5.52
+caffeic acid,CHEMBL145,CHEMBL3317,5-lipoxygenase,SINGLE PROTEIN,Solanum tuberosum,2,5.46,5.52
+ellagic acid,CHEMBL6246,CHEMBL1741221,Cysteine protease ATG4B,SINGLE PROTEIN,Homo sapiens,2,5.39,5.52
+quercetin,CHEMBL50,CHEMBL4121,Calcium/calmodulin-dependent protein kinase type II subunit beta,SINGLE PROTEIN,Homo sapiens,1,5.52,5.52
+kaempferol,CHEMBL150,CHEMBL4303835,SARS-CoV-2,ORGANISM,Severe acute respiratory syndrome coronavirus 2,1,5.52,5.52
+butylated hydroxytoluene,CHEMBL146,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,16,4.94,5.52
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL1900,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Homo sapiens,1,5.52,5.52
+caffeic acid,CHEMBL145,CHEMBL335,Tyrosine-protein phosphatase non-receptor type 1,SINGLE PROTEIN,Homo sapiens,1,5.51,5.51
+ellagic acid,CHEMBL6246,CHEMBL2695,Focal adhesion kinase 1,SINGLE PROTEIN,Homo sapiens,1,5.51,5.51
+gallic acid,CHEMBL288114,CHEMBL261,Carbonic anhydrase 1,SINGLE PROTEIN,Homo sapiens,1,5.5,5.5
+syringic acid,CHEMBL1414,CHEMBL205,Carbonic anhydrase 2,SINGLE PROTEIN,Homo sapiens,1,5.5,5.5
+epigallocatechin gallate,CHEMBL297453,CHEMBL1293236,ATP-dependent DNA helicase Q1,SINGLE PROTEIN,Homo sapiens,1,5.5,5.5
+epigallocatechin gallate,CHEMBL297453,CHEMBL613853,CHO,CELL-LINE,Cricetulus griseus,2,5.3,5.5
+rutin,CHEMBL226335,CHEMBL2608,Lysosomal alpha-glucosidase,SINGLE PROTEIN,Homo sapiens,1,5.5,5.5
+quercetin,CHEMBL50,CHEMBL2424,Lactoylglutathione lyase,SINGLE PROTEIN,Homo sapiens,2,5.16,5.5
+quercetin,CHEMBL50,CHEMBL276,Muscarinic acetylcholine receptor M1,SINGLE PROTEIN,Rattus norvegicus,2,5.1,5.5
+morin,CHEMBL28626,CHEMBL1293256,Thrombopoietin,SINGLE PROTEIN,Homo sapiens,2,5.5,5.5
+morin,CHEMBL28626,CHEMBL2608,Lysosomal alpha-glucosidase,SINGLE PROTEIN,Homo sapiens,1,5.5,5.5
+butylated hydroxytoluene,CHEMBL146,CHEMBL383,HL-60,CELL-LINE,Homo sapiens,1,5.5,5.5
+ellagic acid,CHEMBL6246,CHEMBL4282,RAC-alpha serine/threonine-protein kinase,SINGLE PROTEIN,Homo sapiens,1,5.48,5.48
+ellagic acid,CHEMBL6246,CHEMBL3024,Serine/threonine-protein kinase PLK1,SINGLE PROTEIN,Homo sapiens,1,5.48,5.48
+epigallocatechin gallate,CHEMBL297453,CHEMBL3717,Hepatocyte growth factor receptor,SINGLE PROTEIN,Homo sapiens,2,5.24,5.48
+quercetin,CHEMBL50,CHEMBL367,Leishmania donovani,ORGANISM,Leishmania donovani,3,5.22,5.48
+quercetin,CHEMBL50,CHEMBL4247,ALK tyrosine kinase receptor,SINGLE PROTEIN,Homo sapiens,1,5.48,5.48
+caffeic acid,CHEMBL145,CHEMBL284,Dipeptidyl peptidase 4,SINGLE PROTEIN,Homo sapiens,1,5.47,5.47
+ellagic acid,CHEMBL6246,CHEMBL2094128,Cyclin-dependent kinase 2/cyclin A,PROTEIN COMPLEX,Homo sapiens,1,5.47,5.47
+quercetin,CHEMBL50,CHEMBL612877,Leishmania amazonensis,ORGANISM,Leishmania amazonensis,1,5.47,5.47
+ellagic acid,CHEMBL6246,CHEMBL4524025,Translin-associated protein X,SINGLE PROTEIN,Homo sapiens,1,5.46,5.46
+kaempferol,CHEMBL150,CHEMBL2095188,Glycogen synthase kinase-3,PROTEIN FAMILY,Homo sapiens,1,5.46,5.46
+gallic acid,CHEMBL288114,CHEMBL1293234,Fructose-bisphosphate aldolase,SINGLE PROTEIN,Giardia intestinalis,2,5.15,5.45
+ellagic acid,CHEMBL6246,CHEMBL1824,Receptor tyrosine-protein kinase erbB-2,SINGLE PROTEIN,Homo sapiens,1,5.45,5.45
+quercetin,CHEMBL50,CHEMBL399,HeLa,CELL-LINE,Homo sapiens,3,5.4,5.45
+morin,CHEMBL28626,CHEMBL1293285,Endonuclease 4,SINGLE PROTEIN,Escherichia coli K-12,1,5.45,5.45
+myricetin,CHEMBL164,CHEMBL3577,Aldehyde dehydrogenase 1A1,SINGLE PROTEIN,Homo sapiens,3,5.05,5.45
+myricetin,CHEMBL164,CHEMBL6110,Thioredoxin glutathione reductase,SINGLE PROTEIN,Schistosoma mansoni,1,5.45,5.45
+kaempferol,CHEMBL150,CHEMBL1293235,Prelamin-A/C,SINGLE PROTEIN,Homo sapiens,1,5.45,5.45
+pyrogallol,CHEMBL307145,CHEMBL2285,A disintegrin and metalloproteinase with thrombospondin motifs 5,SINGLE PROTEIN,Homo sapiens,1,5.44,5.44
+oleanolic acid,CHEMBL168,CHEMBL4343,DNA polymerase beta,SINGLE PROTEIN,Rattus norvegicus,2,5.28,5.43
+oleanolic acid,CHEMBL168,CHEMBL614806,H9,CELL-LINE,Homo sapiens,1,5.43,5.43
+gallic acid,CHEMBL288114,CHEMBL612545,Unchecked,UNCHECKED,-,11,4.9,5.42
+quercetin,CHEMBL50,CHEMBL2506,Phosphatidylinositol 3-kinase regulatory subunit alpha,SINGLE PROTEIN,Homo sapiens,1,5.42,5.42
+quercetin,CHEMBL50,CHEMBL1075525,NCI-H1792,CELL-LINE,Homo sapiens,1,5.42,5.42
+ellagic acid,CHEMBL6246,CHEMBL4822,Beta-secretase 1,SINGLE PROTEIN,Homo sapiens,1,5.41,5.41
+rutin,CHEMBL226335,CHEMBL1951,Amine oxidase [flavin-containing] A,SINGLE PROTEIN,Homo sapiens,1,5.41,5.41
+kaempferol,CHEMBL150,CHEMBL1250411,Short transient receptor potential channel 5,SINGLE PROTEIN,Homo sapiens,1,5.41,5.41
+pyrogallol,CHEMBL307145,CHEMBL333,72 kDa type IV collagenase,SINGLE PROTEIN,Homo sapiens,1,5.41,5.41
+ellagic acid,CHEMBL6246,CHEMBL1293235,Prelamin-A/C,SINGLE PROTEIN,Homo sapiens,1,5.4,5.4
+epigallocatechin gallate,CHEMBL297453,CHEMBL1075189,Pyruvate kinase PKM,SINGLE PROTEIN,Homo sapiens,2,5.4,5.4
+epigallocatechin gallate,CHEMBL297453,CHEMBL2608,Lysosomal alpha-glucosidase,SINGLE PROTEIN,Homo sapiens,1,5.4,5.4
+epigallocatechin gallate,CHEMBL297453,CHEMBL387,MCF7,CELL-LINE,Homo sapiens,3,4.13,5.4
+epigallocatechin gallate,CHEMBL297453,CHEMBL613834,SK-BR-3,CELL-LINE,Homo sapiens,1,5.4,5.4
+quercetin,CHEMBL50,CHEMBL2026,Beta-lactamase,SINGLE PROTEIN,Escherichia coli K-12,3,5.4,5.4
+quercetin,CHEMBL50,CHEMBL3108635,Arginase,SINGLE PROTEIN,Leishmania amazonensis,2,5.38,5.4
+morin,CHEMBL28626,CHEMBL4096,Cellular tumor antigen p53,SINGLE PROTEIN,Homo sapiens,1,5.4,5.4
+morin,CHEMBL28626,CHEMBL2010633,Protein E6,SINGLE PROTEIN,Human papillomavirus 16,1,5.4,5.4
+myricetin,CHEMBL164,CHEMBL364,Plasmodium falciparum,ORGANISM,Plasmodium falciparum,8,5.1,5.4
+myricetin,CHEMBL164,CHEMBL3622,Cytochrome P450 2C19,SINGLE PROTEIN,Homo sapiens,5,5.0,5.4
+myricetin,CHEMBL164,CHEMBL340,Cytochrome P450 3A4,SINGLE PROTEIN,Homo sapiens,8,4.9,5.4
+kaempferol,CHEMBL150,CHEMBL4513,3-oxoacyl-acyl-carrier protein reductase,SINGLE PROTEIN,Plasmodium falciparum,1,5.4,5.4
+kaempferol,CHEMBL150,CHEMBL4096,Cellular tumor antigen p53,SINGLE PROTEIN,Homo sapiens,4,5.2,5.4
+kaempferol,CHEMBL150,CHEMBL2535,"Solute carrier family 2, facilitated glucose transporter member 1",SINGLE PROTEIN,Homo sapiens,1,5.4,5.4
+pyrogallol,CHEMBL307145,CHEMBL2980,Arachidonate 5-lipoxygenase,SINGLE PROTEIN,Bos taurus,1,5.4,5.4
+gallic acid,CHEMBL288114,CHEMBL4789,"Carbonic anhydrase 5A, mitochondrial",SINGLE PROTEIN,Homo sapiens,1,5.39,5.39
+catechin,CHEMBL311498,CHEMBL2949,Prostaglandin G/H synthase 1,SINGLE PROTEIN,Ovis aries,3,4.7,5.39
+myricetin,CHEMBL164,CHEMBL394,HCT-116,CELL-LINE,Homo sapiens,4,4.63,5.39
+myricetin,CHEMBL164,CHEMBL2487,Amyloid-beta precursor protein,SINGLE PROTEIN,Homo sapiens,5,5.0,5.39
+myricetin,CHEMBL164,CHEMBL367,Leishmania donovani,ORGANISM,Leishmania donovani,1,5.39,5.39
+gallic acid,CHEMBL288114,CHEMBL1795125,Carbonic anhydrase,SINGLE PROTEIN,Dicentrarchus labrax,1,5.38,5.38
+syringic acid,CHEMBL1414,CHEMBL261,Carbonic anhydrase 1,SINGLE PROTEIN,Homo sapiens,1,5.38,5.38
+quercetin,CHEMBL50,CHEMBL256,Adenosine receptor A3,SINGLE PROTEIN,Homo sapiens,2,4.95,5.38
+myricetin,CHEMBL164,CHEMBL2362975,No relevant target,NO TARGET,-,1,5.38,5.38
+pyrogallol,CHEMBL307145,CHEMBL613712,Radical scavenging activity,UNKNOWN,-,2,4.9,5.38
+ellagic acid,CHEMBL6246,CHEMBL4364,Tyrosine-protein kinase SYK,SINGLE PROTEIN,Rattus norvegicus,1,5.37,5.37
+ellagic acid,CHEMBL6246,CHEMBL3912,Carbonic anhydrase 13,SINGLE PROTEIN,Homo sapiens,1,5.37,5.37
+catechin,CHEMBL311498,CHEMBL613712,Radical scavenging activity,UNKNOWN,-,2,4.84,5.37
+quercetin,CHEMBL50,CHEMBL2366488,D-alanine--D-alanine ligase,SINGLE PROTEIN,Helicobacter pylori (strain HPAG1),3,4.89,5.37
+quercetin,CHEMBL50,CHEMBL4309,Serine/threonine-protein kinase Nek6,SINGLE PROTEIN,Homo sapiens,1,5.37,5.37
+morin,CHEMBL28626,CHEMBL2396508,Receptor-type tyrosine-protein phosphatase S,SINGLE PROTEIN,Homo sapiens,1,5.37,5.37
+rutin,CHEMBL226335,CHEMBL612877,Leishmania amazonensis,ORGANISM,Leishmania amazonensis,1,5.36,5.36
+quercetin,CHEMBL50,CHEMBL5314326,Neutrophil,CELL-LINE,Homo sapiens,3,4.69,5.36
+kaempferol,CHEMBL150,CHEMBL4523401,Inositol polyphosphate multikinase,SINGLE PROTEIN,Homo sapiens,1,5.36,5.36
+pyrogallol,CHEMBL307145,CHEMBL1795125,Carbonic anhydrase,SINGLE PROTEIN,Dicentrarchus labrax,1,5.36,5.36
+gallic acid,CHEMBL288114,CHEMBL6152,Alpha-synuclein,SINGLE PROTEIN,Homo sapiens,1,5.35,5.35
+ellagic acid,CHEMBL6246,CHEMBL2608,Lysosomal alpha-glucosidase,SINGLE PROTEIN,Homo sapiens,1,5.35,5.35
+quercetin,CHEMBL50,CHEMBL4029,C-X-C chemokine receptor type 1,SINGLE PROTEIN,Homo sapiens,2,5.32,5.35
+pyrogallol,CHEMBL307145,CHEMBL4588,Neutrophil collagenase,SINGLE PROTEIN,Homo sapiens,1,5.35,5.35
+gallic acid,CHEMBL288114,CHEMBL284,Dipeptidyl peptidase 4,SINGLE PROTEIN,Homo sapiens,1,5.33,5.33
+rutin,CHEMBL226335,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,4,4.84,5.33
+rutin,CHEMBL226335,CHEMBL613712,Radical scavenging activity,UNKNOWN,-,5,4.91,5.33
+quercetin,CHEMBL50,CHEMBL395,HepG2,CELL-LINE,Homo sapiens,8,4.9,5.33
+myricetin,CHEMBL164,CHEMBL3267,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",SINGLE PROTEIN,Homo sapiens,1,5.33,5.33
+kaempferol,CHEMBL150,CHEMBL5393,Broad substrate specificity ATP-binding cassette transporter ABCG2,SINGLE PROTEIN,Homo sapiens,2,5.27,5.33
+kaempferol,CHEMBL150,CHEMBL2362975,No relevant target,NO TARGET,-,3,4.81,5.33
+oleanolic acid,CHEMBL168,CHEMBL381,B16,CELL-LINE,Mus musculus,1,5.32,5.32
+oleanolic acid,CHEMBL168,CHEMBL394,HCT-116,CELL-LINE,Homo sapiens,2,4.91,5.32
+gallic acid,CHEMBL288114,CHEMBL385,K562,CELL-LINE,Homo sapiens,2,4.9,5.32
+quercetin,CHEMBL50,CHEMBL2326,Carbonic anhydrase 7,SINGLE PROTEIN,Homo sapiens,1,5.32,5.32
+quercetin,CHEMBL50,CHEMBL2568,"Glycogen phosphorylase, liver form",SINGLE PROTEIN,Homo sapiens,1,5.32,5.32
+p-coumaric acid,CHEMBL66879,CHEMBL242,Estrogen receptor beta,SINGLE PROTEIN,Homo sapiens,1,5.31,5.31
+ellagic acid,CHEMBL6246,CHEMBL2903,Polyunsaturated fatty acid lipoxygenase ALOX15,SINGLE PROTEIN,Homo sapiens,1,5.3,5.3
+epigallocatechin gallate,CHEMBL297453,CHEMBL1857,Enoyl-[acyl-carrier-protein] reductase [NADH] FabI,SINGLE PROTEIN,Escherichia coli K-12,2,5.06,5.3
+epigallocatechin gallate,CHEMBL297453,CHEMBL394,HCT-116,CELL-LINE,Homo sapiens,1,5.3,5.3
+quercetin,CHEMBL50,CHEMBL387,MCF7,CELL-LINE,Homo sapiens,3,4.68,5.3
+quercetin,CHEMBL50,CHEMBL397,Jurkat,CELL-LINE,Homo sapiens,1,5.3,5.3
+quercetin,CHEMBL50,CHEMBL2073718,Monocarboxylate transporter 2,SINGLE PROTEIN,Rattus norvegicus,1,5.3,5.3
+quercetin,CHEMBL50,CHEMBL5866,Catenin beta-1,SINGLE PROTEIN,Homo sapiens,2,5.28,5.3
+morin,CHEMBL28626,CHEMBL4150,Enoyl-acyl-carrier protein reductase,SINGLE PROTEIN,Plasmodium falciparum,1,5.3,5.3
+morin,CHEMBL28626,CHEMBL5619,DNA repair nuclease/redox regulator APEX1,SINGLE PROTEIN,Homo sapiens,1,5.3,5.3
+kaempferol,CHEMBL150,CHEMBL4372,Lethal factor,SINGLE PROTEIN,Bacillus anthracis,1,5.3,5.3
+anabasine,CHEMBL1526229,CHEMBL3356,Cytochrome P450 1A2,SINGLE PROTEIN,Homo sapiens,1,5.3,5.3
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL2392,DNA polymerase beta,SINGLE PROTEIN,Homo sapiens,1,5.3,5.3
+ellagic acid,CHEMBL6246,CHEMBL3471,Human immunodeficiency virus type 1 integrase,SINGLE PROTEIN,Human immunodeficiency virus 1,2,5.29,5.29
+quercetin,CHEMBL50,CHEMBL5784,NUAK family SNF1-like kinase 1,SINGLE PROTEIN,Homo sapiens,1,5.29,5.29
+caffeic acid,CHEMBL145,CHEMBL612877,Leishmania amazonensis,ORGANISM,Leishmania amazonensis,3,4.8,5.28
+p-coumaric acid,CHEMBL66879,CHEMBL2326,Carbonic anhydrase 7,SINGLE PROTEIN,Homo sapiens,1,5.28,5.28
+epigallocatechin gallate,CHEMBL297453,CHEMBL1075115,Dual specificity tyrosine-phosphorylation-regulated kinase 4,SINGLE PROTEIN,Homo sapiens,1,5.28,5.28
+quercetin,CHEMBL50,CHEMBL612548,Osteoclast,CELL-LINE,-,1,5.28,5.28
+morin,CHEMBL28626,CHEMBL4106139,GroEL/GroES,PROTEIN COMPLEX,Escherichia coli,2,5.18,5.28
+beta-carotene,CHEMBL1293,CHEMBL221,Prostaglandin G/H synthase 1,SINGLE PROTEIN,Homo sapiens,2,5.19,5.28
+oleanolic acid,CHEMBL168,CHEMBL2635,Dual specificity protein phosphatase 3,SINGLE PROTEIN,Homo sapiens,1,5.27,5.27
+p-coumaric acid,CHEMBL66879,CHEMBL3594,Carbonic anhydrase 9,SINGLE PROTEIN,Homo sapiens,1,5.27,5.27
+epigallocatechin gallate,CHEMBL297453,CHEMBL4303835,SARS-CoV-2,ORGANISM,Severe acute respiratory syndrome coronavirus 2,3,5.0,5.27
+quercetin,CHEMBL50,CHEMBL4513,3-oxoacyl-acyl-carrier protein reductase,SINGLE PROTEIN,Plasmodium falciparum,1,5.27,5.27
+quercetin,CHEMBL50,CHEMBL3510,Carbonic anhydrase 14,SINGLE PROTEIN,Homo sapiens,1,5.27,5.27
+quercetin,CHEMBL50,CHEMBL4282,RAC-alpha serine/threonine-protein kinase,SINGLE PROTEIN,Homo sapiens,1,5.27,5.27
+myricetin,CHEMBL164,CHEMBL3468,Caspase-7,SINGLE PROTEIN,Homo sapiens,1,5.27,5.27
+quercetin,CHEMBL50,CHEMBL3251,Nuclear factor NF-kappa-B p105 subunit,SINGLE PROTEIN,Homo sapiens,2,5.25,5.25
+quercetin,CHEMBL50,CHEMBL283,Stromelysin-1,SINGLE PROTEIN,Homo sapiens,1,5.25,5.25
+quercetin,CHEMBL50,CHEMBL614910,SH-SY5Y,CELL-LINE,Homo sapiens,2,5.25,5.25
+pyrogallol,CHEMBL307145,CHEMBL364,Plasmodium falciparum,ORGANISM,Plasmodium falciparum,1,5.25,5.25
+epigallocatechin gallate,CHEMBL297453,CHEMBL613129,Influenza B virus,ORGANISM,Influenza B virus,2,4.91,5.24
+quercetin,CHEMBL50,CHEMBL3024,Serine/threonine-protein kinase PLK1,SINGLE PROTEIN,Homo sapiens,2,4.71,5.24
+quercetin,CHEMBL50,CHEMBL394,HCT-116,CELL-LINE,Homo sapiens,6,4.96,5.24
+quercetin,CHEMBL50,CHEMBL3384,Serine/threonine-protein kinase N1,SINGLE PROTEIN,Homo sapiens,1,5.24,5.24
+quercetin,CHEMBL50,CHEMBL3835,Serine/threonine-protein kinase Nek2,SINGLE PROTEIN,Homo sapiens,1,5.24,5.24
+quercetin,CHEMBL50,CHEMBL614387,NCI-H522,CELL-LINE,Homo sapiens,1,5.24,5.24
+epigallocatechin gallate,CHEMBL297453,CHEMBL1293304,RNA-binding protein pos-1,SINGLE PROTEIN,Caenorhabditis elegans,1,5.23,5.23
+epigallocatechin gallate,CHEMBL297453,CHEMBL1169598,Polymerase acidic protein,SINGLE PROTEIN,Influenza A virus (A/Puerto Rico/8/1934(H1N1)),2,5.21,5.23
+catechin,CHEMBL311498,CHEMBL364,Plasmodium falciparum,ORGANISM,Plasmodium falciparum,3,5.22,5.23
+quercetin,CHEMBL50,CHEMBL1293267,G-protein coupled receptor 35,SINGLE PROTEIN,Homo sapiens,3,5.1,5.23
+gallic acid,CHEMBL288114,CHEMBL2326,Carbonic anhydrase 7,SINGLE PROTEIN,Homo sapiens,1,5.22,5.22
+p-coumaric acid,CHEMBL66879,CHEMBL4789,"Carbonic anhydrase 5A, mitochondrial",SINGLE PROTEIN,Homo sapiens,1,5.22,5.22
+quercetin,CHEMBL50,CHEMBL4255,Malate dehydrogenase,SINGLE PROTEIN,Thermus thermophilus,1,5.22,5.22
+quercetin,CHEMBL50,CHEMBL614783,NCI-H157,CELL-LINE,Homo sapiens,1,5.22,5.22
+morin,CHEMBL28626,CHEMBL5523,Histone-lysine N-methyltransferase SETD7,SINGLE PROTEIN,Homo sapiens,1,5.22,5.22
+gallic acid,CHEMBL288114,CHEMBL3025,Carbonic anhydrase 6,SINGLE PROTEIN,Homo sapiens,1,5.21,5.21
+caffeic acid,CHEMBL145,CHEMBL612348,Trypanosoma brucei rhodesiense,ORGANISM,Trypanosoma brucei rhodesiense,1,5.21,5.21
+quercetin,CHEMBL50,CHEMBL3025,Carbonic anhydrase 6,SINGLE PROTEIN,Homo sapiens,1,5.21,5.21
+quercetin,CHEMBL50,CHEMBL392,A549,CELL-LINE,Homo sapiens,2,5.05,5.21
+quercetin,CHEMBL50,CHEMBL2295561,Lactoperoxidase,SINGLE PROTEIN,Bos taurus,1,5.21,5.21
+morin,CHEMBL28626,CHEMBL4360,Monocarboxylate transporter 1,SINGLE PROTEIN,Homo sapiens,1,5.21,5.21
+syringic acid,CHEMBL1414,CHEMBL4789,"Carbonic anhydrase 5A, mitochondrial",SINGLE PROTEIN,Homo sapiens,1,5.2,5.2
+ellagic acid,CHEMBL6246,CHEMBL2326,Carbonic anhydrase 7,SINGLE PROTEIN,Homo sapiens,2,5.13,5.2
+epigallocatechin gallate,CHEMBL297453,CHEMBL262,Glycogen synthase kinase-3 beta,SINGLE PROTEIN,Homo sapiens,1,5.2,5.2
+quercetin,CHEMBL50,CHEMBL1790,Vasopressin V2 receptor,SINGLE PROTEIN,Homo sapiens,6,4.81,5.2
+kaempferol,CHEMBL150,CHEMBL3622,Cytochrome P450 2C19,SINGLE PROTEIN,Homo sapiens,3,5.2,5.2
+pyrogallol,CHEMBL307145,CHEMBL1293236,ATP-dependent DNA helicase Q1,SINGLE PROTEIN,Homo sapiens,1,5.2,5.2
+pyrogallol,CHEMBL307145,CHEMBL2318,A disintegrin and metalloproteinase with thrombospondin motifs 4,SINGLE PROTEIN,Homo sapiens,1,5.2,5.2
+beta-carotene,CHEMBL1293,CHEMBL379,Hepatitis C virus,ORGANISM,Hepacivirus hominis,1,5.2,5.2
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL2608,Lysosomal alpha-glucosidase,SINGLE PROTEIN,Homo sapiens,2,4.83,5.2
+oleanolic acid,CHEMBL168,CHEMBL612851,Trypanosoma brucei brucei,ORGANISM,Trypanosoma brucei brucei,2,4.78,5.19
+oleanolic acid,CHEMBL168,CHEMBL390,PC-3,CELL-LINE,Homo sapiens,1,5.19,5.19
+caffeic acid,CHEMBL145,CHEMBL2326,Carbonic anhydrase 7,SINGLE PROTEIN,Homo sapiens,1,5.19,5.19
+caffeic acid,CHEMBL145,CHEMBL4789,"Carbonic anhydrase 5A, mitochondrial",SINGLE PROTEIN,Homo sapiens,1,5.19,5.19
+caffeic acid,CHEMBL145,CHEMBL3706572,MOLM-13,CELL-LINE,Homo sapiens,1,5.19,5.19
+p-coumaric acid,CHEMBL66879,CHEMBL614316,HT-22,CELL-LINE,Mus musculus,1,5.19,5.19
+ellagic acid,CHEMBL6246,CHEMBL4296577,Marburgvirus,ORGANISM,Marburgvirus,1,5.19,5.19
+quercetin,CHEMBL50,CHEMBL1250411,Short transient receptor potential channel 5,SINGLE PROTEIN,Homo sapiens,1,5.19,5.19
+myricetin,CHEMBL164,CHEMBL2599,Tyrosine-protein kinase SYK,SINGLE PROTEIN,Homo sapiens,2,4.73,5.19
+p-coumaric acid,CHEMBL66879,CHEMBL3510,Carbonic anhydrase 14,SINGLE PROTEIN,Homo sapiens,2,5.17,5.17
+p-coumaric acid,CHEMBL66879,CHEMBL3025,Carbonic anhydrase 6,SINGLE PROTEIN,Homo sapiens,1,5.17,5.17
+epigallocatechin gallate,CHEMBL297453,CHEMBL3869,Matrix metalloproteinase-14,SINGLE PROTEIN,Homo sapiens,1,5.17,5.17
+quercetin,CHEMBL50,CHEMBL4789,"Carbonic anhydrase 5A, mitochondrial",SINGLE PROTEIN,Homo sapiens,1,5.17,5.17
+quercetin,CHEMBL50,CHEMBL333,72 kDa type IV collagenase,SINGLE PROTEIN,Homo sapiens,1,5.17,5.17
+myricetin,CHEMBL164,CHEMBL5983,Aldo-keto reductase family 1 member B10,SINGLE PROTEIN,Homo sapiens,1,5.17,5.17
+kaempferol,CHEMBL150,CHEMBL2573,ATP-dependent translocase ABCB1,SINGLE PROTEIN,Mus musculus,1,5.17,5.17
+kaempferol,CHEMBL150,CHEMBL4302,ATP-dependent translocase ABCB1,SINGLE PROTEIN,Homo sapiens,1,5.17,5.17
+kaempferol,CHEMBL150,CHEMBL2073,Tyrosine-protein kinase Yes,SINGLE PROTEIN,Homo sapiens,1,5.17,5.17
+pyrogallol,CHEMBL307145,CHEMBL301,Cyclin-dependent kinase 2,SINGLE PROTEIN,Homo sapiens,2,5.11,5.17
+gallic acid,CHEMBL288114,CHEMBL3594,Carbonic anhydrase 9,SINGLE PROTEIN,Homo sapiens,1,5.16,5.16
+ellagic acid,CHEMBL6246,CHEMBL2362975,No relevant target,NO TARGET,-,3,4.62,5.16
+rutin,CHEMBL226335,CHEMBL612348,Trypanosoma brucei rhodesiense,ORGANISM,Trypanosoma brucei rhodesiense,1,5.16,5.16
+quercetin,CHEMBL50,CHEMBL302,Adenosine receptor A2a,SINGLE PROTEIN,Rattus norvegicus,1,5.16,5.16
+quercetin,CHEMBL50,CHEMBL1075270,Aldo-keto reductase family 1 member C21,SINGLE PROTEIN,Mus musculus,2,5.06,5.16
+quercetin,CHEMBL50,CHEMBL3594,Carbonic anhydrase 9,SINGLE PROTEIN,Homo sapiens,1,5.16,5.16
+quercetin,CHEMBL50,CHEMBL4523582,Replicase polyprotein 1ab,SINGLE PROTEIN,Severe acute respiratory syndrome coronavirus 2,1,5.16,5.16
+butylated hydroxytoluene,CHEMBL146,CHEMBL612545,Unchecked,UNCHECKED,-,2,4.83,5.16
+gallic acid,CHEMBL288114,CHEMBL3510,Carbonic anhydrase 14,SINGLE PROTEIN,Homo sapiens,1,5.15,5.15
+gallic acid,CHEMBL288114,CHEMBL1293255,15-hydroxyprostaglandin dehydrogenase [NAD(+)],SINGLE PROTEIN,Homo sapiens,1,5.15,5.15
+caffeic acid,CHEMBL145,CHEMBL1293248,4'-phosphopantetheinyl transferase ffp,SINGLE PROTEIN,Bacillus subtilis,4,4.35,5.15
+caffeic acid,CHEMBL145,CHEMBL1293234,Fructose-bisphosphate aldolase,SINGLE PROTEIN,Giardia intestinalis,2,4.8,5.15
+ellagic acid,CHEMBL6246,CHEMBL3025,Carbonic anhydrase 6,SINGLE PROTEIN,Homo sapiens,1,5.15,5.15
+quercetin,CHEMBL50,CHEMBL3769,Serine protease 1,SINGLE PROTEIN,Bos taurus,1,5.15,5.15
+quercetin,CHEMBL50,CHEMBL4302,ATP-dependent translocase ABCB1,SINGLE PROTEIN,Homo sapiens,2,4.71,5.15
+morin,CHEMBL28626,CHEMBL1293236,ATP-dependent DNA helicase Q1,SINGLE PROTEIN,Homo sapiens,4,4.67,5.15
+morin,CHEMBL28626,CHEMBL3621037,RNA demethylase ALKBH5,SINGLE PROTEIN,Homo sapiens,1,5.15,5.15
+myricetin,CHEMBL164,CHEMBL1293234,Fructose-bisphosphate aldolase,SINGLE PROTEIN,Giardia intestinalis,3,5.0,5.15
+pyrogallol,CHEMBL307145,CHEMBL321,Matrix metalloproteinase-9,SINGLE PROTEIN,Homo sapiens,1,5.15,5.15
+syringic acid,CHEMBL1414,CHEMBL613712,Radical scavenging activity,UNKNOWN,-,2,5.13,5.14
+epigallocatechin gallate,CHEMBL297453,CHEMBL4295835,Thiosulfate sulfurtransferase,SINGLE PROTEIN,Homo sapiens,1,5.14,5.14
+quercetin,CHEMBL50,CHEMBL1743124,Solute carrier organic anion transporter family member 2B1,SINGLE PROTEIN,Homo sapiens,2,5.14,5.14
+caffeine,CHEMBL113,CHEMBL220,Acetylcholinesterase,SINGLE PROTEIN,Homo sapiens,2,5.12,5.14
+gallic acid,CHEMBL288114,CHEMBL2885,Carbonic anhydrase 3,SINGLE PROTEIN,Homo sapiens,1,5.13,5.13
+caffeic acid,CHEMBL145,CHEMBL3025,Carbonic anhydrase 6,SINGLE PROTEIN,Homo sapiens,1,5.13,5.13
+morin,CHEMBL28626,CHEMBL2487,Amyloid-beta precursor protein,SINGLE PROTEIN,Homo sapiens,3,5.07,5.13
+pyrogallol,CHEMBL307145,CHEMBL261,Carbonic anhydrase 1,SINGLE PROTEIN,Homo sapiens,1,5.13,5.13
+p-coumaric acid,CHEMBL66879,CHEMBL2885,Carbonic anhydrase 3,SINGLE PROTEIN,Homo sapiens,1,5.12,5.12
+syringic acid,CHEMBL1414,CHEMBL3025,Carbonic anhydrase 6,SINGLE PROTEIN,Homo sapiens,1,5.12,5.12
+ellagic acid,CHEMBL6246,CHEMBL262,Glycogen synthase kinase-3 beta,SINGLE PROTEIN,Homo sapiens,1,5.12,5.12
+ellagic acid,CHEMBL6246,CHEMBL4789,"Carbonic anhydrase 5A, mitochondrial",SINGLE PROTEIN,Homo sapiens,1,5.12,5.12
+quercetin,CHEMBL50,CHEMBL613694,Liver microsomes,SUBCELLULAR,Rattus norvegicus,1,5.12,5.12
+quercetin,CHEMBL50,CHEMBL614643,HOP-62,CELL-LINE,Homo sapiens,1,5.12,5.12
+quercetin,CHEMBL50,CHEMBL5145,Serine/threonine-protein kinase B-raf,SINGLE PROTEIN,Homo sapiens,1,5.12,5.12
+gallic acid,CHEMBL288114,CHEMBL3242,Carbonic anhydrase 12,SINGLE PROTEIN,Homo sapiens,1,5.11,5.11
+p-coumaric acid,CHEMBL66879,CHEMBL3969,"Carbonic anhydrase 5B, mitochondrial",SINGLE PROTEIN,Homo sapiens,1,5.11,5.11
+syringic acid,CHEMBL1414,CHEMBL2326,Carbonic anhydrase 7,SINGLE PROTEIN,Homo sapiens,1,5.11,5.11
+pedunculagin,CHEMBL506204,CHEMBL612545,Unchecked,UNCHECKED,-,2,5.02,5.11
+quercetin,CHEMBL50,CHEMBL219,D(4) dopamine receptor,SINGLE PROTEIN,Homo sapiens,1,5.11,5.11
+quercetin,CHEMBL50,CHEMBL3833502,Alpha glucosidase,PROTEIN FAMILY,Homo sapiens,1,5.11,5.11
+quercetin,CHEMBL50,CHEMBL2051,Neuraminidase,SINGLE PROTEIN,Influenza A virus (A/Puerto Rico/8/1934(H1N1)),1,5.11,5.11
+morin,CHEMBL28626,CHEMBL1914266,Islet amyloid polypeptide,SINGLE PROTEIN,Homo sapiens,1,5.11,5.11
+myricetin,CHEMBL164,CHEMBL2094266,Protein kinase C (PKC),PROTEIN FAMILY,Rattus norvegicus,1,5.11,5.11
+kaempferol,CHEMBL150,CHEMBL395,HepG2,CELL-LINE,Homo sapiens,2,4.9,5.11
+oleanolic acid,CHEMBL168,CHEMBL2366517,Protease,SINGLE PROTEIN,Human immunodeficiency virus 1,3,4.24,5.1
+chlorogenic acid,CHEMBL284616,CHEMBL5983,Aldo-keto reductase family 1 member B10,SINGLE PROTEIN,Homo sapiens,1,5.1,5.1
+caffeic acid,CHEMBL145,CHEMBL3594,Carbonic anhydrase 9,SINGLE PROTEIN,Homo sapiens,1,5.1,5.1
+caffeic acid,CHEMBL145,CHEMBL2608,Lysosomal alpha-glucosidase,SINGLE PROTEIN,Homo sapiens,2,4.75,5.1
+p-coumaric acid,CHEMBL66879,CHEMBL3242,Carbonic anhydrase 12,SINGLE PROTEIN,Homo sapiens,2,5.1,5.1
+epigallocatechin gallate,CHEMBL297453,CHEMBL332,Interstitial collagenase,SINGLE PROTEIN,Homo sapiens,1,5.1,5.1
+rutin,CHEMBL226335,CHEMBL4040,Mitogen-activated protein kinase 1,SINGLE PROTEIN,Homo sapiens,1,5.1,5.1
+quercetin,CHEMBL50,CHEMBL3397,Cytochrome P450 2C9,SINGLE PROTEIN,Homo sapiens,5,4.99,5.1
+quercetin,CHEMBL50,CHEMBL3729,Carbonic anhydrase 4,SINGLE PROTEIN,Homo sapiens,1,5.1,5.1
+morin,CHEMBL28626,CHEMBL4512,Fatty acid synthase,SINGLE PROTEIN,Plasmodium falciparum,1,5.1,5.1
+morin,CHEMBL28626,CHEMBL2073,Tyrosine-protein kinase Yes,SINGLE PROTEIN,Homo sapiens,1,5.1,5.1
+myricetin,CHEMBL164,CHEMBL1293255,15-hydroxyprostaglandin dehydrogenase [NAD(+)],SINGLE PROTEIN,Homo sapiens,3,5.0,5.1
+kaempferol,CHEMBL150,CHEMBL5189,Sialidase,SINGLE PROTEIN,Clostridium perfringens,1,5.1,5.1
+kaempferol,CHEMBL150,CHEMBL2903,Polyunsaturated fatty acid lipoxygenase ALOX15,SINGLE PROTEIN,Homo sapiens,2,5.05,5.1
+kaempferol,CHEMBL150,CHEMBL340,Cytochrome P450 3A4,SINGLE PROTEIN,Homo sapiens,5,5.1,5.1
+mandelic acid,CHEMBL1609,CHEMBL1293235,Prelamin-A/C,SINGLE PROTEIN,Homo sapiens,1,5.1,5.1
+anabasine,CHEMBL1526229,CHEMBL289,Cytochrome P450 2D6,SINGLE PROTEIN,Homo sapiens,2,5.1,5.1
+bis(2-ethylhexyl) phthalate,CHEMBL1242017,CHEMBL4372,Lethal factor,SINGLE PROTEIN,Bacillus anthracis,1,5.1,5.1
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL1293234,Fructose-bisphosphate aldolase,SINGLE PROTEIN,Giardia intestinalis,1,5.1,5.1
+quercitrin,CHEMBL82242,CHEMBL3108635,Arginase,SINGLE PROTEIN,Leishmania amazonensis,2,5.0,5.1
+caffeine,CHEMBL113,CHEMBL1961788,Nuclear receptor subfamily 2 group E member 1,SINGLE PROTEIN,Homo sapiens,1,5.1,5.1
+syringic acid,CHEMBL1414,CHEMBL3594,Carbonic anhydrase 9,SINGLE PROTEIN,Homo sapiens,1,5.09,5.09
+ellagic acid,CHEMBL6246,CHEMBL3242,Carbonic anhydrase 12,SINGLE PROTEIN,Homo sapiens,2,5.04,5.09
+quercetin,CHEMBL50,CHEMBL5118,Replicase polyprotein 1ab,SINGLE PROTEIN,Severe acute respiratory syndrome-related coronavirus,2,4.86,5.09
+quercetin,CHEMBL50,CHEMBL2885,Carbonic anhydrase 3,SINGLE PROTEIN,Homo sapiens,1,5.09,5.09
+quercetin,CHEMBL50,CHEMBL6066863,Alpha amylase,PROTEIN FAMILY,Homo sapiens,1,5.09,5.09
+quercitrin,CHEMBL82242,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,1,5.09,5.09
+chlorogenic acid,CHEMBL284616,CHEMBL612545,Unchecked,UNCHECKED,-,4,4.41,5.08
+epigallocatechin gallate,CHEMBL297453,CHEMBL613712,Radical scavenging activity,UNKNOWN,-,1,5.08,5.08
+oleanolic acid,CHEMBL168,CHEMBL612556,PC-12,CELL-LINE,Rattus norvegicus,1,5.07,5.07
+caffeic acid,CHEMBL145,CHEMBL215,Polyunsaturated fatty acid 5-lipoxygenase,SINGLE PROTEIN,Homo sapiens,3,4.78,5.07
+syringic acid,CHEMBL1414,CHEMBL2885,Carbonic anhydrase 3,SINGLE PROTEIN,Homo sapiens,1,5.07,5.07
+quercetin,CHEMBL50,CHEMBL376,Rattus norvegicus,ORGANISM,Rattus norvegicus,1,5.07,5.07
+quercetin,CHEMBL50,CHEMBL280,Collagenase 3,SINGLE PROTEIN,Homo sapiens,1,5.07,5.07
+myricetin,CHEMBL164,CHEMBL5980,Genome polyprotein,SINGLE PROTEIN,dengue virus type 2,1,5.07,5.07
+ascorbic acid,CHEMBL196,CHEMBL4161,Urease,SINGLE PROTEIN,Canavalia ensiformis,1,5.07,5.07
+caffeic acid,CHEMBL145,CHEMBL3510,Carbonic anhydrase 14,SINGLE PROTEIN,Homo sapiens,2,5.06,5.06
+gallic acid,CHEMBL288114,CHEMBL1293248,4'-phosphopantetheinyl transferase ffp,SINGLE PROTEIN,Bacillus subtilis,1,5.05,5.05
+caffeic acid,CHEMBL145,CHEMBL4040,Mitogen-activated protein kinase 1,SINGLE PROTEIN,Homo sapiens,2,4.95,5.05
+ellagic acid,CHEMBL6246,CHEMBL3510,Carbonic anhydrase 14,SINGLE PROTEIN,Homo sapiens,1,5.05,5.05
+epigallocatechin gallate,CHEMBL297453,CHEMBL1293226,Lysine-specific demethylase 4E,SINGLE PROTEIN,Homo sapiens,1,5.05,5.05
+rutin,CHEMBL226335,CHEMBL2392,DNA polymerase beta,SINGLE PROTEIN,Homo sapiens,1,5.05,5.05
+quercetin,CHEMBL50,CHEMBL1293226,Lysine-specific demethylase 4E,SINGLE PROTEIN,Homo sapiens,4,5.03,5.05
+quercetin,CHEMBL50,CHEMBL1293255,15-hydroxyprostaglandin dehydrogenase [NAD(+)],SINGLE PROTEIN,Homo sapiens,3,4.7,5.05
+quercetin,CHEMBL50,CHEMBL2558,Death-associated protein kinase 1,SINGLE PROTEIN,Homo sapiens,1,5.05,5.05
+quercetin,CHEMBL50,CHEMBL4693,Sarcoplasmic/endoplasmic reticulum calcium ATPase 1,SINGLE PROTEIN,Oryctolagus cuniculus,1,5.05,5.05
+morin,CHEMBL28626,CHEMBL2085,Macrophage migration inhibitory factor,SINGLE PROTEIN,Homo sapiens,2,5.0,5.05
+kaempferol,CHEMBL150,CHEMBL614781,BV-2,CELL-LINE,Mus musculus,6,4.25,5.05
+kaempferol,CHEMBL150,CHEMBL612851,Trypanosoma brucei brucei,ORGANISM,Trypanosoma brucei brucei,1,5.05,5.05
+quercitrin,CHEMBL82242,CHEMBL612942,Microcystis aeruginosa,ORGANISM,Microcystis aeruginosa,1,5.05,5.05
+caffeic acid,CHEMBL145,CHEMBL3242,Carbonic anhydrase 12,SINGLE PROTEIN,Homo sapiens,2,5.04,5.04
+caffeic acid,CHEMBL145,CHEMBL3969,"Carbonic anhydrase 5B, mitochondrial",SINGLE PROTEIN,Homo sapiens,1,5.04,5.04
+syringic acid,CHEMBL1414,CHEMBL3510,Carbonic anhydrase 14,SINGLE PROTEIN,Homo sapiens,1,5.04,5.04
+syringic acid,CHEMBL1414,CHEMBL3242,Carbonic anhydrase 12,SINGLE PROTEIN,Homo sapiens,1,5.04,5.04
+ellagic acid,CHEMBL6246,CHEMBL3729,Carbonic anhydrase 4,SINGLE PROTEIN,Homo sapiens,1,5.04,5.04
+quercetin,CHEMBL50,CHEMBL2186,Carbonic anhydrase 13,SINGLE PROTEIN,Mus musculus,1,5.04,5.04
+morin,CHEMBL28626,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,1,5.04,5.04
+ellagic acid,CHEMBL6246,CHEMBL4362,Tyrosine-protein kinase Fgr,SINGLE PROTEIN,Rattus norvegicus,1,5.03,5.03
+ellagic acid,CHEMBL6246,CHEMBL3594,Carbonic anhydrase 9,SINGLE PROTEIN,Homo sapiens,2,4.56,5.03
+epigallocatechin gallate,CHEMBL297453,CHEMBL383,HL-60,CELL-LINE,Homo sapiens,1,5.03,5.03
+rutin,CHEMBL226335,CHEMBL1867,Alpha-2A adrenergic receptor,SINGLE PROTEIN,Homo sapiens,1,5.03,5.03
+quercetin,CHEMBL50,CHEMBL3242,Carbonic anhydrase 12,SINGLE PROTEIN,Homo sapiens,1,5.03,5.03
+quercetin,CHEMBL50,CHEMBL3885651,Urease subunit alpha/Urease subunit beta,PROTEIN COMPLEX,Helicobacter pylori (strain ATCC 700392 / 26695) (Campylobacterpylori),4,4.96,5.03
+quercetin,CHEMBL50,CHEMBL614321,MCF-10A,CELL-LINE,Homo sapiens,2,4.97,5.03
+caffeine,CHEMBL113,CHEMBL302,Adenosine receptor A2a,SINGLE PROTEIN,Rattus norvegicus,22,4.49,5.03
+p-coumaric acid,CHEMBL66879,CHEMBL3729,Carbonic anhydrase 4,SINGLE PROTEIN,Homo sapiens,1,5.02,5.02
+epigallocatechin gallate,CHEMBL297453,CHEMBL333,72 kDa type IV collagenase,SINGLE PROTEIN,Homo sapiens,1,5.02,5.02
+rutin,CHEMBL226335,CHEMBL1916,Alpha-2C adrenergic receptor,SINGLE PROTEIN,Homo sapiens,1,5.02,5.02
+quercetin,CHEMBL50,CHEMBL2331065,Alpha-ketoglutarate-dependent dioxygenase FTO,SINGLE PROTEIN,Homo sapiens,1,5.02,5.02
+myricetin,CHEMBL164,CHEMBL2331065,Alpha-ketoglutarate-dependent dioxygenase FTO,SINGLE PROTEIN,Homo sapiens,2,4.74,5.02
+kaempferol,CHEMBL150,CHEMBL3429,Steroid hormone receptor ERR1,SINGLE PROTEIN,Homo sapiens,1,5.02,5.02
+kaempferol,CHEMBL150,CHEMBL205,Carbonic anhydrase 2,SINGLE PROTEIN,Homo sapiens,1,5.02,5.02
+gallic acid,CHEMBL288114,CHEMBL2186,Carbonic anhydrase 13,SINGLE PROTEIN,Mus musculus,1,5.01,5.01
+gallic acid,CHEMBL288114,CHEMBL3729,Carbonic anhydrase 4,SINGLE PROTEIN,Homo sapiens,1,5.01,5.01
+kaempferol,CHEMBL150,CHEMBL1871,Androgen receptor,SINGLE PROTEIN,Homo sapiens,1,5.01,5.01
+oleanolic acid,CHEMBL168,CHEMBL379,Hepatitis C virus,ORGANISM,Hepacivirus hominis,2,5.0,5.0
+gallic acid,CHEMBL288114,CHEMBL3969,"Carbonic anhydrase 5B, mitochondrial",SINGLE PROTEIN,Homo sapiens,1,5.0,5.0
+gallic acid,CHEMBL288114,CHEMBL1293231,Nuclear receptor ROR-gamma,SINGLE PROTEIN,Mus musculus,2,4.88,5.0
+gallic acid,CHEMBL288114,CHEMBL4096,Cellular tumor antigen p53,SINGLE PROTEIN,Homo sapiens,2,4.95,5.0
+gallic acid,CHEMBL288114,CHEMBL614535,Calu-6,CELL-LINE,Homo sapiens,1,5.0,5.0
+caffeic acid,CHEMBL145,CHEMBL3729,Carbonic anhydrase 4,SINGLE PROTEIN,Homo sapiens,1,5.0,5.0
+caffeic acid,CHEMBL145,CHEMBL2885,Carbonic anhydrase 3,SINGLE PROTEIN,Homo sapiens,1,5.0,5.0
+caffeic acid,CHEMBL145,CHEMBL1293224,Microtubule-associated protein tau,SINGLE PROTEIN,Homo sapiens,3,4.8,5.0
+caffeic acid,CHEMBL145,CHEMBL612794,U-937,CELL-LINE,Homo sapiens,1,5.0,5.0
+p-coumaric acid,CHEMBL66879,CHEMBL2186,Carbonic anhydrase 13,SINGLE PROTEIN,Mus musculus,2,5.0,5.0
+p-coumaric acid,CHEMBL66879,CHEMBL614072,BT-549,CELL-LINE,Homo sapiens,1,5.0,5.0
+ellagic acid,CHEMBL6246,CHEMBL4331,Hemoglobin subunit beta,SINGLE PROTEIN,Homo sapiens,1,5.0,5.0
+epigallocatechin gallate,CHEMBL297453,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,6,4.39,5.0
+epigallocatechin gallate,CHEMBL297453,CHEMBL613497,Hepatitis B virus,ORGANISM,Hepatitis B virus,1,5.0,5.0
+quercetin,CHEMBL50,CHEMBL2093861,Menin/Histone-lysine N-methyltransferase MLL,PROTEIN-PROTEIN INTERACTION,Homo sapiens,9,4.8,5.0
+quercetin,CHEMBL50,CHEMBL1963,Thyrotropin receptor,SINGLE PROTEIN,Homo sapiens,5,4.5,5.0
+quercetin,CHEMBL50,CHEMBL4261,Hypoxia-inducible factor 1-alpha,SINGLE PROTEIN,Homo sapiens,2,5.0,5.0
+quercetin,CHEMBL50,CHEMBL1293238,Inositol monophosphatase 1,SINGLE PROTEIN,Rattus norvegicus,3,4.95,5.0
+quercetin,CHEMBL50,CHEMBL2414,C-C chemokine receptor type 4,SINGLE PROTEIN,Homo sapiens,3,4.99,5.0
+quercetin,CHEMBL50,CHEMBL211,Muscarinic acetylcholine receptor M2,SINGLE PROTEIN,Homo sapiens,1,5.0,5.0
+quercetin,CHEMBL50,CHEMBL3885525,beta-catenin-B-cell lymphoma 9 protein complex,PROTEIN COMPLEX,Homo sapiens,3,5.0,5.0
+morin,CHEMBL28626,CHEMBL1929,Xanthine dehydrogenase/oxidase,SINGLE PROTEIN,Homo sapiens,2,4.8,5.0
+morin,CHEMBL28626,CHEMBL3251,Nuclear factor NF-kappa-B p105 subunit,SINGLE PROTEIN,Homo sapiens,2,5.0,5.0
+morin,CHEMBL28626,CHEMBL4159,3-hydroxyacyl-CoA dehydrogenase type-2,SINGLE PROTEIN,Homo sapiens,3,4.9,5.0
+morin,CHEMBL28626,CHEMBL3397,Cytochrome P450 2C9,SINGLE PROTEIN,Homo sapiens,1,5.0,5.0
+morin,CHEMBL28626,CHEMBL1075054,Low molecular weight phosphotyrosine protein phosphatase,SINGLE PROTEIN,Bos taurus,1,5.0,5.0
+morin,CHEMBL28626,CHEMBL2095191,Casein kinase II,PROTEIN COMPLEX GROUP,Homo sapiens,1,5.0,5.0
+morin,CHEMBL28626,CHEMBL3832943,Casein kinase 2,PROTEIN FAMILY,Homo sapiens,1,5.0,5.0
+morin,CHEMBL28626,CHEMBL3988629,Casein kinase 2,PROTEIN COMPLEX,Rattus norvegicus,1,5.0,5.0
+myricetin,CHEMBL164,CHEMBL1978,Aromatase,SINGLE PROTEIN,Homo sapiens,1,5.0,5.0
+myricetin,CHEMBL164,CHEMBL3563,Cruzipain,SINGLE PROTEIN,Trypanosoma cruzi,4,4.72,5.0
+myricetin,CHEMBL164,CHEMBL3885584,Guanine nucleotide-binding protein G(i) subunit alpha-1/Regulator of G-protein signaling 12,PROTEIN-PROTEIN INTERACTION,Homo sapiens,1,5.0,5.0
+myricetin,CHEMBL164,CHEMBL1293256,Thrombopoietin,SINGLE PROTEIN,Homo sapiens,2,5.0,5.0
+myricetin,CHEMBL164,CHEMBL3397,Cytochrome P450 2C9,SINGLE PROTEIN,Homo sapiens,5,5.0,5.0
+myricetin,CHEMBL164,CHEMBL4662,Proteasome Macropain subunit MB1,SINGLE PROTEIN,Homo sapiens,2,4.96,5.0
+myricetin,CHEMBL164,CHEMBL3736,Angiotensin-converting enzyme 2,SINGLE PROTEIN,Homo sapiens,1,5.0,5.0
+myricetin,CHEMBL164,CHEMBL1951,Amine oxidase [flavin-containing] A,SINGLE PROTEIN,Homo sapiens,1,5.0,5.0
+kaempferol,CHEMBL150,CHEMBL289,Cytochrome P450 2D6,SINGLE PROTEIN,Homo sapiens,3,5.0,5.0
+kaempferol,CHEMBL150,CHEMBL1795098,Carboxy-terminal domain RNA polymerase II polypeptide A small phosphatase 1,SINGLE PROTEIN,Homo sapiens,1,5.0,5.0
+kaempferol,CHEMBL150,CHEMBL1900,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Homo sapiens,1,5.0,5.0
+kaempferol,CHEMBL150,CHEMBL2558,Death-associated protein kinase 1,SINGLE PROTEIN,Homo sapiens,1,5.0,5.0
+pyrogallol,CHEMBL307145,CHEMBL1293255,15-hydroxyprostaglandin dehydrogenase [NAD(+)],SINGLE PROTEIN,Homo sapiens,1,5.0,5.0
+quercitrin,CHEMBL82242,CHEMBL3081,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Bos taurus,1,5.0,5.0
+caffeine,CHEMBL113,CHEMBL255,Adenosine receptor A2b,SINGLE PROTEIN,Homo sapiens,20,4.48,5.0
+caffeine,CHEMBL113,CHEMBL3129,Guanine deaminase,SINGLE PROTEIN,Homo sapiens,2,5.0,5.0
+stigmasterol,CHEMBL400247,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,2,4.95,4.99
+ellagic acid,CHEMBL6246,CHEMBL2186,Carbonic anhydrase 13,SINGLE PROTEIN,Mus musculus,1,4.99,4.99
+epigallocatechin gallate,CHEMBL297453,CHEMBL284,Dipeptidyl peptidase 4,SINGLE PROTEIN,Homo sapiens,1,4.99,4.99
+quercetin,CHEMBL50,CHEMBL5909,Hypoxia-inducible factor 1-alpha inhibitor,SINGLE PROTEIN,Homo sapiens,1,4.99,4.99
+quercetin,CHEMBL50,CHEMBL4393,Macrophage metalloelastase,SINGLE PROTEIN,Homo sapiens,1,4.99,4.99
+quercetin,CHEMBL50,CHEMBL613516,N9,CELL-LINE,Homo sapiens,1,4.99,4.99
+myricetin,CHEMBL164,CHEMBL3769,Serine protease 1,SINGLE PROTEIN,Bos taurus,1,4.99,4.99
+kaempferol,CHEMBL150,CHEMBL367,Leishmania donovani,ORGANISM,Leishmania donovani,1,4.99,4.99
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL1907600,Cyclin-dependent kinase 5/CDK5 activator 1,PROTEIN COMPLEX,Homo sapiens,1,4.99,4.99
+ellagic acid,CHEMBL6246,CHEMBL2885,Carbonic anhydrase 3,SINGLE PROTEIN,Homo sapiens,1,4.98,4.98
+quercetin,CHEMBL50,CHEMBL3622,Cytochrome P450 2C19,SINGLE PROTEIN,Homo sapiens,3,4.8,4.98
+kaempferol,CHEMBL150,CHEMBL4662,Proteasome Macropain subunit MB1,SINGLE PROTEIN,Homo sapiens,2,4.97,4.98
+syringic acid,CHEMBL1414,CHEMBL3729,Carbonic anhydrase 4,SINGLE PROTEIN,Homo sapiens,1,4.97,4.97
+quercetin,CHEMBL50,CHEMBL2074,Maltase-glucoamylase,SINGLE PROTEIN,Homo sapiens,1,4.97,4.97
+caffeine,CHEMBL113,CHEMBL226,Adenosine receptor A1,SINGLE PROTEIN,Homo sapiens,17,4.35,4.97
+oleanolic acid,CHEMBL168,CHEMBL3559640,Hemagglutinin,SINGLE PROTEIN,Influenza A virus,1,4.96,4.96
+caffeic acid,CHEMBL145,CHEMBL2093865,Histone deacetylase,PROTEIN FAMILY,Homo sapiens,1,4.96,4.96
+caffeic acid,CHEMBL145,CHEMBL2186,Carbonic anhydrase 13,SINGLE PROTEIN,Mus musculus,2,4.96,4.96
+p-coumaric acid,CHEMBL66879,CHEMBL5508,Dual specificity tyrosine-phosphorylation-regulated kinase 1A,SINGLE PROTEIN,Rattus norvegicus,1,4.96,4.96
+syringic acid,CHEMBL1414,CHEMBL2186,Carbonic anhydrase 13,SINGLE PROTEIN,Mus musculus,1,4.96,4.96
+epigallocatechin gallate,CHEMBL297453,CHEMBL6065,Dihydrofolate reductase,SINGLE PROTEIN,Mycobacterium tuberculosis,1,4.96,4.96
+quercetin,CHEMBL50,CHEMBL614361,T47D,CELL-LINE,Homo sapiens,1,4.96,4.96
+morin,CHEMBL28626,CHEMBL4106131,HSP60/HSP10,PROTEIN COMPLEX,Homo sapiens,1,4.96,4.96
+stigmasterol,CHEMBL400247,CHEMBL385,K562,CELL-LINE,Homo sapiens,1,4.95,4.95
+ellagic acid,CHEMBL6246,CHEMBL1293299,Histone-lysine N-methyltransferase 2A,SINGLE PROTEIN,Homo sapiens,1,4.95,4.95
+epigallocatechin gallate,CHEMBL297453,CHEMBL6110,Thioredoxin glutathione reductase,SINGLE PROTEIN,Schistosoma mansoni,1,4.95,4.95
+epigallocatechin gallate,CHEMBL297453,CHEMBL1293248,4'-phosphopantetheinyl transferase ffp,SINGLE PROTEIN,Bacillus subtilis,1,4.95,4.95
+morin,CHEMBL28626,CHEMBL2093861,Menin/Histone-lysine N-methyltransferase MLL,PROTEIN-PROTEIN INTERACTION,Homo sapiens,8,4.68,4.95
+kaempferol,CHEMBL150,CHEMBL6135,Neuraminidase,SINGLE PROTEIN,Influenza A virus,6,4.42,4.95
+kaempferol,CHEMBL150,CHEMBL1293238,Inositol monophosphatase 1,SINGLE PROTEIN,Rattus norvegicus,1,4.95,4.95
+beta-sitosterol,CHEMBL221542,CHEMBL614735,HEp-2,CELL-LINE,Homo sapiens,1,4.94,4.94
+oleanolic acid,CHEMBL168,CHEMBL3521,Receptor-type tyrosine-protein phosphatase F,SINGLE PROTEIN,Homo sapiens,2,4.79,4.93
+oleanolic acid,CHEMBL168,CHEMBL3864,Tyrosine-protein phosphatase non-receptor type 11,SINGLE PROTEIN,Homo sapiens,1,4.93,4.93
+quercitrin,CHEMBL82242,CHEMBL2409,Bifunctional epoxide hydrolase 2,SINGLE PROTEIN,Homo sapiens,2,4.67,4.93
+epigallocatechin gallate,CHEMBL297453,CHEMBL370,Human alphaherpesvirus 2,ORGANISM,Human alphaherpesvirus 2,7,4.9,4.92
+epigallocatechin gallate,CHEMBL297453,CHEMBL4693,Sarcoplasmic/endoplasmic reticulum calcium ATPase 1,SINGLE PROTEIN,Oryctolagus cuniculus,1,4.92,4.92
+quercetin,CHEMBL50,CHEMBL612942,Microcystis aeruginosa,ORGANISM,Microcystis aeruginosa,1,4.92,4.92
+quercetin,CHEMBL50,CHEMBL3969,"Carbonic anhydrase 5B, mitochondrial",SINGLE PROTEIN,Homo sapiens,1,4.92,4.92
+quercetin,CHEMBL50,CHEMBL3286,Urokinase-type plasminogen activator,SINGLE PROTEIN,Homo sapiens,1,4.92,4.92
+quercetin,CHEMBL50,CHEMBL5873,"Solute carrier family 2, facilitated glucose transporter member 2",SINGLE PROTEIN,Homo sapiens,2,4.92,4.92
+quercetin,CHEMBL50,CHEMBL248,Neutrophil elastase,SINGLE PROTEIN,Homo sapiens,2,4.88,4.92
+quercetin,CHEMBL50,CHEMBL396,NCI-H460,CELL-LINE,Homo sapiens,1,4.92,4.92
+quercetin,CHEMBL50,CHEMBL614917,SK-MEL-2,CELL-LINE,Homo sapiens,1,4.92,4.92
+quercetin,CHEMBL50,CHEMBL4296459,LN-229,CELL-LINE,Homo sapiens,1,4.92,4.92
+myricetin,CHEMBL164,CHEMBL5873,"Solute carrier family 2, facilitated glucose transporter member 2",SINGLE PROTEIN,Homo sapiens,2,4.92,4.92
+morin,CHEMBL28626,CHEMBL4822,Beta-secretase 1,SINGLE PROTEIN,Homo sapiens,2,4.79,4.91
+myricetin,CHEMBL164,CHEMBL1075270,Aldo-keto reductase family 1 member C21,SINGLE PROTEIN,Mus musculus,1,4.91,4.91
+oleanolic acid,CHEMBL168,CHEMBL2157850,Ubiquitin carboxyl-terminal hydrolase 7,SINGLE PROTEIN,Homo sapiens,1,4.9,4.9
+caffeic acid,CHEMBL145,CHEMBL1947,Thyroid hormone receptor beta,SINGLE PROTEIN,Homo sapiens,1,4.9,4.9
+caffeic acid,CHEMBL145,CHEMBL1293231,Nuclear receptor ROR-gamma,SINGLE PROTEIN,Mus musculus,1,4.9,4.9
+ellagic acid,CHEMBL6246,CHEMBL3969,"Carbonic anhydrase 5B, mitochondrial",SINGLE PROTEIN,Homo sapiens,1,4.9,4.9
+ellagic acid,CHEMBL6246,CHEMBL1293224,Microtubule-associated protein tau,SINGLE PROTEIN,Homo sapiens,8,4.68,4.9
+ellagic acid,CHEMBL6246,CHEMBL4096,Cellular tumor antigen p53,SINGLE PROTEIN,Homo sapiens,2,4.7,4.9
+catechin,CHEMBL311498,CHEMBL2392,DNA polymerase beta,SINGLE PROTEIN,Homo sapiens,1,4.9,4.9
+quercetin,CHEMBL50,CHEMBL3577,Aldehyde dehydrogenase 1A1,SINGLE PROTEIN,Homo sapiens,7,4.45,4.9
+quercetin,CHEMBL50,CHEMBL237,Kappa-type opioid receptor,SINGLE PROTEIN,Homo sapiens,1,4.9,4.9
+morin,CHEMBL28626,CHEMBL3024,Serine/threonine-protein kinase PLK1,SINGLE PROTEIN,Homo sapiens,1,4.9,4.9
+myricetin,CHEMBL164,CHEMBL2093861,Menin/Histone-lysine N-methyltransferase MLL,PROTEIN-PROTEIN INTERACTION,Homo sapiens,8,4.78,4.9
+myricetin,CHEMBL164,CHEMBL1293237,RecQ-like DNA helicase BLM,SINGLE PROTEIN,Homo sapiens,5,4.85,4.9
+myricetin,CHEMBL164,CHEMBL3151,Intestinal-type alkaline phosphatase,SINGLE PROTEIN,Mus musculus,1,4.9,4.9
+kaempferol,CHEMBL150,CHEMBL1293224,Microtubule-associated protein tau,SINGLE PROTEIN,Homo sapiens,2,4.85,4.9
+kaempferol,CHEMBL150,CHEMBL3563,Cruzipain,SINGLE PROTEIN,Trypanosoma cruzi,1,4.9,4.9
+kaempferol,CHEMBL150,CHEMBL5542,DNA polymerase eta,SINGLE PROTEIN,Homo sapiens,1,4.9,4.9
+pyrogallol,CHEMBL307145,CHEMBL2903,Polyunsaturated fatty acid lipoxygenase ALOX15,SINGLE PROTEIN,Homo sapiens,1,4.9,4.9
+caffeine,CHEMBL113,CHEMBL256,Adenosine receptor A3,SINGLE PROTEIN,Homo sapiens,10,4.88,4.9
+epigallocatechin gallate,CHEMBL297453,CHEMBL248,Neutrophil elastase,SINGLE PROTEIN,Homo sapiens,1,4.89,4.89
+rutin,CHEMBL226335,CHEMBL2622,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Rattus norvegicus,1,4.89,4.89
+quercetin,CHEMBL50,CHEMBL258,Tyrosine-protein kinase Lck,SINGLE PROTEIN,Homo sapiens,2,4.89,4.89
+quercetin,CHEMBL50,CHEMBL3202,Prolyl endopeptidase,SINGLE PROTEIN,Homo sapiens,1,4.89,4.89
+quercetin,CHEMBL50,CHEMBL6093,Calmodulin-1,SINGLE PROTEIN,Homo sapiens,1,4.89,4.89
+quercetin,CHEMBL50,CHEMBL614317,M14,CELL-LINE,Homo sapiens,1,4.89,4.89
+caffeine,CHEMBL113,CHEMBL4123,Neurotensin receptor type 1,SINGLE PROTEIN,Homo sapiens,1,4.89,4.89
+quercetin,CHEMBL50,CHEMBL2095204,Trypsin,PROTEIN FAMILY,Homo sapiens,3,4.81,4.88
+quercetin,CHEMBL50,CHEMBL229,Alpha-1A adrenergic receptor,SINGLE PROTEIN,Homo sapiens,1,4.88,4.88
+myricetin,CHEMBL164,CHEMBL612657,CWR22R,CELL-LINE,Homo sapiens,1,4.88,4.88
+kaempferol,CHEMBL150,CHEMBL612557,RAW264.7,CELL-LINE,Mus musculus,8,4.83,4.88
+myricetin,CHEMBL164,CHEMBL4303,Heat shock protein HSP 90-beta,SINGLE PROTEIN,Homo sapiens,1,4.87,4.87
+syringic acid,CHEMBL1414,CHEMBL1075189,Pyruvate kinase PKM,SINGLE PROTEIN,Homo sapiens,2,4.86,4.86
+quercetin,CHEMBL50,CHEMBL3267,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",SINGLE PROTEIN,Homo sapiens,1,4.86,4.86
+morin,CHEMBL28626,CHEMBL318,Adenosine receptor A1,SINGLE PROTEIN,Rattus norvegicus,1,4.86,4.86
+oleanolic acid,CHEMBL168,CHEMBL4696,"Glycogen phosphorylase, muscle form",SINGLE PROTEIN,Oryctolagus cuniculus,6,4.85,4.85
+oleanolic acid,CHEMBL168,CHEMBL3166,Tyrosine-protein phosphatase non-receptor type 6,SINGLE PROTEIN,Homo sapiens,2,4.67,4.85
+oleanolic acid,CHEMBL168,CHEMBL614004,A2780,CELL-LINE,Homo sapiens,5,4.85,4.85
+oleanolic acid,CHEMBL168,CHEMBL4295521,Phosphotyrosine protein phosphatase,SINGLE PROTEIN,Mycobacterium tuberculosis,3,4.66,4.85
+gallic acid,CHEMBL288114,CHEMBL4996,"Alpha-(1,3)-fucosyltransferase 4",SINGLE PROTEIN,Homo sapiens,1,4.85,4.85
+p-coumaric acid,CHEMBL66879,CHEMBL3785,Hydroxycarboxylic acid receptor 2,SINGLE PROTEIN,Homo sapiens,1,4.85,4.85
+epigallocatechin gallate,CHEMBL297453,CHEMBL1293234,Fructose-bisphosphate aldolase,SINGLE PROTEIN,Giardia intestinalis,1,4.85,4.85
+catechin,CHEMBL311498,CHEMBL1293226,Lysine-specific demethylase 4E,SINGLE PROTEIN,Homo sapiens,2,4.72,4.85
+rutin,CHEMBL226335,CHEMBL1293226,Lysine-specific demethylase 4E,SINGLE PROTEIN,Homo sapiens,1,4.85,4.85
+quercetin,CHEMBL50,CHEMBL1293235,Prelamin-A/C,SINGLE PROTEIN,Homo sapiens,1,4.85,4.85
+quercetin,CHEMBL50,CHEMBL2073709,Monocarboxylate transporter 1,SINGLE PROTEIN,Rattus norvegicus,1,4.85,4.85
+quercetin,CHEMBL50,CHEMBL208,Progesterone receptor,SINGLE PROTEIN,Homo sapiens,1,4.85,4.85
+myricetin,CHEMBL164,CHEMBL4513,3-oxoacyl-acyl-carrier protein reductase,SINGLE PROTEIN,Plasmodium falciparum,1,4.85,4.85
+myricetin,CHEMBL164,CHEMBL3687,Polyunsaturated fatty acid lipoxygenase ALOX12,SINGLE PROTEIN,Homo sapiens,1,4.85,4.85
+kaempferol,CHEMBL150,CHEMBL2093861,Menin/Histone-lysine N-methyltransferase MLL,PROTEIN-PROTEIN INTERACTION,Homo sapiens,3,4.45,4.85
+pyrogallol,CHEMBL307145,CHEMBL1293235,Prelamin-A/C,SINGLE PROTEIN,Homo sapiens,1,4.85,4.85
+oleanolic acid,CHEMBL168,CHEMBL612558,ADMET,ADMET,-,3,4.12,4.84
+quercetin,CHEMBL50,CHEMBL613866,CT26,CELL-LINE,Mus musculus,2,4.84,4.84
+oleanolic acid,CHEMBL168,CHEMBL383,HL-60,CELL-LINE,Homo sapiens,4,4.62,4.83
+oleanolic acid,CHEMBL168,CHEMBL395,HepG2,CELL-LINE,Homo sapiens,3,4.8,4.83
+kaempferol,CHEMBL150,CHEMBL4822,Beta-secretase 1,SINGLE PROTEIN,Homo sapiens,1,4.83,4.83
+quercitrin,CHEMBL82242,CHEMBL1929,Xanthine dehydrogenase/oxidase,SINGLE PROTEIN,Homo sapiens,1,4.83,4.83
+epigallocatechin gallate,CHEMBL297453,CHEMBL4296459,LN-229,CELL-LINE,Homo sapiens,1,4.82,4.82
+epigallocatechin gallate,CHEMBL297453,CHEMBL2189117,Polycomb protein EED,SINGLE PROTEIN,Homo sapiens,1,4.82,4.82
+rutin,CHEMBL226335,CHEMBL612557,RAW264.7,CELL-LINE,Mus musculus,3,4.56,4.82
+quercetin,CHEMBL50,CHEMBL4296487,PWR-1E,CELL-LINE,Homo sapiens,1,4.82,4.82
+caffeine,CHEMBL113,CHEMBL2111386,Adenosine receptor,PROTEIN FAMILY,Rattus norvegicus,5,4.4,4.82
+caffeic acid,CHEMBL145,CHEMBL2487,Amyloid-beta precursor protein,SINGLE PROTEIN,Homo sapiens,2,4.64,4.81
+quercetin,CHEMBL50,CHEMBL612657,CWR22R,CELL-LINE,Homo sapiens,1,4.81,4.81
+quercetin,CHEMBL50,CHEMBL5291954,Alpha-glucosidase,PROTEIN FAMILY,Saccharomyces cerevisiae S288c,1,4.81,4.81
+kaempferol,CHEMBL150,CHEMBL239,Peroxisome proliferator-activated receptor alpha,SINGLE PROTEIN,Homo sapiens,1,4.81,4.81
+gallic acid,CHEMBL288114,CHEMBL1293232,Survival motor neuron protein,SINGLE PROTEIN,Homo sapiens,1,4.8,4.8
+gallic acid,CHEMBL288114,CHEMBL4372,Lethal factor,SINGLE PROTEIN,Bacillus anthracis,1,4.8,4.8
+caffeic acid,CHEMBL145,CHEMBL2392,DNA polymerase beta,SINGLE PROTEIN,Homo sapiens,1,4.8,4.8
+ellagic acid,CHEMBL6246,CHEMBL1293238,Inositol monophosphatase 1,SINGLE PROTEIN,Rattus norvegicus,1,4.8,4.8
+epigallocatechin gallate,CHEMBL297453,CHEMBL377,Human alphaherpesvirus 1,ORGANISM,Human alphaherpesvirus 1,7,4.32,4.8
+catechin,CHEMBL311498,CHEMBL1293224,Microtubule-associated protein tau,SINGLE PROTEIN,Homo sapiens,3,4.7,4.8
+catechin,CHEMBL311498,CHEMBL5619,DNA repair nuclease/redox regulator APEX1,SINGLE PROTEIN,Homo sapiens,1,4.8,4.8
+rutin,CHEMBL226335,CHEMBL2095204,Trypsin,PROTEIN FAMILY,Homo sapiens,2,4.78,4.8
+quercetin,CHEMBL50,CHEMBL3563,Cruzipain,SINGLE PROTEIN,Trypanosoma cruzi,4,4.7,4.8
+quercetin,CHEMBL50,CHEMBL1293234,Fructose-bisphosphate aldolase,SINGLE PROTEIN,Giardia intestinalis,1,4.8,4.8
+quercetin,CHEMBL50,CHEMBL614658,Adipocyte,CELL-LINE,-,1,4.8,4.8
+quercetin,CHEMBL50,CHEMBL3286066,"Solute carrier family 2, facilitated glucose transporter member 4",SINGLE PROTEIN,Rattus norvegicus,1,4.8,4.8
+quercetin,CHEMBL50,CHEMBL614530,BXPC-3,CELL-LINE,Homo sapiens,1,4.8,4.8
+quercetin,CHEMBL50,CHEMBL5542,DNA polymerase eta,SINGLE PROTEIN,Homo sapiens,1,4.8,4.8
+morin,CHEMBL28626,CHEMBL3468,Caspase-7,SINGLE PROTEIN,Homo sapiens,1,4.8,4.8
+morin,CHEMBL28626,CHEMBL2903,Polyunsaturated fatty acid lipoxygenase ALOX15,SINGLE PROTEIN,Homo sapiens,1,4.8,4.8
+kaempferol,CHEMBL150,CHEMBL1293226,Lysine-specific demethylase 4E,SINGLE PROTEIN,Homo sapiens,2,4.6,4.8
+kaempferol,CHEMBL150,CHEMBL4159,3-hydroxyacyl-CoA dehydrogenase type-2,SINGLE PROTEIN,Homo sapiens,2,4.8,4.8
+kaempferol,CHEMBL150,CHEMBL614245,THP-1,CELL-LINE,Homo sapiens,1,4.8,4.8
+bis(2-ethylhexyl) phthalate,CHEMBL1242017,CHEMBL340,Cytochrome P450 3A4,SINGLE PROTEIN,Homo sapiens,2,4.8,4.8
+caffeine,CHEMBL113,CHEMBL1293231,Nuclear receptor ROR-gamma,SINGLE PROTEIN,Mus musculus,1,4.8,4.8
+p-coumaric acid,CHEMBL66879,CHEMBL206,Estrogen receptor,SINGLE PROTEIN,Homo sapiens,1,4.79,4.79
+quercetin,CHEMBL50,CHEMBL613419,Liver,TISSUE,Homo sapiens,1,4.79,4.79
+quercetin,CHEMBL50,CHEMBL3464,"Nitric oxide synthase, inducible",SINGLE PROTEIN,Mus musculus,1,4.79,4.79
+quercetin,CHEMBL50,CHEMBL612263,HCT-15,CELL-LINE,Homo sapiens,1,4.79,4.79
+morin,CHEMBL28626,CHEMBL364,Plasmodium falciparum,ORGANISM,Plasmodium falciparum,1,4.79,4.79
+myricetin,CHEMBL164,CHEMBL361,Saccharomyces cerevisiae,ORGANISM,Saccharomyces cerevisiae,1,4.79,4.79
+caffeic acid,CHEMBL145,CHEMBL4822,Beta-secretase 1,SINGLE PROTEIN,Homo sapiens,1,4.78,4.78
+myricetin,CHEMBL164,CHEMBL2842,Serine/threonine-protein kinase mTOR,SINGLE PROTEIN,Homo sapiens,2,4.71,4.78
+epigallocatechin gallate,CHEMBL297453,CHEMBL1075522,NCI-H1703,CELL-LINE,Homo sapiens,1,4.77,4.77
+beta-carotene,CHEMBL1293,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,1,4.77,4.77
+caffeine,CHEMBL113,CHEMBL318,Adenosine receptor A1,SINGLE PROTEIN,Rattus norvegicus,36,4.39,4.77
+gallic acid,CHEMBL288114,CHEMBL387,MCF7,CELL-LINE,Homo sapiens,1,4.76,4.76
+morin,CHEMBL28626,CHEMBL2094117,Adenosine A2 receptor,PROTEIN FAMILY,Rattus norvegicus,1,4.76,4.76
+myricetin,CHEMBL164,CHEMBL1741179,DNA dC->dU-editing enzyme APOBEC-3A,SINGLE PROTEIN,Homo sapiens,1,4.76,4.76
+epigallocatechin gallate,CHEMBL297453,CHEMBL2093861,Menin/Histone-lysine N-methyltransferase MLL,PROTEIN-PROTEIN INTERACTION,Homo sapiens,1,4.75,4.75
+epigallocatechin gallate,CHEMBL297453,CHEMBL614247,U-87 MG,CELL-LINE,Homo sapiens,1,4.75,4.75
+epigallocatechin gallate,CHEMBL297453,CHEMBL396,NCI-H460,CELL-LINE,Homo sapiens,1,4.75,4.75
+quercetin,CHEMBL50,CHEMBL613979,HUVEC,CELL-LINE,Homo sapiens,1,4.75,4.75
+quercetin,CHEMBL50,CHEMBL384,HT-29,CELL-LINE,Homo sapiens,1,4.75,4.75
+morin,CHEMBL28626,CHEMBL1075239,Solute carrier family 22 member 12,SINGLE PROTEIN,Rattus norvegicus,1,4.75,4.75
+kaempferol,CHEMBL150,CHEMBL2331065,Alpha-ketoglutarate-dependent dioxygenase FTO,SINGLE PROTEIN,Homo sapiens,1,4.75,4.75
+quercitrin,CHEMBL82242,CHEMBL1951,Amine oxidase [flavin-containing] A,SINGLE PROTEIN,Homo sapiens,1,4.75,4.75
+stigmasterol,CHEMBL400247,CHEMBL390,PC-3,CELL-LINE,Homo sapiens,1,4.74,4.74
+quercetin,CHEMBL50,CHEMBL614657,C6,CELL-LINE,Rattus norvegicus,1,4.74,4.74
+morin,CHEMBL28626,CHEMBL361,Saccharomyces cerevisiae,ORGANISM,Saccharomyces cerevisiae,1,4.74,4.74
+oleanolic acid,CHEMBL168,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,6,4.25,4.73
+quercetin,CHEMBL50,CHEMBL1293227,Ubiquitin carboxyl-terminal hydrolase 2,SINGLE PROTEIN,Homo sapiens,2,4.62,4.73
+quercetin,CHEMBL50,CHEMBL289,Cytochrome P450 2D6,SINGLE PROTEIN,Homo sapiens,3,4.5,4.73
+morin,CHEMBL28626,CHEMBL1293227,Ubiquitin carboxyl-terminal hydrolase 2,SINGLE PROTEIN,Homo sapiens,1,4.73,4.73
+myricetin,CHEMBL164,CHEMBL3399911,Cystathionine beta-synthase,SINGLE PROTEIN,Homo sapiens,1,4.73,4.73
+kaempferol,CHEMBL150,CHEMBL613740,Influenza A virus,ORGANISM,Influenza A virus,2,4.62,4.73
+caffeine,CHEMBL113,CHEMBL3714531,Palmitoleoyl-protein carboxylesterase NOTUM,SINGLE PROTEIN,Homo sapiens,6,4.34,4.73
+beta-sitosterol,CHEMBL221542,CHEMBL2362975,No relevant target,NO TARGET,-,1,4.72,4.72
+gallic acid,CHEMBL288114,CHEMBL5378,P-selectin,SINGLE PROTEIN,Homo sapiens,1,4.72,4.72
+gallic acid,CHEMBL288114,CHEMBL612942,Microcystis aeruginosa,ORGANISM,Microcystis aeruginosa,1,4.72,4.72
+quercetin,CHEMBL50,CHEMBL4523567,COLO 201,CELL-LINE,Homo sapiens,1,4.72,4.72
+morin,CHEMBL28626,CHEMBL5362,Sortase A,SINGLE PROTEIN,Staphylococcus aureus,4,4.43,4.72
+myricetin,CHEMBL164,CHEMBL612557,RAW264.7,CELL-LINE,Mus musculus,3,4.71,4.72
+quercetin,CHEMBL50,CHEMBL1833,5-hydroxytryptamine receptor 2B,SINGLE PROTEIN,Homo sapiens,1,4.71,4.71
+sparteine,CHEMBL1908847,CHEMBL613740,Influenza A virus,ORGANISM,Influenza A virus,1,4.71,4.71
+caffeine,CHEMBL113,CHEMBL4644,Melanocortin receptor 3,SINGLE PROTEIN,Homo sapiens,1,4.71,4.71
+gallic acid,CHEMBL288114,CHEMBL4695,Fructose-bisphosphate aldolase A,SINGLE PROTEIN,Oryctolagus cuniculus,1,4.7,4.7
+chlorogenic acid,CHEMBL284616,CHEMBL613712,Radical scavenging activity,UNKNOWN,-,3,4.4,4.7
+ellagic acid,CHEMBL6246,CHEMBL4040,Mitogen-activated protein kinase 1,SINGLE PROTEIN,Homo sapiens,1,4.7,4.7
+ellagic acid,CHEMBL6246,CHEMBL3797,Serine-protein kinase ATM,SINGLE PROTEIN,Homo sapiens,1,4.7,4.7
+epigallocatechin gallate,CHEMBL297453,CHEMBL378,Human immunodeficiency virus 1,ORGANISM,Human immunodeficiency virus 1,1,4.7,4.7
+epigallocatechin gallate,CHEMBL297453,CHEMBL2288,Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1,SINGLE PROTEIN,Homo sapiens,1,4.7,4.7
+epigallocatechin gallate,CHEMBL297453,CHEMBL379,Hepatitis C virus,ORGANISM,Hepacivirus hominis,1,4.7,4.7
+quercetin,CHEMBL50,CHEMBL1907602,Cyclin-dependent kinase 1/cyclin B1,PROTEIN COMPLEX,Homo sapiens,1,4.7,4.7
+quercetin,CHEMBL50,CHEMBL1857,Enoyl-[acyl-carrier-protein] reductase [NADH] FabI,SINGLE PROTEIN,Escherichia coli K-12,1,4.7,4.7
+quercetin,CHEMBL50,CHEMBL612267,L929,CELL-LINE,Mus musculus,2,4.64,4.7
+quercetin,CHEMBL50,CHEMBL2756,Amine oxidase [flavin-containing] B,SINGLE PROTEIN,Bos taurus,1,4.7,4.7
+quercetin,CHEMBL50,CHEMBL5619,DNA repair nuclease/redox regulator APEX1,SINGLE PROTEIN,Homo sapiens,1,4.7,4.7
+quercetin,CHEMBL50,CHEMBL379,Hepatitis C virus,ORGANISM,Hepacivirus hominis,1,4.7,4.7
+quercetin,CHEMBL50,CHEMBL2599,Tyrosine-protein kinase SYK,SINGLE PROTEIN,Homo sapiens,2,4.58,4.7
+quercetin,CHEMBL50,CHEMBL1956,D-alanine--D-alanine ligase B,SINGLE PROTEIN,Escherichia coli K-12,1,4.7,4.7
+quercetin,CHEMBL50,CHEMBL400,MDA-MB-231,CELL-LINE,Homo sapiens,1,4.7,4.7
+quercetin,CHEMBL50,CHEMBL6152,Alpha-synuclein,SINGLE PROTEIN,Homo sapiens,1,4.7,4.7
+morin,CHEMBL28626,CHEMBL5149,Pyruvate kinase,SINGLE PROTEIN,Leishmania mexicana,2,4.7,4.7
+morin,CHEMBL28626,CHEMBL3577,Aldehyde dehydrogenase 1A1,SINGLE PROTEIN,Homo sapiens,1,4.7,4.7
+morin,CHEMBL28626,CHEMBL1293237,RecQ-like DNA helicase BLM,SINGLE PROTEIN,Homo sapiens,2,4.7,4.7
+myricetin,CHEMBL164,CHEMBL289,Cytochrome P450 2D6,SINGLE PROTEIN,Homo sapiens,2,4.7,4.7
+kaempferol,CHEMBL150,CHEMBL4150,Enoyl-acyl-carrier protein reductase,SINGLE PROTEIN,Plasmodium falciparum,1,4.7,4.7
+kaempferol,CHEMBL150,CHEMBL612267,L929,CELL-LINE,Mus musculus,2,4.65,4.7
+kaempferol,CHEMBL150,CHEMBL381,B16,CELL-LINE,Mus musculus,2,4.48,4.7
+quercitrin,CHEMBL82242,CHEMBL1287622,Lethal(3)malignant brain tumor-like protein 1,SINGLE PROTEIN,Homo sapiens,1,4.7,4.7
+epigallocatechin gallate,CHEMBL297453,CHEMBL612255,NCI-H1299,CELL-LINE,Homo sapiens,1,4.69,4.69
+kaempferol,CHEMBL150,CHEMBL2424,Lactoylglutathione lyase,SINGLE PROTEIN,Homo sapiens,1,4.69,4.69
+ellagic acid,CHEMBL6246,CHEMBL2409,Bifunctional epoxide hydrolase 2,SINGLE PROTEIN,Homo sapiens,1,4.68,4.68
+epigallocatechin gallate,CHEMBL297453,CHEMBL3746,11-beta-hydroxysteroid dehydrogenase type 2,SINGLE PROTEIN,Homo sapiens,1,4.68,4.68
+quercetin,CHEMBL50,CHEMBL1743128,ATP-binding cassette sub-family C member 4,SINGLE PROTEIN,Homo sapiens,1,4.68,4.68
+morin,CHEMBL28626,CHEMBL5393,Broad substrate specificity ATP-binding cassette transporter ABCG2,SINGLE PROTEIN,Homo sapiens,2,4.49,4.68
+beta-carotene,CHEMBL1293,CHEMBL234,D(3) dopamine receptor,SINGLE PROTEIN,Homo sapiens,1,4.68,4.68
+sparteine,CHEMBL1908847,CHEMBL612545,Unchecked,UNCHECKED,-,1,4.68,4.68
+oleanolic acid,CHEMBL168,CHEMBL4903,Low molecular weight phosphotyrosine protein phosphatase,SINGLE PROTEIN,Homo sapiens,4,4.65,4.67
+stigmasterol,CHEMBL400247,CHEMBL387,MCF7,CELL-LINE,Homo sapiens,1,4.67,4.67
+epigallocatechin gallate,CHEMBL297453,CHEMBL4073,Matrilysin,SINGLE PROTEIN,Homo sapiens,1,4.67,4.67
+quercetin,CHEMBL50,CHEMBL2478,Alpha-amylase 1A,SINGLE PROTEIN,Homo sapiens,1,4.67,4.67
+quercetin,CHEMBL50,CHEMBL612818,2008,CELL-LINE,Homo sapiens,1,4.67,4.67
+myricetin,CHEMBL164,CHEMBL5748,ATP-binding cassette sub-family C member 2,SINGLE PROTEIN,Homo sapiens,1,4.66,4.66
+kaempferol,CHEMBL150,CHEMBL2508,Cyclin-dependent kinase 6,SINGLE PROTEIN,Homo sapiens,2,4.66,4.66
+ascorbic acid,CHEMBL196,CHEMBL612545,Unchecked,UNCHECKED,-,3,4.58,4.66
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL2409,Bifunctional epoxide hydrolase 2,SINGLE PROTEIN,Homo sapiens,1,4.66,4.66
+gallic acid,CHEMBL288114,CHEMBL4040,Mitogen-activated protein kinase 1,SINGLE PROTEIN,Homo sapiens,2,4.62,4.65
+p-coumaric acid,CHEMBL66879,CHEMBL1075189,Pyruvate kinase PKM,SINGLE PROTEIN,Homo sapiens,1,4.65,4.65
+catechin,CHEMBL311498,CHEMBL256,Adenosine receptor A3,SINGLE PROTEIN,Homo sapiens,1,4.65,4.65
+rutin,CHEMBL226335,CHEMBL1293234,Fructose-bisphosphate aldolase,SINGLE PROTEIN,Giardia intestinalis,1,4.65,4.65
+quercetin,CHEMBL50,CHEMBL1293299,Histone-lysine N-methyltransferase 2A,SINGLE PROTEIN,Homo sapiens,1,4.65,4.65
+quercetin,CHEMBL50,CHEMBL1741201,Hexokinase,SINGLE PROTEIN,Trypanosoma brucei,1,4.65,4.65
+bis(2-ethylhexyl) phthalate,CHEMBL1242017,CHEMBL3577,Aldehyde dehydrogenase 1A1,SINGLE PROTEIN,Homo sapiens,1,4.65,4.65
+stigmasterol,CHEMBL400247,CHEMBL613508,DU-145,CELL-LINE,Homo sapiens,1,4.64,4.64
+ellagic acid,CHEMBL6246,CHEMBL2755,"Glutathione reductase, mitochondrial",SINGLE PROTEIN,Homo sapiens,1,4.64,4.64
+quercetin,CHEMBL50,CHEMBL1907600,Cyclin-dependent kinase 5/CDK5 activator 1,PROTEIN COMPLEX,Homo sapiens,1,4.64,4.64
+quercetin,CHEMBL50,CHEMBL614069,A-431,CELL-LINE,Homo sapiens,2,4.55,4.64
+quercetin,CHEMBL50,CHEMBL614247,U-87 MG,CELL-LINE,Homo sapiens,1,4.64,4.64
+myricetin,CHEMBL164,CHEMBL2558,Death-associated protein kinase 1,SINGLE PROTEIN,Homo sapiens,1,4.64,4.64
+kaempferol,CHEMBL150,CHEMBL235,Peroxisome proliferator-activated receptor gamma,SINGLE PROTEIN,Homo sapiens,1,4.64,4.64
+caffeine,CHEMBL113,CHEMBL2237,Adenosine receptor A2b,SINGLE PROTEIN,Mus musculus,1,4.64,4.64
+epigallocatechin gallate,CHEMBL297453,CHEMBL2366315,U-266,CELL-LINE,Homo sapiens,1,4.63,4.63
+quercetin,CHEMBL50,CHEMBL335,Tyrosine-protein phosphatase non-receptor type 1,SINGLE PROTEIN,Homo sapiens,2,4.63,4.63
+oleanolic acid,CHEMBL168,CHEMBL364,Plasmodium falciparum,ORGANISM,Plasmodium falciparum,2,4.6,4.62
+epigallocatechin gallate,CHEMBL297453,CHEMBL614316,HT-22,CELL-LINE,Mus musculus,1,4.62,4.62
+catechin,CHEMBL311498,CHEMBL2362975,No relevant target,NO TARGET,-,1,4.62,4.62
+rutin,CHEMBL226335,CHEMBL614781,BV-2,CELL-LINE,Mus musculus,1,4.62,4.62
+epigallocatechin gallate,CHEMBL297453,CHEMBL1075518,NCI-H1650,CELL-LINE,Homo sapiens,1,4.61,4.61
+rutin,CHEMBL226335,CHEMBL2409,Bifunctional epoxide hydrolase 2,SINGLE PROTEIN,Homo sapiens,1,4.61,4.61
+quercetin,CHEMBL50,CHEMBL613606,Aorta,TISSUE,Rattus norvegicus,2,4.61,4.61
+myricetin,CHEMBL164,CHEMBL4660,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,SINGLE PROTEIN,Homo sapiens,1,4.61,4.61
+caffeic acid,CHEMBL145,CHEMBL1293285,Endonuclease 4,SINGLE PROTEIN,Escherichia coli K-12,1,4.6,4.6
+caffeic acid,CHEMBL145,CHEMBL340,Cytochrome P450 3A4,SINGLE PROTEIN,Homo sapiens,2,4.6,4.6
+ellagic acid,CHEMBL6246,CHEMBL1947,Thyroid hormone receptor beta,SINGLE PROTEIN,Homo sapiens,2,4.5,4.6
+ellagic acid,CHEMBL6246,CHEMBL5406,Histone-arginine methyltransferase CARM1,SINGLE PROTEIN,Homo sapiens,1,4.6,4.6
+rutin,CHEMBL226335,CHEMBL6110,Thioredoxin glutathione reductase,SINGLE PROTEIN,Schistosoma mansoni,1,4.6,4.6
+quercetin,CHEMBL50,CHEMBL2508,Cyclin-dependent kinase 6,SINGLE PROTEIN,Homo sapiens,2,4.6,4.6
+quercetin,CHEMBL50,CHEMBL612518,LNCaP,CELL-LINE,Homo sapiens,5,4.34,4.6
+quercetin,CHEMBL50,CHEMBL614614,Dolichospermum flos-aquae,ORGANISM,Dolichospermum flos-aquae,1,4.6,4.6
+quercetin,CHEMBL50,CHEMBL1075138,Tyrosyl-DNA phosphodiesterase 1,SINGLE PROTEIN,Homo sapiens,2,4.57,4.6
+quercetin,CHEMBL50,CHEMBL613859,A-375,CELL-LINE,Homo sapiens,1,4.6,4.6
+morin,CHEMBL28626,CHEMBL1293226,Lysine-specific demethylase 4E,SINGLE PROTEIN,Homo sapiens,4,4.5,4.6
+butylated hydroxytoluene,CHEMBL146,CHEMBL613694,Liver microsomes,SUBCELLULAR,Rattus norvegicus,1,4.6,4.6
+isopropyl palmitate,CHEMBL139055,CHEMBL1293235,Prelamin-A/C,SINGLE PROTEIN,Homo sapiens,1,4.6,4.6
+quercitrin,CHEMBL82242,CHEMBL4523,Serine/threonine-protein kinase pim-2,SINGLE PROTEIN,Homo sapiens,1,4.6,4.6
+catechin,CHEMBL311498,CHEMBL1945,Melatonin receptor type 1A,SINGLE PROTEIN,Homo sapiens,2,4.59,4.59
+quercetin,CHEMBL50,CHEMBL4051,Cystic fibrosis transmembrane conductance regulator,SINGLE PROTEIN,Homo sapiens,1,4.59,4.59
+quercetin,CHEMBL50,CHEMBL612851,Trypanosoma brucei brucei,ORGANISM,Trypanosoma brucei brucei,1,4.59,4.59
+daucosterol,CHEMBL506678,CHEMBL2392,DNA polymerase beta,SINGLE PROTEIN,Homo sapiens,1,4.58,4.58
+beta-sitosterol,CHEMBL221542,CHEMBL2392,DNA polymerase beta,SINGLE PROTEIN,Homo sapiens,1,4.58,4.58
+catechin,CHEMBL311498,CHEMBL614781,BV-2,CELL-LINE,Mus musculus,1,4.58,4.58
+quercetin,CHEMBL50,CHEMBL235,Peroxisome proliferator-activated receptor gamma,SINGLE PROTEIN,Homo sapiens,1,4.58,4.58
+ascorbic acid,CHEMBL196,CHEMBL2699,Pancreatic alpha-amylase,SINGLE PROTEIN,Rattus norvegicus,2,4.47,4.58
+caffeic acid,CHEMBL145,CHEMBL384,HT-29,CELL-LINE,Homo sapiens,1,4.57,4.57
+morin,CHEMBL28626,CHEMBL4523939,Sortase A,SINGLE PROTEIN,Streptococcus mutans,2,4.57,4.57
+myricetin,CHEMBL164,CHEMBL1743124,Solute carrier organic anion transporter family member 2B1,SINGLE PROTEIN,Homo sapiens,2,4.57,4.57
+caffeine,CHEMBL113,CHEMBL2094117,Adenosine A2 receptor,PROTEIN FAMILY,Rattus norvegicus,13,4.43,4.57
+gallic acid,CHEMBL288114,CHEMBL3161,L-selectin,SINGLE PROTEIN,Homo sapiens,1,4.56,4.56
+ellagic acid,CHEMBL6246,CHEMBL400,MDA-MB-231,CELL-LINE,Homo sapiens,1,4.56,4.56
+kaempferol,CHEMBL150,CHEMBL612877,Leishmania amazonensis,ORGANISM,Leishmania amazonensis,1,4.56,4.56
+catechin,CHEMBL311498,CHEMBL1293236,ATP-dependent DNA helicase Q1,SINGLE PROTEIN,Homo sapiens,1,4.55,4.55
+catechin,CHEMBL311498,CHEMBL3577,Aldehyde dehydrogenase 1A1,SINGLE PROTEIN,Homo sapiens,1,4.55,4.55
+catechin,CHEMBL311498,CHEMBL1293237,RecQ-like DNA helicase BLM,SINGLE PROTEIN,Homo sapiens,2,4.55,4.55
+rutin,CHEMBL226335,CHEMBL1293224,Microtubule-associated protein tau,SINGLE PROTEIN,Homo sapiens,1,4.55,4.55
+quercetin,CHEMBL50,CHEMBL614071,HFF,CELL-LINE,Homo sapiens,3,4.34,4.55
+quercetin,CHEMBL50,CHEMBL1293237,RecQ-like DNA helicase BLM,SINGLE PROTEIN,Homo sapiens,4,4.55,4.55
+morin,CHEMBL28626,CHEMBL2599,Tyrosine-protein kinase SYK,SINGLE PROTEIN,Homo sapiens,1,4.55,4.55
+kaempferol,CHEMBL150,CHEMBL1293255,15-hydroxyprostaglandin dehydrogenase [NAD(+)],SINGLE PROTEIN,Homo sapiens,1,4.55,4.55
+butylated hydroxytoluene,CHEMBL146,CHEMBL3577,Aldehyde dehydrogenase 1A1,SINGLE PROTEIN,Homo sapiens,1,4.55,4.55
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL1293235,Prelamin-A/C,SINGLE PROTEIN,Homo sapiens,1,4.55,4.55
+oleanolic acid,CHEMBL168,CHEMBL4296430,HL60/ADR,CELL-LINE,Homo sapiens,1,4.54,4.54
+beta-sitosterol,CHEMBL221542,CHEMBL284,Dipeptidyl peptidase 4,SINGLE PROTEIN,Homo sapiens,1,4.54,4.54
+epigallocatechin gallate,CHEMBL297453,CHEMBL392,A549,CELL-LINE,Homo sapiens,1,4.54,4.54
+quercetin,CHEMBL50,CHEMBL613638,Kidney,TISSUE,Rattus norvegicus,1,4.54,4.54
+kaempferol,CHEMBL150,CHEMBL5314330,Peritoneal macrophage,CELL-LINE,Mus musculus,1,4.54,4.54
+caffeine,CHEMBL113,CHEMBL4975,Adenosine receptor A1,SINGLE PROTEIN,Bos taurus,1,4.54,4.54
+caffeic acid,CHEMBL145,CHEMBL394,HCT-116,CELL-LINE,Homo sapiens,1,4.53,4.53
+epigallocatechin gallate,CHEMBL297453,CHEMBL612557,RAW264.7,CELL-LINE,Mus musculus,1,4.53,4.53
+kaempferol,CHEMBL150,CHEMBL612558,ADMET,ADMET,-,1,4.53,4.53
+beta-carotene,CHEMBL1293,CHEMBL1293305,Genome polyprotein,SINGLE PROTEIN,Hepatitis C virus,1,4.53,4.53
+epigallocatechin gallate,CHEMBL297453,CHEMBL3784,Histone acetyltransferase p300,SINGLE PROTEIN,Homo sapiens,2,4.52,4.52
+quercetin,CHEMBL50,CHEMBL612878,Leishmania braziliensis,ORGANISM,Leishmania braziliensis,1,4.52,4.52
+morin,CHEMBL28626,CHEMBL2424,Lactoylglutathione lyase,SINGLE PROTEIN,Homo sapiens,1,4.52,4.52
+myricetin,CHEMBL164,CHEMBL2478,Alpha-amylase 1A,SINGLE PROTEIN,Homo sapiens,1,4.52,4.52
+myricetin,CHEMBL164,CHEMBL4295843,Dihydroorotate dehydrogenase (fumarate),SINGLE PROTEIN,Leishmania major,2,4.51,4.52
+kaempferol,CHEMBL150,CHEMBL364,Plasmodium falciparum,ORGANISM,Plasmodium falciparum,1,4.52,4.52
+caffeine,CHEMBL113,CHEMBL2094257,Adenosine A2 receptor,PROTEIN FAMILY,Homo sapiens,1,4.52,4.52
+caffeine,CHEMBL113,CHEMBL2592,Adenosine receptor A2b,SINGLE PROTEIN,Rattus norvegicus,1,4.52,4.52
+caffeic acid,CHEMBL145,CHEMBL367,Leishmania donovani,ORGANISM,Leishmania donovani,1,4.51,4.51
+epigallocatechin gallate,CHEMBL297453,CHEMBL614917,SK-MEL-2,CELL-LINE,Homo sapiens,1,4.51,4.51
+rutin,CHEMBL226335,CHEMBL5189,Sialidase,SINGLE PROTEIN,Clostridium perfringens,1,4.51,4.51
+quercetin,CHEMBL50,CHEMBL3318,Tyrosinase,SINGLE PROTEIN,Agaricus bisporus,1,4.51,4.51
+morin,CHEMBL28626,CHEMBL612558,ADMET,ADMET,-,1,4.51,4.51
+oleanolic acid,CHEMBL168,CHEMBL399,HeLa,CELL-LINE,Homo sapiens,1,4.5,4.5
+daucosterol,CHEMBL506678,CHEMBL5362,Sortase A,SINGLE PROTEIN,Staphylococcus aureus,2,4.5,4.5
+gallic acid,CHEMBL288114,CHEMBL614696,Lymphoblastoid cell,CELL-LINE,Homo sapiens,5,4.3,4.5
+chlorogenic acid,CHEMBL284616,CHEMBL3471,Human immunodeficiency virus type 1 integrase,SINGLE PROTEIN,Human immunodeficiency virus 1,6,4.29,4.5
+caffeic acid,CHEMBL145,CHEMBL1900,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Homo sapiens,1,4.5,4.5
+ellagic acid,CHEMBL6246,CHEMBL3622,Cytochrome P450 2C19,SINGLE PROTEIN,Homo sapiens,1,4.5,4.5
+catechin,CHEMBL311498,CHEMBL5162,Neuropeptide S receptor,SINGLE PROTEIN,Homo sapiens,1,4.5,4.5
+quercetin,CHEMBL50,CHEMBL4040,Mitogen-activated protein kinase 1,SINGLE PROTEIN,Homo sapiens,2,4.45,4.5
+morin,CHEMBL28626,CHEMBL3471,Human immunodeficiency virus type 1 integrase,SINGLE PROTEIN,Human immunodeficiency virus 1,2,4.31,4.5
+morin,CHEMBL28626,CHEMBL1293255,15-hydroxyprostaglandin dehydrogenase [NAD(+)],SINGLE PROTEIN,Homo sapiens,2,4.47,4.5
+morin,CHEMBL28626,CHEMBL340,Cytochrome P450 3A4,SINGLE PROTEIN,Homo sapiens,2,4.5,4.5
+myricetin,CHEMBL164,CHEMBL1293299,Histone-lysine N-methyltransferase 2A,SINGLE PROTEIN,Homo sapiens,1,4.5,4.5
+myricetin,CHEMBL164,CHEMBL5567,Luciferin 4-monooxygenase,SINGLE PROTEIN,Photinus pyralis,1,4.5,4.5
+kaempferol,CHEMBL150,CHEMBL3577,Aldehyde dehydrogenase 1A1,SINGLE PROTEIN,Homo sapiens,2,4.45,4.5
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL1293224,Microtubule-associated protein tau,SINGLE PROTEIN,Homo sapiens,1,4.5,4.5
+quercetin,CHEMBL50,CHEMBL614520,ANN-1,CELL-LINE,Mus musculus,1,4.49,4.49
+myricetin,CHEMBL164,CHEMBL3402,"Alkaline phosphatase, germ cell type",SINGLE PROTEIN,Homo sapiens,1,4.49,4.49
+kaempferol,CHEMBL150,CHEMBL612348,Trypanosoma brucei rhodesiense,ORGANISM,Trypanosoma brucei rhodesiense,1,4.49,4.49
+ascorbic acid,CHEMBL196,CHEMBL1973,Tyrosinase,SINGLE PROTEIN,Homo sapiens,1,4.49,4.49
+anabasine,CHEMBL1526229,CHEMBL5282,Cytochrome P450 2A6,SINGLE PROTEIN,Homo sapiens,1,4.49,4.49
+gallic acid,CHEMBL288114,CHEMBL614614,Dolichospermum flos-aquae,ORGANISM,Dolichospermum flos-aquae,1,4.48,4.48
+epigallocatechin gallate,CHEMBL297453,CHEMBL614530,BXPC-3,CELL-LINE,Homo sapiens,1,4.48,4.48
+myricetin,CHEMBL164,CHEMBL5979,"Alkaline phosphatase, tissue-nonspecific isozyme",SINGLE PROTEIN,Homo sapiens,1,4.48,4.48
+quercitrin,CHEMBL82242,CHEMBL1075270,Aldo-keto reductase family 1 member C21,SINGLE PROTEIN,Mus musculus,1,4.48,4.48
+caffeic acid,CHEMBL145,CHEMBL614910,SH-SY5Y,CELL-LINE,Homo sapiens,1,4.47,4.47
+epigallocatechin gallate,CHEMBL297453,CHEMBL218,Cannabinoid receptor 1,SINGLE PROTEIN,Homo sapiens,2,4.47,4.47
+rutin,CHEMBL226335,CHEMBL6135,Neuraminidase,SINGLE PROTEIN,Influenza A virus,4,4.37,4.47
+quercetin,CHEMBL50,CHEMBL2409,Bifunctional epoxide hydrolase 2,SINGLE PROTEIN,Homo sapiens,1,4.47,4.47
+quercetin,CHEMBL50,CHEMBL3007,Sulfotransferase 2A1,SINGLE PROTEIN,Rattus norvegicus,1,4.47,4.47
+morin,CHEMBL28626,CHEMBL256,Adenosine receptor A3,SINGLE PROTEIN,Homo sapiens,1,4.47,4.47
+myricetin,CHEMBL164,CHEMBL3286066,"Solute carrier family 2, facilitated glucose transporter member 4",SINGLE PROTEIN,Rattus norvegicus,1,4.47,4.47
+kaempferol,CHEMBL150,CHEMBL3007,Sulfotransferase 2A1,SINGLE PROTEIN,Rattus norvegicus,1,4.47,4.47
+caffeic acid,CHEMBL145,CHEMBL3513,Lysosomal alpha-glucosidase,SINGLE PROTEIN,Rattus norvegicus,1,4.46,4.46
+catechin,CHEMBL311498,CHEMBL4822,Beta-secretase 1,SINGLE PROTEIN,Homo sapiens,1,4.46,4.46
+quercetin,CHEMBL50,CHEMBL5624,Cytosol aminopeptidase,SINGLE PROTEIN,Sus scrofa,1,4.46,4.46
+myricetin,CHEMBL164,CHEMBL378,Human immunodeficiency virus 1,ORGANISM,Human immunodeficiency virus 1,1,4.46,4.46
+oleanolic acid,CHEMBL168,CHEMBL614040,J774.A1,CELL-LINE,Mus musculus,1,4.45,4.45
+caffeic acid,CHEMBL145,CHEMBL5619,DNA repair nuclease/redox regulator APEX1,SINGLE PROTEIN,Homo sapiens,1,4.45,4.45
+syringic acid,CHEMBL1414,CHEMBL3969,"Carbonic anhydrase 5B, mitochondrial",SINGLE PROTEIN,Homo sapiens,1,4.45,4.45
+ellagic acid,CHEMBL6246,CHEMBL1293231,Nuclear receptor ROR-gamma,SINGLE PROTEIN,Mus musculus,1,4.45,4.45
+ellagic acid,CHEMBL6246,CHEMBL612557,RAW264.7,CELL-LINE,Mus musculus,1,4.45,4.45
+catechin,CHEMBL311498,CHEMBL1293232,Survival motor neuron protein,SINGLE PROTEIN,Homo sapiens,1,4.45,4.45
+quercetin,CHEMBL50,CHEMBL2275,Sorbitol dehydrogenase,SINGLE PROTEIN,Homo sapiens,1,4.45,4.45
+quercetin,CHEMBL50,CHEMBL1293232,Survival motor neuron protein,SINGLE PROTEIN,Homo sapiens,1,4.45,4.45
+morin,CHEMBL28626,CHEMBL1293299,Histone-lysine N-methyltransferase 2A,SINGLE PROTEIN,Homo sapiens,1,4.45,4.45
+beta-carotene,CHEMBL1293,CHEMBL1293235,Prelamin-A/C,SINGLE PROTEIN,Homo sapiens,1,4.45,4.45
+beta-carotene,CHEMBL1293,CHEMBL3577,Aldehyde dehydrogenase 1A1,SINGLE PROTEIN,Homo sapiens,1,4.45,4.45
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL2524,Alpha-galactosidase A,SINGLE PROTEIN,Homo sapiens,1,4.45,4.45
+oleanolic acid,CHEMBL168,CHEMBL614361,T47D,CELL-LINE,Homo sapiens,1,4.44,4.44
+quercetin,CHEMBL50,CHEMBL5314330,Peritoneal macrophage,CELL-LINE,Mus musculus,1,4.44,4.44
+kaempferol,CHEMBL150,CHEMBL2728,Beta-glucuronidase,SINGLE PROTEIN,Homo sapiens,1,4.44,4.44
+catechin,CHEMBL311498,CHEMBL221,Prostaglandin G/H synthase 1,SINGLE PROTEIN,Homo sapiens,2,4.26,4.43
+quercetin,CHEMBL50,CHEMBL3779755,"NACHT, LRR and PYD domains-containing protein 3",SINGLE PROTEIN,Mus musculus,1,4.43,4.43
+myricetin,CHEMBL164,CHEMBL284,Dipeptidyl peptidase 4,SINGLE PROTEIN,Homo sapiens,1,4.43,4.43
+oleanolic acid,CHEMBL168,CHEMBL614335,MDA-MB-468,CELL-LINE,Homo sapiens,1,4.42,4.42
+epigallocatechin gallate,CHEMBL297453,CHEMBL614069,A-431,CELL-LINE,Homo sapiens,1,4.42,4.42
+epigallocatechin gallate,CHEMBL297453,CHEMBL4523567,COLO 201,CELL-LINE,Homo sapiens,1,4.42,4.42
+quercetin,CHEMBL50,CHEMBL4049,Aldo-keto reductase family 1 member A1,SINGLE PROTEIN,Sus scrofa,1,4.42,4.42
+quercetin,CHEMBL50,CHEMBL4660,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,SINGLE PROTEIN,Homo sapiens,1,4.42,4.42
+oleanolic acid,CHEMBL168,CHEMBL384,HT-29,CELL-LINE,Homo sapiens,4,4.41,4.41
+quercetin,CHEMBL50,CHEMBL2039,Amine oxidase [flavin-containing] B,SINGLE PROTEIN,Homo sapiens,3,4.05,4.41
+ascorbic acid,CHEMBL196,CHEMBL4296527,Brain,TISSUE,-,1,4.41,4.41
+oleanolic acid,CHEMBL168,CHEMBL375,Mus musculus,ORGANISM,Mus musculus,1,4.4,4.4
+gallic acid,CHEMBL288114,CHEMBL613853,CHO,CELL-LINE,Cricetulus griseus,1,4.4,4.4
+caffeic acid,CHEMBL145,CHEMBL3577,Aldehyde dehydrogenase 1A1,SINGLE PROTEIN,Homo sapiens,2,4.4,4.4
+caffeic acid,CHEMBL145,CHEMBL1293255,15-hydroxyprostaglandin dehydrogenase [NAD(+)],SINGLE PROTEIN,Homo sapiens,3,4.4,4.4
+ellagic acid,CHEMBL6246,CHEMBL5511,Dual specificity protein phosphatase 6,SINGLE PROTEIN,Rattus norvegicus,1,4.4,4.4
+ellagic acid,CHEMBL6246,CHEMBL3397,Cytochrome P450 2C9,SINGLE PROTEIN,Homo sapiens,1,4.4,4.4
+catechin,CHEMBL311498,CHEMBL4159,3-hydroxyacyl-CoA dehydrogenase type-2,SINGLE PROTEIN,Homo sapiens,1,4.4,4.4
+quercetin,CHEMBL50,CHEMBL614822,NIH3T3,CELL-LINE,Mus musculus,1,4.4,4.4
+quercetin,CHEMBL50,CHEMBL614647,WiDr,CELL-LINE,Homo sapiens,1,4.4,4.4
+quercetin,CHEMBL50,CHEMBL301,Cyclin-dependent kinase 2,SINGLE PROTEIN,Homo sapiens,1,4.4,4.4
+quercetin,CHEMBL50,CHEMBL1293248,4'-phosphopantetheinyl transferase ffp,SINGLE PROTEIN,Bacillus subtilis,4,4.25,4.4
+quercetin,CHEMBL50,CHEMBL4513132,RF/6A,CELL-LINE,Macaca mulatta,2,4.28,4.4
+morin,CHEMBL28626,CHEMBL4801,Caspase-1,SINGLE PROTEIN,Homo sapiens,1,4.4,4.4
+pyrogallol,CHEMBL307145,CHEMBL1293248,4'-phosphopantetheinyl transferase ffp,SINGLE PROTEIN,Bacillus subtilis,1,4.4,4.4
+mandelic acid,CHEMBL1609,CHEMBL2026,Beta-lactamase,SINGLE PROTEIN,Escherichia coli K-12,1,4.4,4.4
+anabasine,CHEMBL1526229,CHEMBL2093861,Menin/Histone-lysine N-methyltransferase MLL,PROTEIN-PROTEIN INTERACTION,Homo sapiens,1,4.4,4.4
+sparteine,CHEMBL1908847,CHEMBL2093861,Menin/Histone-lysine N-methyltransferase MLL,PROTEIN-PROTEIN INTERACTION,Homo sapiens,1,4.4,4.4
+diethyl phthalate,CHEMBL388558,CHEMBL1963,Thyrotropin receptor,SINGLE PROTEIN,Homo sapiens,2,4.4,4.4
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL4040,Mitogen-activated protein kinase 1,SINGLE PROTEIN,Homo sapiens,1,4.4,4.4
+kaempferol,CHEMBL150,CHEMBL2094127,Cyclin-dependent kinase 1/cyclin B,PROTEIN COMPLEX GROUP,Homo sapiens,1,4.39,4.39
+kaempferol,CHEMBL150,CHEMBL1743124,Solute carrier organic anion transporter family member 2B1,SINGLE PROTEIN,Homo sapiens,2,4.39,4.39
+oleanolic acid,CHEMBL168,CHEMBL612557,RAW264.7,CELL-LINE,Mus musculus,3,4.05,4.38
+oleanolic acid,CHEMBL168,CHEMBL2949,Prostaglandin G/H synthase 1,SINGLE PROTEIN,Ovis aries,1,4.38,4.38
+beta-sitosterol,CHEMBL221542,CHEMBL387,MCF7,CELL-LINE,Homo sapiens,1,4.38,4.38
+rutin,CHEMBL226335,CHEMBL3728,Albumin,SINGLE PROTEIN,Bos taurus,1,4.38,4.38
+quercetin,CHEMBL50,CHEMBL1293257,Galactokinase,SINGLE PROTEIN,Homo sapiens,1,4.38,4.38
+kaempferol,CHEMBL150,CHEMBL3559643,Neuraminidase,SINGLE PROTEIN,Influenza A virus (strain A/USSR/90/1977 H1N1),2,4.22,4.38
+caffeic acid,CHEMBL145,CHEMBL312,Polyunsaturated fatty acid 5-lipoxygenase,SINGLE PROTEIN,Rattus norvegicus,1,4.37,4.37
+epigallocatechin gallate,CHEMBL297453,CHEMBL253,Cannabinoid receptor 2,SINGLE PROTEIN,Homo sapiens,1,4.37,4.37
+kaempferol,CHEMBL150,CHEMBL1914,Cholinesterase,SINGLE PROTEIN,Homo sapiens,1,4.37,4.37
+stigmasterol,CHEMBL400247,CHEMBL2392,DNA polymerase beta,SINGLE PROTEIN,Homo sapiens,2,4.29,4.36
+myricetin,CHEMBL164,CHEMBL5362,Sortase A,SINGLE PROTEIN,Staphylococcus aureus,1,4.36,4.36
+butylated hydroxyanisole,CHEMBL192451,CHEMBL2362975,No relevant target,NO TARGET,-,1,4.36,4.36
+caffeic acid,CHEMBL145,CHEMBL6110,Thioredoxin glutathione reductase,SINGLE PROTEIN,Schistosoma mansoni,1,4.35,4.35
+ellagic acid,CHEMBL6246,CHEMBL2093861,Menin/Histone-lysine N-methyltransferase MLL,PROTEIN-PROTEIN INTERACTION,Homo sapiens,2,3.77,4.35
+quercetin,CHEMBL50,CHEMBL1947,Thyroid hormone receptor beta,SINGLE PROTEIN,Homo sapiens,1,4.35,4.35
+quercetin,CHEMBL50,CHEMBL1973,Tyrosinase,SINGLE PROTEIN,Homo sapiens,1,4.35,4.35
+myricetin,CHEMBL164,CHEMBL2026,Beta-lactamase,SINGLE PROTEIN,Escherichia coli K-12,1,4.35,4.35
+quercitrin,CHEMBL82242,CHEMBL614614,Dolichospermum flos-aquae,ORGANISM,Dolichospermum flos-aquae,1,4.35,4.35
+quercetin,CHEMBL50,CHEMBL5957,5'-nucleotidase,SINGLE PROTEIN,Homo sapiens,1,4.34,4.34
+beta-sitosterol,CHEMBL221542,CHEMBL399,HeLa,CELL-LINE,Homo sapiens,1,4.33,4.33
+catechin,CHEMBL311498,CHEMBL1946,Melatonin receptor type 1B,SINGLE PROTEIN,Homo sapiens,2,4.33,4.33
+myricetin,CHEMBL164,CHEMBL6135,Neuraminidase,SINGLE PROTEIN,Influenza A virus,3,4.12,4.33
+myricetin,CHEMBL164,CHEMBL379,Hepatitis C virus,ORGANISM,Hepacivirus hominis,1,4.33,4.33
+quercetin,CHEMBL50,CHEMBL1293298,Peripheral myelin protein 22,SINGLE PROTEIN,Homo sapiens,1,4.32,4.32
+catechin,CHEMBL311498,CHEMBL204,Prothrombin,SINGLE PROTEIN,Homo sapiens,1,4.31,4.31
+rutin,CHEMBL226335,CHEMBL367,Leishmania donovani,ORGANISM,Leishmania donovani,1,4.31,4.31
+rutin,CHEMBL226335,CHEMBL368,Trypanosoma cruzi,ORGANISM,Trypanosoma cruzi,1,4.31,4.31
+quercetin,CHEMBL50,CHEMBL4119,Glutathione reductase,SINGLE PROTEIN,Saccharomyces cerevisiae S288c,1,4.31,4.31
+quercetin,CHEMBL50,CHEMBL614040,J774.A1,CELL-LINE,Mus musculus,1,4.31,4.31
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL612557,RAW264.7,CELL-LINE,Mus musculus,1,4.31,4.31
+oleanolic acid,CHEMBL168,CHEMBL614536,CAPAN-1,CELL-LINE,Homo sapiens,1,4.3,4.3
+gallic acid,CHEMBL288114,CHEMBL6100,Autoinducer 2-binding periplasmic protein LuxP,SINGLE PROTEIN,Vibrio harveyi,1,4.3,4.3
+gallic acid,CHEMBL288114,CHEMBL386,L1210,CELL-LINE,Mus musculus,1,4.3,4.3
+caffeic acid,CHEMBL145,CHEMBL2524,Alpha-galactosidase A,SINGLE PROTEIN,Homo sapiens,1,4.3,4.3
+epigallocatechin gallate,CHEMBL297453,CHEMBL5747,CREB-binding protein,SINGLE PROTEIN,Homo sapiens,2,4.3,4.3
+catechin,CHEMBL311498,CHEMBL612348,Trypanosoma brucei rhodesiense,ORGANISM,Trypanosoma brucei rhodesiense,1,4.3,4.3
+quercetin,CHEMBL50,CHEMBL2095157,Cyclooxygenase,PROTEIN FAMILY,Rattus norvegicus,1,4.3,4.3
+quercetin,CHEMBL50,CHEMBL4559,Aldo-keto reductase family 1 member B1,SINGLE PROTEIN,Sus scrofa,1,4.3,4.3
+quercetin,CHEMBL50,CHEMBL614645,Hs-578T,CELL-LINE,Homo sapiens,1,4.3,4.3
+myricetin,CHEMBL164,CHEMBL612348,Trypanosoma brucei rhodesiense,ORGANISM,Trypanosoma brucei rhodesiense,1,4.3,4.3
+kaempferol,CHEMBL150,CHEMBL387,MCF7,CELL-LINE,Homo sapiens,1,4.3,4.3
+pyrogallol,CHEMBL307145,CHEMBL614696,Lymphoblastoid cell,CELL-LINE,Homo sapiens,9,4.1,4.3
+caffeine,CHEMBL113,CHEMBL2605,Adenosine receptor A2a,SINGLE PROTEIN,Cavia porcellus,4,4.3,4.3
+caffeine,CHEMBL113,CHEMBL612545,Unchecked,UNCHECKED,-,5,4.0,4.3
+quercetin,CHEMBL50,CHEMBL332,Interstitial collagenase,SINGLE PROTEIN,Homo sapiens,1,4.29,4.29
+kaempferol,CHEMBL150,CHEMBL1907600,Cyclin-dependent kinase 5/CDK5 activator 1,PROTEIN COMPLEX,Homo sapiens,1,4.29,4.29
+epigallocatechin gallate,CHEMBL297453,CHEMBL4158,Fatty acid synthase,SINGLE PROTEIN,Homo sapiens,1,4.28,4.28
+epigallocatechin gallate,CHEMBL297453,CHEMBL1795136,Fatty acid synthase,SINGLE PROTEIN,Gallus gallus,3,4.28,4.28
+rutin,CHEMBL226335,CHEMBL1929,Xanthine dehydrogenase/oxidase,SINGLE PROTEIN,Homo sapiens,1,4.28,4.28
+quercetin,CHEMBL50,CHEMBL5362,Sortase A,SINGLE PROTEIN,Staphylococcus aureus,1,4.28,4.28
+kaempferol,CHEMBL150,CHEMBL612878,Leishmania braziliensis,ORGANISM,Leishmania braziliensis,1,4.27,4.27
+kaempferol,CHEMBL150,CHEMBL614484,J774.2,CELL-LINE,Mus musculus,1,4.27,4.27
+oleanolic acid,CHEMBL168,CHEMBL612888,Toxoplasma gondii,ORGANISM,Toxoplasma gondii,1,4.26,4.26
+catechin,CHEMBL311498,CHEMBL2367284,Plantago lanceolata,ORGANISM,Plantago lanceolata,1,4.26,4.26
+quercetin,CHEMBL50,CHEMBL614818,HEK293,CELL-LINE,Homo sapiens,1,4.26,4.26
+myricetin,CHEMBL164,CHEMBL612267,L929,CELL-LINE,Mus musculus,2,4.25,4.26
+kaempferol,CHEMBL150,CHEMBL3108635,Arginase,SINGLE PROTEIN,Leishmania amazonensis,1,4.26,4.26
+stigmasterol,CHEMBL400247,CHEMBL1293248,4'-phosphopantetheinyl transferase ffp,SINGLE PROTEIN,Bacillus subtilis,1,4.25,4.25
+ellagic acid,CHEMBL6246,CHEMBL2026,Beta-lactamase,SINGLE PROTEIN,Escherichia coli K-12,1,4.25,4.25
+ascorbic acid,CHEMBL196,CHEMBL613642,Liver,TISSUE,Rattus norvegicus,1,4.25,4.25
+oleanolic acid,CHEMBL168,CHEMBL614822,NIH3T3,CELL-LINE,Mus musculus,3,4.12,4.24
+oleanolic acid,CHEMBL168,CHEMBL385,K562,CELL-LINE,Homo sapiens,1,4.24,4.24
+epigallocatechin gallate,CHEMBL297453,CHEMBL614361,T47D,CELL-LINE,Homo sapiens,1,4.24,4.24
+epigallocatechin gallate,CHEMBL297453,CHEMBL4235,11-beta-hydroxysteroid dehydrogenase 1,SINGLE PROTEIN,Homo sapiens,1,4.24,4.24
+quercetin,CHEMBL50,CHEMBL383,HL-60,CELL-LINE,Homo sapiens,1,4.24,4.24
+morin,CHEMBL28626,CHEMBL4295835,Thiosulfate sulfurtransferase,SINGLE PROTEIN,Homo sapiens,1,4.24,4.24
+quercetin,CHEMBL50,CHEMBL612556,PC-12,CELL-LINE,Rattus norvegicus,2,4.2,4.23
+oleanolic acid,CHEMBL168,CHEMBL614279,Bel-7402,CELL-LINE,Homo sapiens,1,4.22,4.22
+stigmasterol 3-O-beta-D-glucoside,CHEMBL447335,CHEMBL2635,Dual specificity protein phosphatase 3,SINGLE PROTEIN,Homo sapiens,1,4.22,4.22
+epigallocatechin gallate,CHEMBL297453,CHEMBL5500,Histone acetyltransferase KAT2B,SINGLE PROTEIN,Homo sapiens,2,4.22,4.22
+epigallocatechin gallate,CHEMBL297453,CHEMBL384,HT-29,CELL-LINE,Homo sapiens,1,4.22,4.22
+quercetin,CHEMBL50,CHEMBL613215,Leishmania peruviana,ORGANISM,Leishmania peruviana,1,4.22,4.22
+kaempferol,CHEMBL150,CHEMBL3513,Lysosomal alpha-glucosidase,SINGLE PROTEIN,Rattus norvegicus,1,4.22,4.22
+sparteine,CHEMBL1908847,CHEMBL289,Cytochrome P450 2D6,SINGLE PROTEIN,Homo sapiens,1,4.22,4.22
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL612655,C2C12,CELL-LINE,Mus musculus,1,4.22,4.22
+oleanolic acid,CHEMBL168,CHEMBL4483222,518A2,CELL-LINE,Homo sapiens,2,4.2,4.21
+beta-sitosterol,CHEMBL221542,CHEMBL614035,ECV-304,CELL-LINE,Homo sapiens,2,4.21,4.21
+epigallocatechin gallate,CHEMBL297453,CHEMBL614139,PANC-1,CELL-LINE,Homo sapiens,1,4.21,4.21
+quercetin,CHEMBL50,CHEMBL1907601,Cyclin-dependent kinase 4/cyclin D1,PROTEIN COMPLEX,Homo sapiens,1,4.21,4.21
+quercetin,CHEMBL50,CHEMBL614139,PANC-1,CELL-LINE,Homo sapiens,1,4.21,4.21
+caffeine,CHEMBL113,CHEMBL1075310,Transient receptor potential cation channel subfamily A member 1,SINGLE PROTEIN,Mus musculus,1,4.21,4.21
+gallic acid,CHEMBL288114,CHEMBL375,Mus musculus,ORGANISM,Mus musculus,1,4.2,4.2
+p-coumaric acid,CHEMBL66879,CHEMBL5983,Aldo-keto reductase family 1 member B10,SINGLE PROTEIN,Homo sapiens,1,4.2,4.2
+ellagic acid,CHEMBL6246,CHEMBL4695,Fructose-bisphosphate aldolase A,SINGLE PROTEIN,Oryctolagus cuniculus,1,4.2,4.2
+quercetin,CHEMBL50,CHEMBL5901,Cyclin-dependent kinase 5,SINGLE PROTEIN,Rattus norvegicus,1,4.2,4.2
+quercetin 3-O-beta-D-galactoside,CHEMBL251254,CHEMBL3559643,Neuraminidase,SINGLE PROTEIN,Influenza A virus (strain A/USSR/90/1977 H1N1),2,4.13,4.2
+quercitrin,CHEMBL82242,CHEMBL1743124,Solute carrier organic anion transporter family member 2B1,SINGLE PROTEIN,Homo sapiens,2,4.2,4.2
+caffeic acid,CHEMBL145,CHEMBL6066154,Mushroom tyrosinase,PROTEIN FAMILY,Agaricus bisporus,1,4.19,4.19
+ellagic acid,CHEMBL6246,CHEMBL3563,Cruzipain,SINGLE PROTEIN,Trypanosoma cruzi,1,4.19,4.19
+kaempferol,CHEMBL150,CHEMBL3471,Human immunodeficiency virus type 1 integrase,SINGLE PROTEIN,Human immunodeficiency virus 1,2,4.1,4.19
+oleanolic acid,CHEMBL168,CHEMBL612250,FaDu,CELL-LINE,Homo sapiens,3,4.12,4.18
+p-coumaric acid,CHEMBL66879,CHEMBL3879801,NON-PROTEIN TARGET,NON-MOLECULAR,-,2,4.15,4.18
+p-coumaric acid,CHEMBL66879,CHEMBL2362975,No relevant target,NO TARGET,-,1,4.18,4.18
+rutin,CHEMBL226335,CHEMBL4051,Cystic fibrosis transmembrane conductance regulator,SINGLE PROTEIN,Homo sapiens,1,4.18,4.18
+kaempferol,CHEMBL150,CHEMBL5901,Cyclin-dependent kinase 5,SINGLE PROTEIN,Rattus norvegicus,1,4.18,4.18
+oleanolic acid,CHEMBL168,CHEMBL400,MDA-MB-231,CELL-LINE,Homo sapiens,1,4.17,4.17
+oleanolic acid,CHEMBL168,CHEMBL614774,T-24,CELL-LINE,Homo sapiens,1,4.17,4.17
+gallic acid,CHEMBL288114,CHEMBL364,Plasmodium falciparum,ORGANISM,Plasmodium falciparum,2,4.17,4.17
+quercetin,CHEMBL50,CHEMBL1914,Cholinesterase,SINGLE PROTEIN,Homo sapiens,1,4.17,4.17
+oleanolic acid,CHEMBL168,CHEMBL2163183,"NAD-dependent protein deacylase sirtuin-5, mitochondrial",SINGLE PROTEIN,Homo sapiens,1,4.16,4.16
+gallic acid,CHEMBL288114,CHEMBL1075106,Toll-like receptor 2,SINGLE PROTEIN,Mus musculus,1,4.16,4.16
+epigallocatechin gallate,CHEMBL297453,CHEMBL5750,Histone acetyltransferase KAT5,SINGLE PROTEIN,Homo sapiens,2,4.16,4.16
+rutin,CHEMBL226335,CHEMBL3318,Tyrosinase,SINGLE PROTEIN,Agaricus bisporus,1,4.16,4.16
+myricetin,CHEMBL164,CHEMBL614806,H9,CELL-LINE,Homo sapiens,1,4.16,4.16
+caffeine,CHEMBL113,CHEMBL2111322,Phosphodiesterase 1,PROTEIN FAMILY,Rattus norvegicus,1,4.16,4.16
+myricetin,CHEMBL164,CHEMBL5901,Cyclin-dependent kinase 5,SINGLE PROTEIN,Rattus norvegicus,1,4.15,4.15
+myricetin,CHEMBL164,CHEMBL1914,Cholinesterase,SINGLE PROTEIN,Homo sapiens,1,4.15,4.15
+kaempferol,CHEMBL150,CHEMBL613215,Leishmania peruviana,ORGANISM,Leishmania peruviana,1,4.15,4.15
+oleanolic acid,CHEMBL168,CHEMBL372,Homo sapiens,ORGANISM,Homo sapiens,2,4.14,4.14
+oleanolic acid,CHEMBL168,CHEMBL613740,Influenza A virus,ORGANISM,Influenza A virus,3,4.14,4.14
+gallic acid,CHEMBL288114,CHEMBL4241,Squalene monooxygenase,SINGLE PROTEIN,Rattus norvegicus,1,4.14,4.14
+p-coumaric acid,CHEMBL66879,CHEMBL612557,RAW264.7,CELL-LINE,Mus musculus,1,4.13,4.13
+ellagic acid,CHEMBL6246,CHEMBL1697656,Glutathione S-transferase,SINGLE PROTEIN,Plasmodium falciparum,1,4.13,4.13
+quercetin,CHEMBL50,CHEMBL614725,MIA PaCa-2,CELL-LINE,Homo sapiens,1,4.13,4.13
+caffeine,CHEMBL113,CHEMBL4696,"Glycogen phosphorylase, muscle form",SINGLE PROTEIN,Oryctolagus cuniculus,6,4.12,4.13
+oleanolic acid,CHEMBL168,CHEMBL613116,Ovis aries,ORGANISM,Ovis aries,1,4.12,4.12
+caffeic acid,CHEMBL145,CHEMBL612556,PC-12,CELL-LINE,Rattus norvegicus,1,4.12,4.12
+epigallocatechin gallate,CHEMBL297453,CHEMBL400,MDA-MB-231,CELL-LINE,Homo sapiens,2,4.1,4.12
+quercetin,CHEMBL50,CHEMBL2094127,Cyclin-dependent kinase 1/cyclin B,PROTEIN COMPLEX GROUP,Homo sapiens,1,4.12,4.12
+kaempferol,CHEMBL150,CHEMBL2487,Amyloid-beta precursor protein,SINGLE PROTEIN,Homo sapiens,2,4.12,4.12
+caffeine,CHEMBL113,CHEMBL3130,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform",SINGLE PROTEIN,Homo sapiens,1,4.12,4.12
+oleanolic acid,CHEMBL168,CHEMBL3393,"Acetyl-CoA acetyltransferase, mitochondrial",SINGLE PROTEIN,Rattus norvegicus,1,4.11,4.11
+daucosterol,CHEMBL506678,CHEMBL612557,RAW264.7,CELL-LINE,Mus musculus,1,4.11,4.11
+chlorogenic acid,CHEMBL284616,CHEMBL3807,Tyrosine-protein phosphatase non-receptor type 2,SINGLE PROTEIN,Homo sapiens,1,4.11,4.11
+caffeic acid,CHEMBL145,CHEMBL614316,HT-22,CELL-LINE,Mus musculus,1,4.11,4.11
+ellagic acid,CHEMBL6246,CHEMBL2096978,Thioredoxin reductase,PROTEIN FAMILY,Homo sapiens,1,4.11,4.11
+ellagic acid,CHEMBL6246,CHEMBL3902,Glutathione S-transferase P,SINGLE PROTEIN,Homo sapiens,1,4.11,4.11
+epigallocatechin gallate,CHEMBL297453,CHEMBL614102,PC-9,CELL-LINE,Homo sapiens,1,4.11,4.11
+quercetin,CHEMBL50,CHEMBL614187,NALM-6,CELL-LINE,Homo sapiens,1,4.11,4.11
+quercetin,CHEMBL50,CHEMBL615022,U-251,CELL-LINE,Homo sapiens,1,4.11,4.11
+quercetin,CHEMBL50,CHEMBL2041,Proto-oncogene tyrosine-protein kinase receptor Ret,SINGLE PROTEIN,Homo sapiens,1,4.11,4.11
+oleanolic acid,CHEMBL168,CHEMBL1293248,4'-phosphopantetheinyl transferase ffp,SINGLE PROTEIN,Bacillus subtilis,1,4.1,4.1
+ellagic acid,CHEMBL6246,CHEMBL1293248,4'-phosphopantetheinyl transferase ffp,SINGLE PROTEIN,Bacillus subtilis,2,4.1,4.1
+epigallocatechin gallate,CHEMBL297453,CHEMBL1743124,Solute carrier organic anion transporter family member 2B1,SINGLE PROTEIN,Homo sapiens,2,4.1,4.1
+catechin,CHEMBL311498,CHEMBL2860,Prostaglandin G/H synthase 1,SINGLE PROTEIN,Bos taurus,1,4.1,4.1
+malic acid,CHEMBL1455497,CHEMBL2026,Beta-lactamase,SINGLE PROTEIN,Escherichia coli K-12,1,4.1,4.1
+caffeine,CHEMBL113,CHEMBL2392,DNA polymerase beta,SINGLE PROTEIN,Homo sapiens,1,4.1,4.1
+oleanolic acid,CHEMBL168,CHEMBL614317,M14,CELL-LINE,Homo sapiens,1,4.09,4.09
+p-coumaric acid,CHEMBL66879,CHEMBL614721,LoVo,CELL-LINE,Homo sapiens,1,4.09,4.09
+quercetin,CHEMBL50,CHEMBL4650,"cGMP-dependent 3',5'-cyclic phosphodiesterase",SINGLE PROTEIN,Rattus norvegicus,1,4.09,4.09
+stigmasterol 3-O-beta-D-glucoside,CHEMBL447335,CHEMBL2219,Tyrosine-protein phosphatase non-receptor type 7,SINGLE PROTEIN,Homo sapiens,1,4.08,4.08
+p-coumaric acid,CHEMBL66879,CHEMBL284,Dipeptidyl peptidase 4,SINGLE PROTEIN,Homo sapiens,1,4.08,4.08
+epigallocatechin gallate,CHEMBL297453,CHEMBL612267,L929,CELL-LINE,Mus musculus,1,4.08,4.08
+quercetin,CHEMBL50,CHEMBL4303836,SARS-CoV,ORGANISM,Severe acute respiratory syndrome-related coronavirus,2,4.08,4.08
+quercetin,CHEMBL50,CHEMBL4662936,Spike glycoprotein,SINGLE PROTEIN,Severe acute respiratory syndrome coronavirus 2,1,4.08,4.08
+kaempferol,CHEMBL150,CHEMBL368,Trypanosoma cruzi,ORGANISM,Trypanosoma cruzi,1,4.08,4.08
+caffeic acid,CHEMBL145,CHEMBL1293298,Peripheral myelin protein 22,SINGLE PROTEIN,Homo sapiens,1,4.07,4.07
+catechin,CHEMBL311498,CHEMBL1293298,Peripheral myelin protein 22,SINGLE PROTEIN,Homo sapiens,1,4.07,4.07
+quercetin,CHEMBL50,CHEMBL2725,Beta-lactamase,SINGLE PROTEIN,Enterobacter cloacae,1,4.07,4.07
+myricetin,CHEMBL164,CHEMBL1293298,Peripheral myelin protein 22,SINGLE PROTEIN,Homo sapiens,1,4.07,4.07
+oleanolic acid,CHEMBL168,CHEMBL230,Prostaglandin G/H synthase 2,SINGLE PROTEIN,Homo sapiens,1,4.06,4.06
+caffeic acid,CHEMBL145,CHEMBL3114,"Sucrase-isomaltase, intestinal",SINGLE PROTEIN,Rattus norvegicus,1,4.06,4.06
+epigallocatechin gallate,CHEMBL297453,CHEMBL4523954,Nonstructural protein 3,SINGLE PROTEIN,Zika virus,1,4.06,4.06
+caffeic acid,CHEMBL145,CHEMBL5983,Aldo-keto reductase family 1 member B10,SINGLE PROTEIN,Homo sapiens,1,4.05,4.05
+kaempferol,CHEMBL150,CHEMBL613712,Radical scavenging activity,UNKNOWN,-,1,4.05,4.05
+caffeine,CHEMBL113,CHEMBL1293248,4'-phosphopantetheinyl transferase ffp,SINGLE PROTEIN,Bacillus subtilis,1,4.05,4.05
+butylated hydroxytoluene,CHEMBL146,CHEMBL386,L1210,CELL-LINE,Mus musculus,1,4.04,4.04
+oleanolic acid,CHEMBL168,CHEMBL5730,Pancreatic alpha-amylase,SINGLE PROTEIN,Sus scrofa,1,4.03,4.03
+chlorogenic acid,CHEMBL284616,CHEMBL2487,Amyloid-beta precursor protein,SINGLE PROTEIN,Homo sapiens,1,4.03,4.03
+catechin,CHEMBL311498,CHEMBL230,Prostaglandin G/H synthase 2,SINGLE PROTEIN,Homo sapiens,1,4.03,4.03
+myricetin,CHEMBL164,CHEMBL368,Trypanosoma cruzi,ORGANISM,Trypanosoma cruzi,1,4.03,4.03
+kaempferol,CHEMBL150,CHEMBL220,Acetylcholinesterase,SINGLE PROTEIN,Homo sapiens,1,4.03,4.03
+chlorogenic acid,CHEMBL284616,CHEMBL5362,Sortase A,SINGLE PROTEIN,Staphylococcus aureus,1,4.02,4.02
+rutin,CHEMBL226335,CHEMBL3559643,Neuraminidase,SINGLE PROTEIN,Influenza A virus (strain A/USSR/90/1977 H1N1),2,4.01,4.02
+caffeine,CHEMBL113,CHEMBL5160,Transient receptor potential cation channel subfamily A member 1,SINGLE PROTEIN,Rattus norvegicus,1,4.02,4.02
+stigmasterol,CHEMBL400247,CHEMBL392,A549,CELL-LINE,Homo sapiens,1,4.01,4.01
+caffeic acid,CHEMBL145,CHEMBL3194,Transthyretin,SINGLE PROTEIN,Homo sapiens,1,4.01,4.01
+catechin,CHEMBL311498,CHEMBL4295843,Dihydroorotate dehydrogenase (fumarate),SINGLE PROTEIN,Leishmania major,2,4.0,4.01
+malic acid,CHEMBL1455497,CHEMBL612545,Unchecked,UNCHECKED,-,1,4.01,4.01
+gallic acid,CHEMBL288114,CHEMBL392,A549,CELL-LINE,Homo sapiens,1,4.0,4.0
+ellagic acid,CHEMBL6246,CHEMBL1275223,Heat shock cognate 71 kDa protein,SINGLE PROTEIN,Homo sapiens,1,4.0,4.0
+ellagic acid,CHEMBL6246,CHEMBL2487,Amyloid-beta precursor protein,SINGLE PROTEIN,Homo sapiens,1,4.0,4.0
+quercetin,CHEMBL50,CHEMBL4796,Chymotrypsinogen B,SINGLE PROTEIN,Homo sapiens,1,4.0,4.0
+quercetin,CHEMBL50,CHEMBL2386,Chymotrypsin-C,SINGLE PROTEIN,Homo sapiens,1,4.0,4.0
+quercetin,CHEMBL50,CHEMBL614039,Huh-7,CELL-LINE,Homo sapiens,1,4.0,4.0
+quercetin,CHEMBL50,CHEMBL348,Pseudomonas aeruginosa,ORGANISM,Pseudomonas aeruginosa,1,4.0,4.0
+myricetin,CHEMBL164,CHEMBL5314330,Peritoneal macrophage,CELL-LINE,Mus musculus,1,4.0,4.0
+myricetin,CHEMBL164,CHEMBL1293287,Insulin-degrading enzyme,SINGLE PROTEIN,Homo sapiens,1,4.0,4.0
+quercitrin,CHEMBL82242,CHEMBL3318,Tyrosinase,SINGLE PROTEIN,Agaricus bisporus,1,4.0,4.0
+caffeine,CHEMBL113,CHEMBL2304404,Adenosine receptor A1,SINGLE PROTEIN,Cavia porcellus,4,4.0,4.0
+myricetin,CHEMBL164,CHEMBL3575,2-5A-dependent ribonuclease,SINGLE PROTEIN,Homo sapiens,1,3.58,3.58
+pyrogallol,CHEMBL307145,CHEMBL1075060,Arginase-1,SINGLE PROTEIN,Bos taurus,1,3.43,3.43
+caffeic acid,CHEMBL145,CHEMBL6066863,Alpha amylase,PROTEIN FAMILY,Homo sapiens,1,2.32,2.32
