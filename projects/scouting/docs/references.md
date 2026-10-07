@@ -70,3 +70,31 @@
 | ClinicalTrials.gov `NCT02876003` | G-202 في الورم الأرومي الدبقي الإيجابي لـ PSMA: **سُحبت** (0 مشاركين) | [clinicaltrials.gov](https://clinicaltrials.gov/study/NCT02876003) | مقتطف عبر البحث |
 | CRSTRA | بطاقة *Thapsia garganica*: الاسم المحلي بونافع/درياس؛ ضدّ الالتواءات والروماتيزم | [crstra.dz](https://www.crstra.dz/plantes/thapsia-garganica-l.php) | مقروء مباشرة |
 
+## فرصة استثمارية (`04-investment-opportunities.md`، 2026-10-07)
+
+| المفتاح | ما هو | الرابط | التحقّق |
+|---|---|---|---|
+| `fda_dyes2025` | HHS/FDA: خطّة إخراج الأصباغ البترولية من الغذاء (2025-04-22)، ومتتبّع تعهّدات الشركات (الهدف نهاية 2027) | [fda.gov](https://www.fda.gov/news-events/press-announcements/hhs-fda-phase-out-petroleum-based-synthetic-dyes-nations-food-supply) · [tracker](https://www.fda.gov/food/color-additives-information-consumers/tracking-food-industry-pledges-remove-petroleum-based-food-dyes) | مقتطف رسمي عبر البحث |
+| `nca_rti2026` | NCA / Candy USA: «Recoloring the U.S. Food Industry's Future» (2026-07): الطلب +400–500% عند التحوّل الكامل؛ ودراسة RTI للجمعية (2026-08) | [candyusa.com (PDF)](https://candyusa.com/wordpress/wp-content/uploads/2026/07/Natural-Colorant-Roadmap_Digital.pdf) | مقتطف عبر البحث |
+| `fr2025_galdieria` | Federal Register 90 FR 20104 (2025-05-12): إدراج galdieria extract blue، 21 CFR 73.167 | [govinfo](https://www.govinfo.gov/content/pkg/FR-2025-05-12/html/2025-08250.htm) | **مقروء مباشرة:** التعريف يفرض «heterotrophic fermentation»؛ والمواصفات |
+| `fermentalg_efsa2026` | Fermentalg: رأي EFSA إيجابي لـ Galdieria Blue (2026-03-16)؛ وبدء الإنتاج الصناعي عند Huvepharma | [fermentalg.com](https://www.fermentalg.com/new/we-obtained-positive-efsa-opinion-for-galdieria-blue) | بيان الشركة |
+| `fermentalg_rev2026` | مقال مستثمرين: هدف 20 مليون يورو في 2026؛ وادّعاء «إلزام Blue 1 في 2028-01-01» | [ideal-investisseur.fr](https://www.ideal-investisseur.fr/en/stock-news/fermentalg-first-order-of-galdieria-blue-targeting-eur20m-revenue-by-2026/22708.html) | `UNVERIFIED` (ثانوي) |
+| `adjali2022` | Adjali et al. Physicochemical degradation of phycocyanin… *J. Pharm. Anal.* | [10.1016/j.jpha.2021.12.005](https://doi.org/10.1016/j.jpha.2021.12.005) | Crossref ✅ |
+| `tran2025_pc` | Tran et al. Stability of phycocyanin from *A. maxima*… *J. Appl. Phycol.* (يذكر مسح Reddy 2016 للمشروبات) | [10.1007/s10811-025-03496-y](https://doi.org/10.1007/s10811-025-03496-y) | مقتطف عبر البحث؛ نسخة ما قبل النشر في Crossref |
+| `wan2016_gald` | Wan et al. A novel paradigm for the high-efficient production of phycocyanin from *G. sulphuraria*. *Bioresour. Technol.* | [10.1016/j.biortech.2016.06.045](https://doi.org/10.1016/j.biortech.2016.06.045) | Crossref ✅ · 13.88% وزن جاف |
+| `sloth2017_gald` | Sloth et al. *G. sulphuraria* on food waste from restaurants and bakeries. *Bioresour. Technol.* | [10.1016/j.biortech.2017.04.043](https://doi.org/10.1016/j.biortech.2017.04.043) | Crossref ✅ |
+| `rahman2019_gald` | Rahman et al. Heterotrophic *G. sulphuraria* 074G on maltodextrin and starches. *J. Appl. Phycol.* | [10.1007/s10811-019-01957-9](https://doi.org/10.1007/s10811-019-01957-9) | Crossref ✅ · ثبات حتى 55°م |
+| `pleissner2025_gald` | Pleissner et al. Long-term heterotrophic cultivation of *G. sulphuraria* at technical scale under non-sterile conditions. *Sustain. Chem. One World* | [10.1016/j.scowo.2025.100116](https://doi.org/10.1016/j.scowo.2025.100116) | Crossref ✅ |
+| `us12139516`، `us11560542`، `us12540305` | براءات: تنقية phycocyanin الثابت في الحموضة (Fermentalg)؛ تخمير URA بنسبة غليسرول إلى غلوكوز؛ تخمير *Galdieria* بأكسجين مرتفع | [US12139516](https://patents.us/US12139516) | عناوين وملخّصات عبر البحث؛ المطالبات غير مقروءة |
+| `ahmed2017_dates` | Ahmed et al. Bioethanol from common date by-products, Southern Algeria. *Afr. J. Biotechnol.* | [10.5897/ajb2016.15369](https://doi.org/10.5897/ajb2016.15369) | Crossref ✅ · ~250,000 طن تمور عادية |
+| `fekrache2023` | Fekrache & Boudeffa. Mining waste contamination, Sidi Kambar (Skikda). *Ecol. Chem. Eng. S* | [10.2478/eces-2023-0003](https://doi.org/10.2478/eces-2023-0003) | Crossref ✅ · مياه حامضة |
+| `mordor2026_blue`، `gmi2026_blue`، `imarc_natcolors` | تقديرات شركات أبحاث سوق للأزرق والألوان الطبيعية | [mordor](https://www.mordorintelligence.com/industry-reports/spirulina-blue-market) · [gmi](https://www.gminsights.com/industry-analysis/spirulina-blue-phycocyanin-market) · [imarc](https://www.imarcgroup.com/natural-food-colors-market) | مقتطفات؛ تقديرات تجارية متفاوتة |
+| `botanicalcube2026`، `indexbox2026` | أسعار phycocyanin بالجملة (2026-08)؛ تقرير «الأزرق من الطحالب» | [botanicalcube](https://www.botanicalcube.com/news/phycocyanin-powder-price-what-bulk-buyers-sho-85610810.html) | مقتطفات |
+| `worldbank2026_artemia` | البنك الدولي، عبر GSA Advocate (2026-08-06): الطلب على بيض الآرتيميا وقيمة السوق | [globalseafood.org](https://www.globalseafood.org/advocate/world-bank-calls-for-expanded-artemia-farming-as-hatchery-demand-grows/) | مقتطف |
+| `fao2024_artemia` | FAO Manual on Artemia production and use (2024) | [ugent.be (PDF)](https://users.ugent.be/~psorgelo/A4BreportClosingMayJune2024/FAO%20Artemia%20Manual%202024.pdf) | مقتطف |
+| `artemia_info`، `utah_dwr` | أسعار البيض بالجملة؛ حصاد بحيرة الملح الكبرى | [artemia.info](https://artemia.info/enclosure/?id=157) · [wildlife.utah.gov](https://wildlife.utah.gov/index.php?catid=13&id=1017&option=com_content&view=article) | مقتطفات |
+| `chabetdis2021_artemia` | Chabet Dis et al. Quality evaluation of *Artemia* cysts from three Algerian populations. *Afr. J. Aquat. Sci.* | [10.2989/16085914.2021.1895052](https://doi.org/10.2989/16085914.2021.1895052) | Crossref ✅ |
+| `ghomari2011_artemia` | Ghomari et al. *Artemia* biodiversity in Algerian sebkhas. *Crustaceana* 84(9) | [10.1163/001121611x586729](https://doi.org/10.1163/001121611x586729) | Crossref ✅ |
+| `ectoine_mkt`، `avans2026_astax`، `tridge_dunaliella`، `africanews2022`، `manuka_mkt` | أسعار وأحجام أسواق المسارات المستبعدة | انظر `data/06_investment_scan_2026-10-07.tsv` | مقتطفات |
+| `icer2026` | ICER Final Evidence Report, smoking cessation (2026-02): cytisinicline 3 ملغ ثلاث مرّات يوميًّا، 6–12 أسبوعًا | [icer.org (PDF)](https://icer.org/wp-content/uploads/2026/02/ICER_Smoking-Cessation_Final-Report_For-Publication_021226.pdf) | مقتطف |
+
