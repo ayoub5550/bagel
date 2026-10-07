@@ -50,3 +50,17 @@
 
 **الأسعار** كلّها في `data/03_desert_commercial_prices_2026-10-07.tsv`، ولكلّ سطر رابطه ونوعه (صفقات، أو إحصاء جمركي، أو عرض بائع، أو خبر صحفي). بيانات UN Comtrade مقروءة مباشرة عبر الـ API العامة (HS 080410، 2024).
 
+## جزيء عالي القيمة (`03-high-value-molecules.md`، 2026-10-07)
+
+| المفتاح / المصدر | ما هو | الرابط | التحقّق |
+|---|---|---|---|
+| `andersen2015` | Thapsigargin — From *Thapsia* L. to Mipsagargin. *Molecules* | [10.3390/molecules20046113](https://doi.org/10.3390/molecules20046113) | DOI ✅ · **النص الكامل (PMC6272310) مقروء:** المحتوى 0.7–1.5% ثمار و0.2–1.2% جذور؛ كل التموين من نبات برّي؛ التخليق غير اقتصادي؛ ThapsIbiza؛ الترانسكريبتوم `SRX096991` |
+| `touati2015` | *Retama sphaerocarpa*: An unexploited and rich source of alkaloids … *Ind. Crops Prod.* | [10.1016/j.indcrop.2015.02.016](https://doi.org/10.1016/j.indcrop.2015.02.016) | DOI ✅ · الملخّص: cytisine 0.6 غ/كغ في البذور، وretamine 9.6 غ/كغ في السوق |
+| SEC EDGAR — GenSpera exhibit 10.1 (2013) | عقد توريد بذور *T. garganica* حصري مع Thapsibiza: 200/175 €/كغ، حدّ أدنى 100 كغ/سنة، سعة 800 كغ/سنة | [sec.gov](https://www.sec.gov/Archives/edgar/data/1421204/000114420413018605/v337410_ex10-01.htm) | **مقروء مباشرة** (Schedule A) |
+| ClinicalTrials.gov `NCT02067156` | mipsagargin (G-202) في الورم الأرومي الدبقي، المرحلة 2، اكتملت في 2017-02 | [clinicaltrials.gov](https://clinicaltrials.gov/study/NCT02067156) | مقتطف عبر البحث؛ «لا تجارب أحدث» `UNVERIFIED` |
+| Achieve Life Sciences، 2026-06-22 | خطاب رفض (CRL) من FDA لـ cytisinicline بسبب ملاحظات cGMP على مصنع طرف ثالث وتسمية الدواء، **بلا عيوب في الفعالية أو السلامة** | [ir.achievelifesciences.com](https://ir.achievelifesciences.com/news-events/press-releases/detail/264/achieve-life-sciences-receives-complete-response-letter-from-fda-for-cytisinicline-nda) | بيان الشركة + Reuters |
+| Achieve–Sopharma (2017) | Sopharma المورد الحصري لـ cytisine لمدة تصل إلى 20 سنة | [ir.achievelifesciences.com](https://ir.achievelifesciences.com/news-events/press-releases/detail/130/achieve-announces-exclusive-long-term-manufacturing-agreement-with-sopharma-for-clinical-and-commercial-supply-of-cytisine) | بيان الشركة |
+| المفوضية الأوروبية AT.40636 (2025-07-04) وCOMCO (2025-04-10) | كارتل SNBB (butylscopolamine): Boehringer وAlkaloids of Australia وغيرهما؛ المصدر أوراق *Duboisia* | [eur-lex](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AC_202600699) | مقتطف رسمي عبر البحث |
+| Pharmaoffer (صفحات transactions لكل مادة) | متوسّطات صفقات المواد الدوائية الخام بالدولار/كغ | `data/05_high_value_prices_2026-10-07.tsv` | مقروء مباشرة؛ يخلط الكمّيات الصغيرة والكبيرة |
+| Wikidata/LOTUS (P703)، PubChem، GBIF | منتِجو كل جزيء، وقائمة النباتات المسجّلة في الجزائر | `scripts/02_high_value_dz_sources.py` | مقروء مباشرة؛ أزواج LOTUS ادّعاءات أدبية |
+
