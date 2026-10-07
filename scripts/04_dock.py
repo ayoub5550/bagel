@@ -186,7 +186,20 @@ def box_from_ligand(lig_pdb: Path) -> tuple[np.ndarray, np.ndarray]:
     return center, size
 
 
+def score_from_pose(out: Path) -> float | None:
+    """Read the best score out of an existing Vina pose file (makes reruns free)."""
+    if not out.exists():
+        return None
+    for line in out.read_text().splitlines():
+        if line.startswith("REMARK VINA RESULT"):
+            return float(line.split()[3])
+    return None
+
+
 def run_vina(rec: Path, lig: Path, center, size, out: Path) -> tuple[float | None, Path | None]:
+    cached = score_from_pose(out)
+    if cached is not None:
+        return cached, out
     cmd = [str(VINA), "--receptor", str(rec), "--ligand", str(lig),
            "--center_x", f"{center[0]:.3f}", "--center_y", f"{center[1]:.3f}",
            "--center_z", f"{center[2]:.3f}",
@@ -205,6 +218,18 @@ def run_vina(rec: Path, lig: Path, center, size, out: Path) -> tuple[float | Non
             best = float(m.group(1))
             break
     return best, out
+
+
+def efficiency(score: float | None, heavy_atoms: int) -> float | None:
+    """Ligand efficiency = -score / heavy atoms.
+
+    Vina's score grows with molecular size, so a big lipophilic molecule almost always
+    "wins" a raw score comparison. Dividing by heavy-atom count removes most of that
+    bias and is the number to compare across ligands of different size.
+    """
+    if score is None or not heavy_atoms:
+        return None
+    return round(-score / heavy_atoms, 3)
 
 
 def control_rmsd(template_smiles: str, crystal_pdb: Path, docked_pdbqt: Path) -> float | None:
@@ -281,6 +306,9 @@ def main() -> int:
             "ligand_class": "positive control", "vina_kcal_mol": ctrl_score,
             "rot_bonds": rdMolDescriptors.CalcNumRotatableBonds(
                 Chem.MolFromSmiles(ref_smiles)),
+            "heavy_atoms": Chem.MolFromSmiles(ref_smiles).GetNumHeavyAtoms(),
+            "ligand_efficiency": efficiency(ctrl_score,
+                                            Chem.MolFromSmiles(ref_smiles).GetNumHeavyAtoms()),
             "control_rmsd_A": None if rmsd is None else round(rmsd, 2),
             "target_run_valid": valid, "flag": "",
         })
@@ -311,9 +339,11 @@ def main() -> int:
                 flag = f"{rotb} rotatable bonds: Vina score not interpretable"
             print(f"[04] {pdb_id} {name[:46]:46s} {score if score is not None else 'FAIL':>8} "
                   f"kcal/mol  {flag}")
+            heavy = Chem.MolFromSmiles(smiles).GetNumHeavyAtoms()
             rows.append({
                 "target": pdb_id, "target_name": spec["name"], "ligand": name,
                 "ligand_class": lclass, "vina_kcal_mol": score, "rot_bonds": rotb,
+                "heavy_atoms": heavy, "ligand_efficiency": efficiency(score, heavy),
                 "control_rmsd_A": None if rmsd is None else round(rmsd, 2),
                 "target_run_valid": valid, "flag": flag,
             })
@@ -364,12 +394,14 @@ def write_summary(rows, summary) -> None:
                 "",
             ]
             continue
-        lines += ["| ligand | class | Vina (kcal/mol) | rot. bonds | note |",
-                  "|---|---|---|---|---|"]
+        lines += ["| ligand | class | Vina (kcal/mol) | heavy atoms | ligand efficiency "
+                  "(-kcal/mol per heavy atom) | rot. bonds | note |",
+                  "|---|---|---|---|---|---|---|"]
         sel = [r for r in rows if r["target"] == pdb_id and r["vina_kcal_mol"] is not None]
         for r in sorted(sel, key=lambda r: float(r["vina_kcal_mol"])):
             lines.append(f"| {r['ligand']} | {r['ligand_class']} | "
-                         f"{r['vina_kcal_mol']} | {r['rot_bonds']} | {r['flag']} |")
+                         f"{r['vina_kcal_mol']} | {r['heavy_atoms']} | "
+                         f"{r['ligand_efficiency']} | {r['rot_bonds']} | {r['flag']} |")
         lines.append("")
     lines += [
         "## How to read this",
@@ -383,6 +415,11 @@ def write_summary(rows, summary) -> None:
         "ligands. If it does not, the pocket definition is wrong, not the chemistry.",
         "- A good score for a plant compound means exactly one thing: it is worth "
         "measuring. The measurement is an enzyme assay, and it costs little.",
+        "- **Compare ligand efficiency, not raw score.** Vina's function rewards size: a "
+        "bulky triterpene beats a small flavonoid on raw score almost by construction. "
+        "Efficiency (score divided by heavy-atom count) is the size-corrected number.",
+        "- Re-running this script reuses the saved poses in `work/dock/` instead of "
+        "re-docking. Delete that folder to force a clean run.",
         "",
     ]
     OUT_MD.write_text("\n".join(lines))
