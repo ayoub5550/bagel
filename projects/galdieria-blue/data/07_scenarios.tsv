@@ -1,0 +1,8 @@
+case	route	fixed	usd_per_kg_pc	usd_per_kg_product34	usd_per_kg_E18eq	capex_M	date_dzd_breakeven
+base_mode_dates	R3_climited_dates_fedbatch	{}	248.53	84.5	59.65	50.66	
+base_mode_glucose	R2_climited_glucose	{}	250.15	85.05	60.04	43.98	
+dates_no_penalty	R3_climited_dates_fedbatch	{'f_date_c': 1.0, 'f_date_Y': 1.0}	237.08	80.61	56.9	49.14	
+breakthrough_dates	R3_climited_dates_fedbatch	{'c_pc': 40, 'Px': 30, 'R_dsp': 0.75, 'f_date_c': 1.0, 'f_date_Y': 1.0}	150.49	51.17	36.12	26.4	
+breakthrough_dates_cheap_rebuts	R3_climited_dates_fedbatch	{'c_pc': 40, 'Px': 30, 'R_dsp': 0.75, 'f_date_c': 1.0, 'f_date_Y': 1.0, 'date_dzd': 15}	134.83	45.84	32.36	26.4	
+pessimistic_dates	R3_climited_dates_fedbatch	{'c_pc': 15, 'Px': 15, 'R_dsp': 0.5, 'f_date_c': 0.8}	634.54	215.74	152.29	163.07	
+breakeven_date_price_vs_glucose	R3_climited_dates_fedbatch	f_date=1	250.15				36.78
