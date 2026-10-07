@@ -16,10 +16,13 @@
 | `rahim2022` | Comparative analysis of the chemical constituents and in vitro antioxidant activities of different aqueous extracts of *Cistanche phelypaea* from Algeria. *S. Afr. J. Bot.* | [10.1016/j.sajb.2022.04.041](https://doi.org/10.1016/j.sajb.2022.04.041) | DOI ✅ (Crossref: 2022؛ Europe PMC يفهرسه 2024) · الملخّص فقط |
 | `tang2025` | Parasitic plant *Cistanche tubulosa* shapes the bacterial community … of the salt-tolerant host *Tamarix chinensis*. *Environ. Microbiome* | [10.1186/s40793-025-00746-x](https://doi.org/10.1186/s40793-025-00746-x) | DOI ✅ · العنوان: الطرفاء عائل *C. tubulosa* |
 | `zou2026` | A chromosome-level genome assembly of *Cistanche deserticola* … *Plant Commun.* | [10.1016/j.xplc.2025.101581](https://doi.org/10.1016/j.xplc.2025.101581) | DOI ✅ · العنوان فقط |
+| `jiang2021` | The Quality Monitoring of Cistanches Herba (*Cistanche deserticola* Ma): A Value Chain Perspective. *Front. Pharmacol.* | [10.3389/fphar.2021.782962](https://doi.org/10.3389/fphar.2021.782962) | DOI ✅ · النص الكامل (PMC8602053) مقروء: طلب عالمي ~4,000 طن/سنة (نقلًا عن Lu 2019)؛ التجهيز والجملة 20–25 يوان/كغ |
 | `andersen2015` | Thapsigargin — From *Thapsia* L. to Mipsagargin. *Molecules* | [10.3390/molecules20046113](https://doi.org/10.3390/molecules20046113) | DOI ✅ · العنوان فقط |
 | `louail2024` | High perillaldehyde content from essential oils of *Ammodaucus leucotrichus* subsp. *leucotrichus* fruits from Aougrout (Algeria). *Nat. Prod. Res.* | [10.1080/14786419.2024.2331043](https://doi.org/10.1080/14786419.2024.2331043) | DOI ✅ · العنوان فقط |
 
-## بيانات عامة (مقروءة مباشرة في 2026-10-07)
+## بيانات عامة ومصادر سوق (مقروءة مباشرة في 2026-10-07)
+
+مصادر السوق مواقع تجارية صينية لأسعار الأعشاب، وليست أوراقًا محكّمة. هي أفضل ما يوجد لسعر اليوم.
 
 | المصدر | ما أخذنا منه |
 |---|---|
@@ -27,3 +30,10 @@
 | NCBI BioProject `PRJNA1451689` | «Cistanche phylogenomic analysis (J. A. Hawkins, et al.)»، Angiosperms353. فيه عيّنة الجلفة `SAMN60400930` / `SRR38840171` موسومة *C. tubulosa* |
 | NCBI BioProject `PRJNA1258391` | RNA-seq لـ *C. phelypaea* (الإمارات، 2022-09، العائل *Arthrocaulon macrostachyum*)؛ `SRR33417407`، `SRR33417410`، `SRR33417411` |
 | `data/01_desert_gap_scan.tsv` | الأعداد كلّها، من `scripts/01_desert_gap_scan.py`. ملاحظة: صفّ *C. phelypaea* يشمل المرادفين *C. tinctoria* و*C. lutea* |
+| yt1998.com 药通网 `pzxq350` | أسعار يومية لسوق بوجو (2026-10-07) وأخبار السوق ومناطق الإنتاج (2026-08 إلى 2026-09) — `data/02_cistanche_prices_2026-10-07.tsv` |
+| m.zyctd.com 中药材天地网 `xq478` | السعر الرئيسي 35 يوان (2026-10-07، −12.5% عن الشهر السابق) وعروض بيع بالأطنان |
+| yaoshang68.com `show-98142` (2022-05-27، بيانات 天地云图) | أسعار 2022، وأرقام الإنتاج والاستهلاك 2020–2021، و«فائض الإنتاج» |
+| m.yaopinnet.com `n0897985` (2024-06) | اقتصاد زراعة *C. tubulosa* (التكلفة والغلّة لكل mu) وتقدير الاستعمال السنوي |
+| extracts-online.com (Huakang)؛ solomonitg (Solomon) | أسعار عروض FOB للخلاصات. **عروض لا صفقات** |
+| open.er-api.com | سعر الصرف 2026-10-07: 1 دولار = 6.7119 يوان = 134.40 دج |
+
