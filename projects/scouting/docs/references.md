@@ -63,4 +63,10 @@
 | المفوضية الأوروبية AT.40636 (2025-07-04) وCOMCO (2025-04-10) | كارتل SNBB (butylscopolamine): Boehringer وAlkaloids of Australia وغيرهما؛ المصدر أوراق *Duboisia* | [eur-lex](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AC_202600699) | مقتطف رسمي عبر البحث |
 | Pharmaoffer (صفحات transactions لكل مادة) | متوسّطات صفقات المواد الدوائية الخام بالدولار/كغ | `data/05_high_value_prices_2026-10-07.tsv` | مقروء مباشرة؛ يخلط الكمّيات الصغيرة والكبيرة |
 | Wikidata/LOTUS (P703)، PubChem، GBIF | منتِجو كل جزيء، وقائمة النباتات المسجّلة في الجزائر | `scripts/02_high_value_dz_sources.py` | مقروء مباشرة؛ أزواج LOTUS ادّعاءات أدبية |
+| `belhouala2021` | Belhouala & Benarba. Medicinal Plants Used by Traditional Healers in Algeria: A Multiregional Ethnobotanical Study. *Front. Pharmacol.* | [10.3389/fphar.2021.760492](https://doi.org/10.3389/fphar.2021.760492) | Europe PMC ✅ · الدرياس/بونافع: أمراض الصدر والرئة |
+| `elbahri2001` | El Bahri & Makhlouf. *Thapsia garganica* L.: a poisonous plant of North Africa. *Vet. Hum. Toxicol.* 43:216–218 | PMID [11474736](https://pubmed.ncbi.nlm.nih.gov/11474736/) | Europe PMC ✅ (العنوان والملخّص) |
+| `mahalingam2019` | Phase II study of mipsagargin (G-202) as second-line therapy after sorafenib in advanced HCC. *Cancers* | [10.3390/cancers11060833](https://doi.org/10.3390/cancers11060833) | Europe PMC ✅ |
+| `albeltagi2021` | Thapsigargin is a broad-spectrum inhibitor of major human respiratory viruses. *Viruses* 13:234 | [10.3390/v13020234](https://doi.org/10.3390/v13020234) | Europe PMC ✅ · خلايا وفئران |
+| ClinicalTrials.gov `NCT02876003` | G-202 في الورم الأرومي الدبقي الإيجابي لـ PSMA: **سُحبت** (0 مشاركين) | [clinicaltrials.gov](https://clinicaltrials.gov/study/NCT02876003) | مقتطف عبر البحث |
+| CRSTRA | بطاقة *Thapsia garganica*: الاسم المحلي بونافع/درياس؛ ضدّ الالتواءات والروماتيزم | [crstra.dz](https://www.crstra.dz/plantes/thapsia-garganica-l.php) | مقروء مباشرة |
 
