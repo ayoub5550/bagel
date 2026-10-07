@@ -1,0 +1,4 @@
+biosample	name_in_record	country	submitter	released	run	bioproject	strategy	instrument	read_pairs	bases
+SAMN04108818	Rhars	Algeria	New York University Abu Dhabi	2015-09-23	SRR2511369	PRJNA296800	WGS	Illumina HiSeq 2500	85907124	15978725064
+
+# all Phoenix dactylifera BioSamples by country (2026-10-07): {"Saudi Arabia": 482, "United Arab Emirates": 284, "Tunisia": 212, "unknown": 176, "not applicable": 61, "Iraq": 18, "Oman": 17, "China": 13, "Iran": 13, "missing": 13, "Egypt": 12, "Israel": 11, "Pakistan": 9, "Morocco": 5, "USA": 5, "Libya": 4, "Hofuf": 3, "Algeria": 3, "India": 2, "Al-Hofuf": 2, "Spain": 1, "Qatar": 1, "Sudan": 1}
