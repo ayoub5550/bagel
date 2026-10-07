@@ -1,0 +1,37 @@
+param	unit	low	high	cost_at_low	cost_at_high	swing	base	source
+c_pc	mg PC/g biomass	15.0	40.0	368.17	186.07	182.1	248.53	graverholt2007 26.7 (glucose, fed-batch); burns2020 31.4 glucose fed-batch, 29.9 glycerol 42C, max 45
+f_date_c	x of glucose PC content on date syrup	0.7	1.1	317.52	230.14	87.38	248.53	UNVERIFIED: fructose/impurities may repress pigment (sloth2006, perezsaura2022)
+R_dsp	PC recovered / PC in broth	0.5	0.8	310.1	223.16	86.94	248.53	sorensen2013 (purification works); overall loss UNVERIFIED
+Px	g biomass/L/d at scale	15.0	40.0	304.38	222.58	81.81	248.53	graverholt2007 17.5 fed-batch; burns2020 31.8-42.8 (3.5 L); scale-down UNVERIFIED
+date_dzd	DZD/kg low-grade dates (rebuts)	15.0	50.0	216.5	291.23	74.73	248.53	UNVERIFIED: below processed date feed 68-72 DZD/kg (tsa2026); common dates 50-250 DZD/kg (ouargla_market)
+lang	installed/equipment	2.8	4.5	231.64	289.06	57.42	248.53	ruiz2022 factors = 3.24; lever2023 3.5 (cites Humbird 4.5); cxbio2025 2-4
+foak	first-of-a-kind overrun	1.0	1.6	229.95	285.68	55.73	248.53	UNVERIFIED; cxbio2025 real plants 74k-734k $/m3
+dsp_m3	$ DSP equipment per m3 working volume (at 800 m3)	4000.0	10000.0	227.82	269.23	41.41	248.53	cxbio2025 3,000-10,000 $/m3
+C200	M$ per 200 m3-working vessel	0.6	1.7	234.1	273.78	39.68	248.53	ruiz2022 EUR397k/250.7 m3 (2020) x cepci; lever2023 $1.7M
+Y_glc	g biomass/g sugar	0.41	0.55	265.46	235.84	29.62	248.53	schmidt2005 0.48-0.50; graverholt2007 0.41-0.43
+f_date_Y	x of glucose yield on date syrup	0.8	1.05	267.12	239.04	28.08	248.53	UNVERIFIED: stage-1 gate is >=0.80 (no study on dates)
+s_frac	kg sugar/kg low-grade dates	0.45	0.64	262.76	239.52	23.24	248.53	scirp2021_hchef 45.3%; ifstj2021 51-63.6%
+rate	discount rate	0.1	0.15	239.97	262.01	22.04	248.53	UNVERIFIED (Algeria risk premium)
+dsp_cons	$/kg PC (enzyme, membranes, filter aid, QC, pack)	8.0	30.0	241.53	263.53	22.0	248.53	UNVERIFIED
+maint	fraction of FCI per year	0.02	0.04	236.75	256.38	19.63	248.53	ruiz2022 4% of equipment
+date_plant	M$ date-syrup plant at 20 kt sugar/y	1.0	3.5	241.43	259.17	17.74	248.53	UNVERIFIED
+fixed_qa	M$/y QA, regulatory, sales	0.5	2.0	243.53	258.53	15.0	248.53	UNVERIFIED
+uptime	fraction of 365 d	0.85	0.93	262.0	247.16	14.84	248.53	ruiz2022 330 d/y = 0.90
+f_vessel	x vessel cost (acid, non-autoclaved, lined)	0.7	1.0	240.51	252.54	12.02	248.53	UNVERIFIED; burns2020 plastics, no autoclave
+proc_date	$/kg sugar to extract+clarify	0.02	0.1	244.27	255.63	11.36	248.53	UNVERIFIED
+fte_cost	$/FTE/y loaded	9000.0	22000.0	244.19	255.47	11.29	248.53	almohandiss2026 45-110k DZD/month; CNAS employer 26% (cnas2025)
+expat	M$/y foreign technical staff	0.3	1.0	243.88	254.73	10.85	248.53	UNVERIFIED
+logistics	$/kg product to EU/US	1.0	4.0	245.59	254.41	8.82	248.53	UNVERIFIED
+vpsa_cost	$ per Nm3/h O2	600.0	2500.0	246.09	253.81	7.72	248.53	doer2026 / ecer quotes 300-10,000 Nm3/h
+eta_ext	sugar extraction yield	0.85	0.95	252.3	245.16	7.14	248.53	UNVERIFIED
+f_O2	share of O2 from VPSA	0.3	0.8	246.58	251.45	4.88	248.53	UNVERIFIED
+p_el	$/kWh	0.04	0.08	247.57	251.87	4.29	248.53	gpp2025 business 4.68 DZD = $0.035; upside = subsidy removal
+nut_other	$/kg biomass (P,K,Mg,trace,acid,antifoam)	0.02	0.08	247.23	251.12	3.89	248.53	UNVERIFIED
+p_gas	$/kWh thermal	0.0	0.03	247.56	251.28	3.72	248.53	gpp2025 gas $0.003; 2025 large-user repricing (dz_gas2025)
+e_O2	kWh/kg O2 transferred (incl. VPSA)	0.6	1.8	247.39	250.8	3.4	248.53	vpsa 0.3-0.6 kWh/Nm3 (doer2026); transfer UNVERIFIED
+p_nh3	$/kg NH3 delivered	0.45	0.75	247.82	249.94	2.12	248.53	gtaic2026 ~516 $/t import proxy
+n_frac	g N/g biomass	0.08	0.12	247.88	249.83	1.95	248.53	burns2020 Yx/N 11.7; abiusi2024 7.8-12% N
+e_misc	kWh/kg biomass (pumps, DSP, cooling fans)	0.3	0.9	247.94	249.69	1.75	248.53	UNVERIFIED
+p_carrier	$/kg carrier	0.6	2.0	247.82	249.47	1.65	248.53	trehalose2026 $0.65-1.8/kg
+p_glc	$/kg glucose landed Algeria	0.6	0.9	248.53	248.53	0.0	248.53	procurement2026 China FOB $476/t + 30% duty (dz_tarif_1702) + freight UNVERIFIED
+v_bio	$/kg spent biomass, net of drying	0.1	0.3	248.53	248.53	0.0	248.53	tridge2026 soybean meal DZ import $0.29-0.34/kg as ceiling

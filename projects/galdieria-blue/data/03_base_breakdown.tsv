@@ -1,0 +1,9 @@
+route	scale_t_pc	total_usd_per_kg_pc	capex_M	Vw_m3	sugar	nutrients	electricity	thermal	dsp_carrier_logistics	labour	maintenance	insurance	overheads	qa_sales_fixed	capital_charge	biomass_credit
+R2_climited_glucose	25	369.0	15.24	187.33	89.74	6.16	3.76	0.15	22.29	46.95	18.29	7.32	35.88	40.0	98.46	-0.0
+R3_climited_dates_fedbatch	25	379.17	18.24	197.19	71.16	6.48	4.29	1.38	22.29	47.14	21.88	8.75	37.96	40.0	117.81	-0.0
+R2_climited_glucose	50	287.43	24.2	374.66	89.74	6.16	3.76	0.15	22.29	25.06	14.52	5.81	21.77	20.0	78.17	-0.0
+R3_climited_dates_fedbatch	50	291.47	28.81	394.38	71.16	6.48	4.29	1.38	22.29	25.21	17.29	6.92	23.37	20.0	93.07	-0.0
+R2_climited_glucose	100	250.15	43.98	749.33	89.74	6.16	3.76	0.15	22.29	13.73	13.19	5.28	14.81	10.0	71.04	-0.0
+R3_climited_dates_fedbatch	100	248.53	50.66	788.77	71.16	6.48	4.29	1.38	22.29	13.84	15.2	6.08	15.97	10.0	81.82	-0.0
+R2_climited_glucose	200	226.69	79.57	1498.65	89.74	6.16	3.76	0.15	22.29	7.78	11.94	4.77	10.84	5.0	64.26	-0.0
+R3_climited_dates_fedbatch	200	221.75	89.95	1577.53	71.16	6.48	4.29	1.38	22.29	7.86	13.49	5.4	11.74	5.0	72.64	-0.0

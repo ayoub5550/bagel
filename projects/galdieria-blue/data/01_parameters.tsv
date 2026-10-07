@@ -1,0 +1,57 @@
+param	low	mode	high	unit	source
+Px	15.0	25.0	40.0	g biomass/L/d at scale	graverholt2007 17.5 fed-batch; burns2020 31.8-42.8 (3.5 L); scale-down UNVERIFIED
+c_pc	15.0	25.0	40.0	mg PC/g biomass	graverholt2007 26.7 (glucose, fed-batch); burns2020 31.4 glucose fed-batch, 29.9 glycerol 42C, max 45
+Y_glc	0.41	0.48	0.55	g biomass/g sugar	schmidt2005 0.48-0.50; graverholt2007 0.41-0.43
+f_date_Y	0.8	0.95	1.05	x of glucose yield on date syrup	UNVERIFIED: stage-1 gate is >=0.80 (no study on dates)
+f_date_c	0.7	0.95	1.1	x of glucose PC content on date syrup	UNVERIFIED: fructose/impurities may repress pigment (sloth2006, perezsaura2022)
+uptime	0.85	0.9	0.93	fraction of 365 d	ruiz2022 330 d/y = 0.90
+R_dsp	0.5	0.65	0.8	PC recovered / PC in broth	sorensen2013 (purification works); overall loss UNVERIFIED
+date_dzd	15.0	30.0	50.0	DZD/kg low-grade dates (rebuts)	UNVERIFIED: below processed date feed 68-72 DZD/kg (tsa2026); common dates 50-250 DZD/kg (ouargla_market)
+s_frac	0.45	0.55	0.64	kg sugar/kg low-grade dates	scirp2021_hchef 45.3%; ifstj2021 51-63.6%
+eta_ext	0.85	0.9	0.95	sugar extraction yield	UNVERIFIED
+proc_date	0.02	0.05	0.1	$/kg sugar to extract+clarify	UNVERIFIED
+p_glc	0.6	0.7	0.9	$/kg glucose landed Algeria	procurement2026 China FOB $476/t + 30% duty (dz_tarif_1702) + freight UNVERIFIED
+n_frac	0.075	0.09	0.12	g N/g biomass	burns2020 Yx/N 11.7; abiusi2024 7.8-12% N
+p_nh3	0.45	0.55	0.75	$/kg NH3 delivered	gtaic2026 ~516 $/t import proxy
+nut_other	0.02	0.04	0.08	$/kg biomass (P,K,Mg,trace,acid,antifoam)	UNVERIFIED
+e_O2	0.6	1.0	1.8	kWh/kg O2 transferred (incl. VPSA)	vpsa 0.3-0.6 kWh/Nm3 (doer2026); transfer UNVERIFIED
+e_misc	0.3	0.5	0.9	kWh/kg biomass (pumps, DSP, cooling fans)	UNVERIFIED
+p_el	0.035	0.045	0.08	$/kWh	gpp2025 business 4.68 DZD = $0.035; upside = subsidy removal
+p_gas	0.003	0.01	0.03	$/kWh thermal	gpp2025 gas $0.003; 2025 large-user repricing (dz_gas2025)
+dsp_cons	8.0	15.0	30.0	$/kg PC (enzyme, membranes, filter aid, QC, pack)	UNVERIFIED
+p_carrier	0.6	1.2	2.0	$/kg carrier	trehalose2026 $0.65-1.8/kg
+logistics	1.0	2.0	4.0	$/kg product to EU/US	UNVERIFIED
+v_bio	0.1	0.2	0.3	$/kg spent biomass, net of drying	tridge2026 soybean meal DZ import $0.29-0.34/kg as ceiling
+C200	0.6	1.0	1.7	M$ per 200 m3-working vessel	ruiz2022 EUR397k/250.7 m3 (2020) x cepci; lever2023 $1.7M
+f_vessel	0.7	0.9	1.0	x vessel cost (acid, non-autoclaved, lined)	UNVERIFIED; burns2020 plastics, no autoclave
+vpsa_cost	600.0	1200.0	2500.0	$ per Nm3/h O2	doer2026 / ecer quotes 300-10,000 Nm3/h
+f_O2	0.3	0.5	0.8	share of O2 from VPSA	UNVERIFIED
+dsp_m3	4000.0	7000.0	10000.0	$ DSP equipment per m3 working volume (at 800 m3)	cxbio2025 3,000-10,000 $/m3
+date_plant	1.0	2.0	3.5	M$ date-syrup plant at 20 kt sugar/y	UNVERIFIED
+lang	2.8	3.3	4.5	installed/equipment	ruiz2022 factors = 3.24; lever2023 3.5 (cites Humbird 4.5); cxbio2025 2-4
+foak	1.0	1.2	1.6	first-of-a-kind overrun	UNVERIFIED; cxbio2025 real plants 74k-734k $/m3
+maint	0.015	0.03	0.04	fraction of FCI per year	ruiz2022 4% of equipment
+fte_cost	9000.0	14000.0	22000.0	$/FTE/y loaded	almohandiss2026 45-110k DZD/month; CNAS employer 26% (cnas2025)
+expat	0.3	0.6	1.0	M$/y foreign technical staff	UNVERIFIED
+fixed_qa	0.5	1.0	2.0	M$/y QA, regulatory, sales	UNVERIFIED
+rate	0.1	0.12	0.15	discount rate	UNVERIFIED (Algeria risk premium)
+R0_eu_sterile_str_glucose:p_glc	0.45	0.5	0.6	$/kg glucose landed Algeria	ruiz2022 (EUR 0.44/kg glucose, EUR 0.122/kWh, salaries); f_vessel: agitator EUR576k (ruiz2022)
+R0_eu_sterile_str_glucose:p_el	0.1	0.12	0.16	$/kWh	ruiz2022 (EUR 0.44/kg glucose, EUR 0.122/kWh, salaries); f_vessel: agitator EUR576k (ruiz2022)
+R0_eu_sterile_str_glucose:p_gas	0.03	0.05	0.08	$/kWh thermal	ruiz2022 (EUR 0.44/kg glucose, EUR 0.122/kWh, salaries); f_vessel: agitator EUR576k (ruiz2022)
+R0_eu_sterile_str_glucose:f_vessel	1.07	1.5	2.0	x vessel cost (acid, non-autoclaved, lined)	ruiz2022 (EUR 0.44/kg glucose, EUR 0.122/kWh, salaries); f_vessel: agitator EUR576k (ruiz2022)
+R0_eu_sterile_str_glucose:fte_cost	45000.0	55000.0	70000.0	$/FTE/y loaded	ruiz2022 (EUR 0.44/kg glucose, EUR 0.122/kWh, salaries); f_vessel: agitator EUR576k (ruiz2022)
+R0_eu_sterile_str_glucose:expat	0.0	0.0	0.01	M$/y foreign technical staff	ruiz2022 (EUR 0.44/kg glucose, EUR 0.122/kWh, salaries); f_vessel: agitator EUR576k (ruiz2022)
+R0_eu_sterile_str_glucose:rate	0.07	0.08	0.1	discount rate	ruiz2022 (EUR 0.44/kg glucose, EUR 0.122/kWh, salaries); f_vessel: agitator EUR576k (ruiz2022)
+R0_eu_sterile_str_glucose:logistics	0.5	1.0	2.0	$/kg product to EU/US	ruiz2022 (EUR 0.44/kg glucose, EUR 0.122/kWh, salaries); f_vessel: agitator EUR576k (ruiz2022)
+R0_eu_sterile_str_glucose:e_O2	1.0	1.6	2.5	kWh/kg O2 transferred (incl. VPSA)	ruiz2022 (EUR 0.44/kg glucose, EUR 0.122/kWh, salaries); f_vessel: agitator EUR576k (ruiz2022)
+R0_eu_sterile_str_glucose:Px	12.0	18.0	30.0	g biomass/L/d at scale	ruiz2022 (EUR 0.44/kg glucose, EUR 0.122/kWh, salaries); f_vessel: agitator EUR576k (ruiz2022)
+R0_eu_sterile_str_glucose:c_pc	15.0	25.0	35.0	mg PC/g biomass	ruiz2022 (EUR 0.44/kg glucose, EUR 0.122/kWh, salaries); f_vessel: agitator EUR576k (ruiz2022)
+R1_naive_batch_dates:Px	8.0	15.0	25.0	g biomass/L/d at scale	schmidt2005 3-4 mg/g; sloth2006 4-5 mg/g on sugars; molasses 11.2 (burns2020)
+R1_naive_batch_dates:c_pc	3.0	5.0	11.0	mg PC/g biomass	schmidt2005 3-4 mg/g; sloth2006 4-5 mg/g on sugars; molasses 11.2 (burns2020)
+R1_naive_batch_dates:e_O2	1.0	1.6	2.5	kWh/kg O2 transferred (incl. VPSA)	schmidt2005 3-4 mg/g; sloth2006 4-5 mg/g on sugars; molasses 11.2 (burns2020)
+R4_climited_dates_continuous:Px	20.0	32.0	45.0	g biomass/L/d at scale	burns2020 continuous 42.8 g/L/d, 29.9 mg/g (glycerol); revertants lower PC; pleissner2025_gald 40 d non-sterile
+R4_climited_dates_continuous:c_pc	15.0	25.0	35.0	mg PC/g biomass	burns2020 continuous 42.8 g/L/d, 29.9 mg/g (glycerol); revertants lower PC; pleissner2025_gald 40 d non-sterile
+R4_climited_dates_continuous:uptime	0.8	0.87	0.92	fraction of 365 d	burns2020 continuous 42.8 g/L/d, 29.9 mg/g (glycerol); revertants lower PC; pleissner2025_gald 40 d non-sterile
+price:low_china_E18_bulk	133.33333333333334	133.33333333333334	133.33333333333334	$/kg PC	computed (botanicalcube2026, tint2026)
+price:mid_china_E25	324.3589743589744	324.3589743589744	324.3589743589744	$/kg PC	computed (botanicalcube2026, tint2026)
+price:high_eu_E18_250kg	517.5	517.5	517.5	$/kg PC	computed (botanicalcube2026, tint2026)
