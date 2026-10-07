@@ -19,9 +19,12 @@ Amaranthaceae/Chenopodiaceae) النابتة في الصحراء والسهوب 
 
 ## 2. القواعد غير القابلة للتفاوض
 
-1. **لا رقم بلا مصدر.** كل رقم في `docs/` أو `data/` يحمل مفتاح مرجع من
-   [`docs/references.md`](docs/references.md) أو اسم السكريبت الذي أنتجه. إن لم تتحقّق منه، اكتب
-   `UNVERIFIED` بجانبه.
+1. **لا رقم بلا مصدر، ولا مفتاح مرجع بلا DOI مُحقَّق.** كل رقم في `docs/` أو `data/` يحمل
+   مفتاح مرجع من [`docs/references.md`](docs/references.md) أو اسم السكريبت الذي أنتجه. إن لم
+   تتحقّق منه، اكتب `UNVERIFIED` بجانبه.
+   **ولا تكتب مفتاح مرجع من الذاكرة:** يُولَّد من البيانات الوصفية للـ DOI (Crossref) عند أول
+   إدخال، ويُسجَّل في `references.md` مع عمود «التحقّق». في 2026-10-07 تبيّن أن ثلاثة من خمسة
+   مفاتيح في هذا المستودع كانت تشير إلى أوراق غير موجودة (انظر `CHANGELOG.md`).
 2. **درجة الـ docking ليست قوة ارتباط.** أي جدول docking بلا **ضابط موجب** (إعادة إرساء الليغاند
    الأصلي للبنية البلورية) يُرفض ويُحذف.
 3. **مطابقة مكتبة GC-MS ليست تعريفًا كيميائيًا.** أدبيات هذه النبتة مليئة بمركّبات «مكتشفة» هي في
@@ -44,28 +47,38 @@ Amaranthaceae/Chenopodiaceae) النابتة في الصحراء والسهوب 
 
 ```
 docs/00-lab-environment.md    مواصفات الجهاز والبرمجيات والـ APIs + حدودها
-docs/01-plant.md              النبتة: الأسماء، الانتشار، الاستعمال التقليدي
+docs/01-plant.md              النبتة: التصنيف (GBIF)، الانتشار، الاستعمال التقليدي
 docs/02-phytochemistry.md     جرد المركّبات مع درجة قوة الدليل لكل واحد
-docs/03-insilico-results.md   نتائج الحساب: الواصفات، target fishing، الـ docking
+docs/03-insilico-results.md   نتائج الحساب: الواصفات، ChEMBL، docking، قائمة HRMS، الترانسكريبتوم
 docs/04-evidence-critique.md  نقد جودة الأدبيات: ما يُعتمد وما يُرفض ولماذا
 docs/05-safety-legal.md       السمّية والقانون
 docs/06-commercial.md         المسارات التجارية الواقعية والأرقام
-docs/references.md            كل المراجع بمفاتيحها (المفتاح = author+year)
+docs/references.md            كل المراجع بمفاتيحها + عمود «التحقّق» + سجلّ التصحيحات
 data/compounds.tsv            جرد المركّبات المُدخل يدويًا (المصدر الأساسي للسكريبتات)
 data/*.csv                    مخرجات السكريبتات (لا تُحرّر يدويًا — أعد توليدها)
-scripts/01..04                سلسلة المعالجة بالترتيب
+data/qc/                      صور فحص بصري للبنيات المبنيّة حسابيًّا
+scripts/01, 01b, 02..05       سلسلة المعالجة بالترتيب
 ROADMAP.md                    الخارطة: المراحل، التجارب، بوّابات القرار
+CHANGELOG.md                  ما تغيّر ولماذا، بالتاريخ والمنفّذ
 ```
+
+**عمودان مهمّان في `compounds.tsv`:** `structure_source` (إن كانت البنية تُبنى في سكريبت آخر،
+مثل `01b:SAP-3`، فسكريبت 01 يتجاوزها ولا يحاول حلّها في PubChem) و`notes` (ضعف كل ادّعاء
+صراحة).
 
 ## 4. كيف تشغّل كل شيء من الصفر
 
 ```bash
-bash scripts/setup_lab.sh                      # البيئة + vina
-.venv/bin/python scripts/01_resolve_pubchem.py  # الأسماء → SMILES/InChIKey (PubChem)
-.venv/bin/python scripts/02_descriptors.py      # الواصفات الدوائية + الفلاتر (RDKit)
-.venv/bin/python scripts/03_chembl.py           # الأنشطة المقيسة + target fishing (ChEMBL)
-.venv/bin/python scripts/04_dock.py             # docking مع ضابط موجب (Vina)
+bash scripts/setup_lab.sh                          # البيئة + vina  (~30 ثانية)
+.venv/bin/python scripts/01_resolve_pubchem.py     # الأسماء → SMILES/InChIKey (PubChem)
+.venv/bin/python scripts/01b_build_triterpenoids.py  # بناء الصابونينات التي لا يعرفها PubChem
+.venv/bin/python scripts/02_descriptors.py         # الواصفات الدوائية + الفلاتر (RDKit)
+.venv/bin/python scripts/03_chembl.py              # الأنشطة المقيسة + النظائر (ChEMBL)
+.venv/bin/python scripts/04_dock.py                # docking مع ضابط موجب (Vina) — الأبطأ
+.venv/bin/python scripts/05_ms_target_list.py      # قائمة HRMS/MS² الموجّهة
 ```
+
+ترتيب الاعتماد: `01b` قبل `02` و`04` و`05` (كلّها تقرأ `data/01b_triterpenoids.csv`).
 
 كل سكريبت يحفظ ناتجه في `data/` ويطبع ملخّصًا. السكريبتات **idempotent** وتستعمل كاش محلي
 (`data/cache/`)، فأعد تشغيلها بحرّية.
@@ -78,8 +91,15 @@ bash scripts/setup_lab.sh                      # البيئة + vina
 - موقع MDPI يرجّع **403** للسكريبتات. الحل: Europe PMC (`fullTextXML`) أو
   NCBI `efetch?db=pmc` — وهو الذي أخرج لنا جداول ورقة 2022 كاملة.
 - LOTUS/Wikidata لا يعرف إلا مركّبين لهذا النوع، فالجرد اليدوي من الأوراق ضروري.
-- PubChem لا يعرف أسماء بعض الصابونينات المركّبة؛ عند الفشل نبني SMILES يدويًا ونضع
-  `smiles_source=manual` في البيانات.
+- PubChem لا يعرف أسماء بعض الصابونينات المركّبة؛ تُبنى في `scripts/01b_build_triterpenoids.py`
+  من أسلاف PubChem بخطوات معلنة، مع تحقّق صيغة جزيئية + فحص بصري.
+- عند لصق سكّر على جزيء بـ RDKit: اكتب الشادّة بذرّة وهمية `*` على الكربون الأنوميري، وكوّن
+  الرابطة الحقيقية **قبل** حذف الذرّة الوهمية ثم sanitize مرّة واحدة. بلا ذلك يفقد الكربون
+  الأنوميري هيدروجينه ويصبح جذرًا، فتنقص الصيغة ذرّة H لكل سكّر (وقعنا في هذا وكشفه فحص الصيغة).
+- Vina يطيل جدًّا مع ليغاندات تفوق 10 روابط دورانية (الأكاربوز والصابونينات): دقائق إلى عشرات
+  الدقائق للّيغاند الواحد. درجاتها غير قابلة للتفسير أصلًا — تُدرج للعلم فقط.
+- `obabel` غير موجود كأمر، لكن الربط البايثوني `openbabel.pybel` مثبّت ويقوم بتحضير المستقبل
+  (`opt={"r": None}` ← مستقبل جامد).
 
 ## 6. أسلوب العمل والـ commits
 

@@ -1,0 +1,70 @@
+query_id,query_name,similarity_pct,analogue_chembl_id,analogue_name,analogue_max_phase,best_target,target_chembl_id,organism,max_pchembl,n_targets_with_pchembl
+AGL-1,oleanolic acid,100.0,CHEMBL168,OLEANOLIC_ACID,,Tissue factor,CHEMBL4081,Homo sapiens,8.3,70
+AGL-1,oleanolic acid,100.0,CHEMBL1436454,,,Lethal factor,CHEMBL4372,Bacillus anthracis,6.6,1
+AGL-1,oleanolic acid,100.0,CHEMBL365375,,,Beta-lactamase,CHEMBL2026,Escherichia coli K-12,5.8,6
+AGL-1,oleanolic acid,100.0,CHEMBL1783815,OLEANOLIC ACID GLUTARYL HEMI ESTER,,Protease,CHEMBL2366517,Human immunodeficiency virus 1,5.4,1
+AGL-1,oleanolic acid,80.4,CHEMBL487412,METHYL OLEANOLATE,,Tyrosine-protein phosphatase non-receptor type 1,CHEMBL335,Homo sapiens,5.35,3
+AGL-1,oleanolic acid,83.3,CHEMBL461344,,,Tyrosine-protein phosphatase non-receptor type 1,CHEMBL335,Homo sapiens,5.32,1
+AGL-1,oleanolic acid,100.0,CHEMBL486382,,,Tyrosine-protein phosphatase non-receptor type 1,CHEMBL335,Homo sapiens,5.3,4
+AGL-1,oleanolic acid,80.4,CHEMBL461165,,,Tyrosine-protein phosphatase non-receptor type 1,CHEMBL335,Homo sapiens,5.04,1
+AGL-1,oleanolic acid,100.0,CHEMBL1413646,,,Ubiquitin carboxyl-terminal hydrolase 2,CHEMBL1293227,Homo sapiens,5.0,1
+AGL-2,"3beta-hydroxy-23-aldehyde-30-norolean-12,20(29)-dien-28-oic acid",76.6,CHEMBL1081326,,,Liver carboxylesterase 1,CHEMBL2265,Homo sapiens,7.0,3
+AGL-3,"30-norolean-12,20(29)-dien-28-oic acid (aglycone of compound 3)",75.9,CHEMBL168,OLEANOLIC_ACID,,Tissue factor,CHEMBL4081,Homo sapiens,8.3,70
+AGL-3,"30-norolean-12,20(29)-dien-28-oic acid (aglycone of compound 3)",80.3,CHEMBL1081326,,,Liver carboxylesterase 1,CHEMBL2265,Homo sapiens,7.0,3
+AGL-3,"30-norolean-12,20(29)-dien-28-oic acid (aglycone of compound 3)",75.9,CHEMBL1436454,,,Lethal factor,CHEMBL4372,Bacillus anthracis,6.6,1
+AGL-3,"30-norolean-12,20(29)-dien-28-oic acid (aglycone of compound 3)",75.9,CHEMBL365375,,,Beta-lactamase,CHEMBL2026,Escherichia coli K-12,5.8,6
+AGL-3,"30-norolean-12,20(29)-dien-28-oic acid (aglycone of compound 3)",75.9,CHEMBL1783815,OLEANOLIC ACID GLUTARYL HEMI ESTER,,Protease,CHEMBL2366517,Human immunodeficiency virus 1,5.4,1
+AGL-3,"30-norolean-12,20(29)-dien-28-oic acid (aglycone of compound 3)",75.9,CHEMBL486382,,,Tyrosine-protein phosphatase non-receptor type 1,CHEMBL335,Homo sapiens,5.3,4
+AGL-3,"30-norolean-12,20(29)-dien-28-oic acid (aglycone of compound 3)",75.9,CHEMBL1413646,,,Ubiquitin carboxyl-terminal hydrolase 2,CHEMBL1293227,Homo sapiens,5.0,1
+AGL-4,"3beta,20alpha-dihydroxy-30-nor-olean-12-ene-23,28-dioic acid",71.2,CHEMBL168,OLEANOLIC_ACID,,Tissue factor,CHEMBL4081,Homo sapiens,8.3,70
+AGL-4,"3beta,20alpha-dihydroxy-30-nor-olean-12-ene-23,28-dioic acid",71.2,CHEMBL1436454,,,Lethal factor,CHEMBL4372,Bacillus anthracis,6.6,1
+AGL-4,"3beta,20alpha-dihydroxy-30-nor-olean-12-ene-23,28-dioic acid",71.2,CHEMBL395428,,,Polyunsaturated fatty acid lipoxygenase ALOX15,CHEMBL2903,Homo sapiens,6.0,4
+AGL-4,"3beta,20alpha-dihydroxy-30-nor-olean-12-ene-23,28-dioic acid",71.2,CHEMBL365375,,,Beta-lactamase,CHEMBL2026,Escherichia coli K-12,5.8,6
+AGL-4,"3beta,20alpha-dihydroxy-30-nor-olean-12-ene-23,28-dioic acid",71.2,CHEMBL1783815,OLEANOLIC ACID GLUTARYL HEMI ESTER,,Protease,CHEMBL2366517,Human immunodeficiency virus 1,5.4,1
+AGL-4,"3beta,20alpha-dihydroxy-30-nor-olean-12-ene-23,28-dioic acid",71.2,CHEMBL486382,,,Tyrosine-protein phosphatase non-receptor type 1,CHEMBL335,Homo sapiens,5.3,4
+AGL-4,"3beta,20alpha-dihydroxy-30-nor-olean-12-ene-23,28-dioic acid",71.2,CHEMBL1413646,,,Ubiquitin carboxyl-terminal hydrolase 2,CHEMBL1293227,Homo sapiens,5.0,1
+AGL-5,3beta-hydroxy-23-aldehyde-lup-20(29)-en-28-oic acid,76.3,CHEMBL4092579,,,Tissue factor,CHEMBL4081,Homo sapiens,9.66,1
+AGL-5,3beta-hydroxy-23-aldehyde-lup-20(29)-en-28-oic acid,76.3,CHEMBL251308,,,Liver carboxylesterase 1,CHEMBL2265,Homo sapiens,7.0,20
+AGL-5,3beta-hydroxy-23-aldehyde-lup-20(29)-en-28-oic acid,80.4,CHEMBL269277,BETULINIC ACID,1.0,Albumin,CHEMBL3253,Homo sapiens,6.23,91
+AGL-5,3beta-hydroxy-23-aldehyde-lup-20(29)-en-28-oic acid,80.4,CHEMBL6021058,,,Tyrosine-protein phosphatase non-receptor type 1,CHEMBL335,Homo sapiens,5.52,2
+AGL-5,3beta-hydroxy-23-aldehyde-lup-20(29)-en-28-oic acid,80.4,CHEMBL3601028,,,Albumin,CHEMBL3253,Homo sapiens,5.41,2
+AGL-5,3beta-hydroxy-23-aldehyde-lup-20(29)-en-28-oic acid,80.4,CHEMBL1783811,BETULINIC ACID GLUTARYL HEMI ESTER,,Protease,CHEMBL2366517,Human immunodeficiency virus 1,5.4,1
+AGL-5,3beta-hydroxy-23-aldehyde-lup-20(29)-en-28-oic acid,80.4,CHEMBL1318530,,,Prelamin-A/C,CHEMBL1293235,Homo sapiens,5.3,3
+AGL-5,3beta-hydroxy-23-aldehyde-lup-20(29)-en-28-oic acid,100.0,CHEMBL3751857,,,Tyrosinase,CHEMBL3318,Agaricus bisporus,4.59,1
+AGL-6,"3beta-hydroxy-lup-20(29)-ene-23,28-dioic acid",78.9,CHEMBL4092579,,,Tissue factor,CHEMBL4081,Homo sapiens,9.66,1
+AGL-6,"3beta-hydroxy-lup-20(29)-ene-23,28-dioic acid",78.9,CHEMBL251308,,,Liver carboxylesterase 1,CHEMBL2265,Homo sapiens,7.0,20
+AGL-6,"3beta-hydroxy-lup-20(29)-ene-23,28-dioic acid",83.3,CHEMBL269277,BETULINIC ACID,1.0,Albumin,CHEMBL3253,Homo sapiens,6.23,91
+AGL-6,"3beta-hydroxy-lup-20(29)-ene-23,28-dioic acid",83.3,CHEMBL6021058,,,Tyrosine-protein phosphatase non-receptor type 1,CHEMBL335,Homo sapiens,5.52,2
+AGL-6,"3beta-hydroxy-lup-20(29)-ene-23,28-dioic acid",70.2,CHEMBL80460,PLATANIC ACID,,G-protein coupled bile acid receptor 1,CHEMBL5409,Homo sapiens,5.51,13
+AGL-6,"3beta-hydroxy-lup-20(29)-ene-23,28-dioic acid",83.3,CHEMBL3601028,,,Albumin,CHEMBL3253,Homo sapiens,5.41,2
+AGL-6,"3beta-hydroxy-lup-20(29)-ene-23,28-dioic acid",83.3,CHEMBL1783811,BETULINIC ACID GLUTARYL HEMI ESTER,,Protease,CHEMBL2366517,Human immunodeficiency virus 1,5.4,1
+AGL-6,"3beta-hydroxy-lup-20(29)-ene-23,28-dioic acid",83.3,CHEMBL1318530,,,Prelamin-A/C,CHEMBL1293235,Homo sapiens,5.3,3
+AGL-6,"3beta-hydroxy-lup-20(29)-ene-23,28-dioic acid",80.0,CHEMBL3289105,,,Prostaglandin E synthase,CHEMBL5658,Homo sapiens,5.07,3
+AGL-6,"3beta-hydroxy-lup-20(29)-ene-23,28-dioic acid",78.9,CHEMBL3751857,,,Tyrosinase,CHEMBL3318,Agaricus bisporus,4.59,1
+AGL-7,betulinic acid (lupane reference parent),80.4,CHEMBL4092579,,,Tissue factor,CHEMBL4081,Homo sapiens,9.66,1
+AGL-7,betulinic acid (lupane reference parent),80.4,CHEMBL251308,,,Liver carboxylesterase 1,CHEMBL2265,Homo sapiens,7.0,20
+AGL-7,betulinic acid (lupane reference parent),100.0,CHEMBL269277,BETULINIC ACID,1.0,Albumin,CHEMBL3253,Homo sapiens,6.23,91
+AGL-7,betulinic acid (lupane reference parent),100.0,CHEMBL6021058,,,Tyrosine-protein phosphatase non-receptor type 1,CHEMBL335,Homo sapiens,5.52,2
+AGL-7,betulinic acid (lupane reference parent),84.6,CHEMBL80460,PLATANIC ACID,,G-protein coupled bile acid receptor 1,CHEMBL5409,Homo sapiens,5.51,13
+AGL-7,betulinic acid (lupane reference parent),100.0,CHEMBL3601028,,,Albumin,CHEMBL3253,Homo sapiens,5.41,2
+AGL-7,betulinic acid (lupane reference parent),100.0,CHEMBL1783811,BETULINIC ACID GLUTARYL HEMI ESTER,,Protease,CHEMBL2366517,Human immunodeficiency virus 1,5.4,1
+AGL-7,betulinic acid (lupane reference parent),100.0,CHEMBL1318530,,,Prelamin-A/C,CHEMBL1293235,Homo sapiens,5.3,3
+AGL-7,betulinic acid (lupane reference parent),80.4,CHEMBL3751857,,,Tyrosinase,CHEMBL3318,Agaricus bisporus,4.59,1
+SAP-1,oleanolic acid 3-O-beta-D-glucopyranoside,100.0,CHEMBL2047219,VITALBOSIDE A,,Tissue factor,CHEMBL4081,Homo sapiens,10.02,1
+SAP-1,oleanolic acid 3-O-beta-D-glucopyranoside,86.1,CHEMBL3343919,,,Tissue factor,CHEMBL4081,Homo sapiens,7.8,1
+SAP-2,3-O-beta-D-glucopyranosyl-28-O-beta-D-xylopyranosyl oleanolic acid,90.5,CHEMBL3343919,,,Tissue factor,CHEMBL4081,Homo sapiens,7.8,1
+SAP-3,"3beta-hydroxy-23-aldehyde-30-norolean-12,20(29)-dien-28-oic acid 28-O-beta-D-glucopyranosyl ester (compound 1)",70.4,CHEMBL510111,,,Tissue factor,CHEMBL4081,Homo sapiens,10.46,3
+SAP-4,"3beta-O-D-galactopyranosyl-23-aldehyde-30-norolean-12,20(29)-dien-28-oic acid 28-O-beta-D-glucopyranosyl ester (compound 2)",70.6,CHEMBL3343919,,,Tissue factor,CHEMBL4081,Homo sapiens,7.8,1
+SAP-4,"3beta-O-D-galactopyranosyl-23-aldehyde-30-norolean-12,20(29)-dien-28-oic acid 28-O-beta-D-glucopyranosyl ester (compound 2)",72.6,CHEMBL3798919,,,Xanthine dehydrogenase/oxidase,CHEMBL3649,Bos taurus,4.1,1
+SAP-5,"3beta-O-D-xylopyranosyl-30-norolean-12,20(29)-dien-28-oic acid 28-O-beta-D-glucopyranosyl ester (compound 3)",79.8,CHEMBL5404634,,,"Glutaminase kidney isoform, mitochondrial",CHEMBL2146302,Homo sapiens,5.21,2
+SAP-5,"3beta-O-D-xylopyranosyl-30-norolean-12,20(29)-dien-28-oic acid 28-O-beta-D-glucopyranosyl ester (compound 3)",82.4,CHEMBL3798919,,,Xanthine dehydrogenase/oxidase,CHEMBL3649,Bos taurus,4.1,1
+SAP-5,"3beta-O-D-xylopyranosyl-30-norolean-12,20(29)-dien-28-oic acid 28-O-beta-D-glucopyranosyl ester (compound 3)",78.6,CHEMBL3890430,,,Xanthine dehydrogenase/oxidase,CHEMBL1929,Homo sapiens,4.01,1
+SAP-6,"3beta-hydroxy-lup-20(29)-ene-23,28-dioic acid 23-O-beta-D-glucopyranosyl ester (compound 5)",78.9,CHEMBL4066780,,,Tissue factor,CHEMBL4081,Homo sapiens,10.55,1
+SAP-6,"3beta-hydroxy-lup-20(29)-ene-23,28-dioic acid 23-O-beta-D-glucopyranosyl ester (compound 5)",81.1,CHEMBL4070749,,,Tissue factor,CHEMBL4081,Homo sapiens,10.11,1
+SAP-6,"3beta-hydroxy-lup-20(29)-ene-23,28-dioic acid 23-O-beta-D-glucopyranosyl ester (compound 5)",72.5,CHEMBL4064877,,,Tissue factor,CHEMBL4081,Homo sapiens,9.19,1
+SAP-7,"3-O-beta-D-glucuronopyranosyl-lup-20(29)-ene-23,28-dioic acid 28-O-beta-D-glucopyranosyl ester (compound 6)",70.6,CHEMBL4066780,,,Tissue factor,CHEMBL4081,Homo sapiens,10.55,1
+SAP-7,"3-O-beta-D-glucuronopyranosyl-lup-20(29)-ene-23,28-dioic acid 28-O-beta-D-glucopyranosyl ester (compound 6)",72.3,CHEMBL4070749,,,Tissue factor,CHEMBL4081,Homo sapiens,10.11,1
+SAP-7,"3-O-beta-D-glucuronopyranosyl-lup-20(29)-ene-23,28-dioic acid 28-O-beta-D-glucopyranosyl ester (compound 6)",79.3,CHEMBL4064877,,,Tissue factor,CHEMBL4081,Homo sapiens,9.19,1
+SAP-8,3-O-beta-D-glucuronopyranosyl-lup-20(29)-ene-23-aldehyde-28-oic acid 28-O-beta-D-glucopyranosyl ester (compound 7),70.6,CHEMBL4066780,,,Tissue factor,CHEMBL4081,Homo sapiens,10.55,1
+SAP-8,3-O-beta-D-glucuronopyranosyl-lup-20(29)-ene-23-aldehyde-28-oic acid 28-O-beta-D-glucopyranosyl ester (compound 7),72.3,CHEMBL4070749,,,Tissue factor,CHEMBL4081,Homo sapiens,10.11,1
+SAP-8,3-O-beta-D-glucuronopyranosyl-lup-20(29)-ene-23-aldehyde-28-oic acid 28-O-beta-D-glucopyranosyl ester (compound 7),79.3,CHEMBL4064877,,,Tissue factor,CHEMBL4081,Homo sapiens,9.19,1

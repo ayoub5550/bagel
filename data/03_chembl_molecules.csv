@@ -1,0 +1,49 @@
+name,inchikey,evidence,source_key,chembl_id,chembl_pref_name,max_phase,n_activities_pchembl,n_targets,best_pchembl,best_target
+oleanolic acid,MIJYXULNPSFWEK-GTOFXWBISA-N,isolated,metwally2012;lotus,CHEMBL168,OLEANOLIC_ACID,,232,70,8.3,Tissue factor (Homo sapiens)
+oleanolic acid 3-O-beta-D-glucopyranoside,ZNFRITHWVZXJRK-SZUUDGAKSA-N,isolated,metwally2012,,,,0,0,,
+daucosterol,NPJICTMALKLTFW-OFUAXYCQSA-N,isolated,metwally2012,CHEMBL506678,SITOGLUSIDE,2.0,5,4,4.58,DNA polymerase beta (Homo sapiens)
+stigmasterol 3-O-beta-D-glucoside,VWDLOXMZIGUBKM-AUGXRQBFSA-N,isolated,metwally2012,CHEMBL447335,STIGMASTEROL GLUCOSIDE,,2,2,4.22,Dual specificity protein phosphatase 3 (Homo sapiens)
+sitostanol 3-O-beta-D-glucoside,YITHQYDRZAVJHB-ODNBDLJWSA-N,isolated,metwally2012,,,,0,0,,
+beta-sitosterol,KZJWDPNRJALLNS-VJSFXXLFSA-N,inferred_aglycone,metwally2012,CHEMBL221542,BETA-SITOSTEROL,,12,9,6.57,Prothrombin (Homo sapiens)
+stigmasterol,HCXVJBMSMIARIN-PHZDYDNGSA-N,inferred_aglycone,metwally2012,CHEMBL400247,STIGMASTEROL,,10,8,4.36,DNA polymerase beta (Homo sapiens)
+betaine,KWIUHFFTVRNATP-UHFFFAOYSA-N,reported,lotus,CHEMBL1182,GLYCINEBETAINE,,0,0,,
+oxalic acid,MUBZPKHOEPUJKR-UHFFFAOYSA-N,genus_family,doaigey1991,CHEMBL146755,OXALIC ACID,-1.0,0,0,,
+gallic acid,LNTHITQWFMADLM-UHFFFAOYSA-N,tentative_lcms,aljoufi2022;makhlouf2024,CHEMBL288114,GALLIC ACID,2.0,107,54,7.3,3-hydroxyacyl-CoA dehydrogenase type-2 (Homo sapiens)
+chlorogenic acid,CWVRJTMFETXNAD-JUHZACGLSA-N,tentative_hplc,aljoufi2022,CHEMBL284616,CHLOROGENIC ACID,2.0,28,13,7.0,Tyrosine-protein phosphatase non-receptor type 1 (Homo sapiens)
+"3,5-dicaffeoylquinic acid",KRZBCHWVBQOTNZ-RDJMKVHDSA-N,tentative_hplc,aljoufi2022,CHEMBL4289566,,,0,0,,
+caffeic acid,QAIPRVGONGVQAS-DUXPYHPUSA-N,tentative_hplc,aljoufi2022,CHEMBL145,CAFFEIC ACID,3.0,171,75,8.0,Matrix metalloproteinase-9 (Homo sapiens)
+p-coumaric acid,NGSWKAQJJWESNS-ZZXKWVIFSA-N,tentative_hplc,aljoufi2022,CHEMBL66879,COUMARIC ACID,,40,29,6.85,Aldo-keto reductase family 1 member B1 (Homo sapiens)
+syringic acid,JMSVCTWVEWCHDZ-UHFFFAOYSA-N,tentative_hplc,aljoufi2022,CHEMBL1414,SYRINGIC ACID,,17,15,5.5,Carbonic anhydrase 2 (Homo sapiens)
+ellagic acid,AFSDNFLWKVMVRB-UHFFFAOYSA-N,tentative_hplc,aljoufi2022,CHEMBL6246,ELLAGIC ACID,2.0,195,116,7.85,DNA repair nuclease/redox regulator APEX1 (Homo sapiens)
+pedunculagin,IYMHVUYNBVWXKH-ZITZVVOASA-N,tentative_hplc,aljoufi2022,CHEMBL506204,PEDUNCULAGIN,,8,4,7.38,Prothrombin (Bos taurus)
+epigallocatechin gallate,WMBWREPUVVBILR-WIYYLYMNSA-N,tentative_hplc,aljoufi2022,CHEMBL297453,EPIGALOCATECHIN GALLATE,3.0,268,137,8.1,Enoyl-acyl-carrier protein reductase (Plasmodium falciparum)
+catechin,PFTAWBLQPZVEMU-DZGCQCFKSA-N,tentative_hplc,aljoufi2022,CHEMBL311498,CIANIDANOL,4.0,59,33,6.22,Arginase (Leishmania amazonensis)
+rutin,IKGXIBQEEMLURG-NVPNHPEKSA-N,tentative_hplc,aljoufi2022;makhlouf2024,CHEMBL226335,RUTIN,3.0,63,37,8.42,Beta-secretase 1 (Homo sapiens)
+quercetin,REFJWTPEDVJJIY-UHFFFAOYSA-N,tentative_hplc,aljoufi2022,CHEMBL50,QUERCETIN,3.0,846,307,8.0,Amine oxidase [flavin-containing] A (Bos taurus)
+morin,YXOLAZRVSSWPPT-UHFFFAOYSA-N,tentative_hplc,aljoufi2022,CHEMBL28626,MORIN,,135,72,7.82,Tyrosine-protein phosphatase non-receptor type 1 (Homo sapiens)
+myricetin,IKMDFBPHZNJCSN-UHFFFAOYSA-N,tentative_lcms,makhlouf2024,CHEMBL164,MYRICETIN,,314,127,9.6,Muscleblind-like protein 1 (Homo sapiens)
+kaempferol,IYRMWMYZSQPJKC-UHFFFAOYSA-N,tentative_hplc,aljoufi2022,CHEMBL150,KAEMPFEROL,1.0,189,110,8.9,Cytochrome P450 2C9 (Homo sapiens)
+isorhoifolin,FKIYLTVJPDLUDL-SLNHTJRHSA-N,tentative_hplc,aljoufi2022,CHEMBL454778,ISORHOIFOLIN,,0,0,,
+"quercetin 3,7-di-O-glucoside",BNSCASRSSGJHQH-DEFKTLOSSA-N,tentative_hplc,aljoufi2022,CHEMBL591113,,,0,0,,
+pyrogallol,WQGWDDDVZFFDIG-UHFFFAOYSA-N,tentative_hplc,aljoufi2022,CHEMBL307145,PYROGALLOL,-1.0,43,31,7.06,Tyrosyl-DNA phosphodiesterase 1 (Homo sapiens)
+malic acid,BJEPYKJPYRNKOW-UHFFFAOYSA-N,tentative_hplc,aljoufi2022,CHEMBL1455497,MALIC ACID,2.0,2,2,4.1,Beta-lactamase (Escherichia coli K-12)
+mandelic acid,IWYDHOAUDWTVEP-UHFFFAOYSA-N,tentative_hplc,aljoufi2022,CHEMBL1609,MANDELIC ACID,-1.0,3,3,5.1,Prelamin-A/C (Homo sapiens)
+ascorbic acid,CIWBSHSKHKDKBQ-JLAZNSOCSA-N,tentative_hplc,aljoufi2022,CHEMBL196,ASCORBIC ACID,4.0,189,12,9.3,Alpha-2B adrenergic receptor (Homo sapiens)
+beta-carotene,OENHQHLEOONYIE-JLTXGRSLSA-N,tentative_lcms,makhlouf2024,CHEMBL1293,BETA CAROTENE,4.0,13,10,6.47,Solute carrier organic anion transporter family member 1B1 (Homo sapiens)
+anabasine,MTXSIJUGVMTTMU-JTQLQIEISA-N,genus_only,lotus,CHEMBL1526229,ANABASINE,,13,8,6.41,Neuronal acetylcholine receptor subunit alpha-7 (Rattus norvegicus)
+lupinine,HDVAWXXJVMJBAR-VHSXEESVSA-N,genus_only,lotus,CHEMBL459397,LUPININE,,0,0,,
+sparteine,SLRCCWJSBJZJBV-ZQDZILKHSA-N,genus_only,lotus,CHEMBL1908847,SPARTEINE,4.0,4,4,4.22,Cytochrome P450 2D6 (Homo sapiens)
+aphylline,YQMWQSMYVPLYDI-SYQHCUMBSA-N,genus_only,lotus,,,,0,0,,
+aphyllidine,UAAWNTMXVSONPU-SCRDCRAPSA-N,genus_only,lotus,,,,0,0,,
+butylated hydroxyanisole,MRBKEAMVRSLQPH-UHFFFAOYSA-N,artifact_suspect,makhlouf2024,CHEMBL192451,,,1,1,,
+butylated hydroxytoluene,NLZUEZXRPGMBCV-UHFFFAOYSA-N,artifact_suspect,makhlouf2024,CHEMBL146,BUTYLATED HYDROXYTOLUENE,2.0,79,14,6.92,Tyrosinase (Homo sapiens)
+bis(2-ethylhexyl) phthalate,BJQHLKABXJIVAM-UHFFFAOYSA-N,artifact_suspect,aljoufi2022,CHEMBL1242017,BIS(2-ETHYLHEXYL) PHTHALATE,,5,4,5.1,Lethal factor (Bacillus anthracis)
+diethyl phthalate,FLKPEMZONWLCSK-UHFFFAOYSA-N,artifact_suspect,aljoufi2022,CHEMBL388558,DIETHYL PHTHALATE,-1.0,3,2,4.4,Thyrotropin receptor (Homo sapiens)
+N-nitrosomorpholine,ZKXDGKXYMTYWTB-UHFFFAOYSA-N,artifact_suspect,aljoufi2022,CHEMBL165908,N-NITROSOMORPHOLINE,,0,0,,
+anthrone,RJGDLRCDCYRQOQ-UHFFFAOYSA-N,artifact_suspect,makhlouf2024,CHEMBL124440,ANTHRONE,,2,2,5.72,Amine oxidase [flavin-containing] A (Homo sapiens)
+isopropyl palmitate,XUGNVMKQXJXZCD-UHFFFAOYSA-N,artifact_suspect,aljoufi2022,CHEMBL139055,ISOPROPYL PALMITATE,-1.0,1,1,4.6,Prelamin-A/C (Homo sapiens)
+boussingoside E,XZLYKCFSWUWOSX-HKEDDHKFSA-N,isolated,salaheldine2019,,,,0,0,,
+quercetin 3-O-beta-D-galactoside,OVSQVDMCBVZWGM-DTGCRPNFSA-N,isolated,jan2025,CHEMBL251254,HYPEROSIDE,,35,18,5.92,Cytochrome P450 2D6 (Homo sapiens)
+quercitrin,OXGUCUVFOIWWQJ-HQBVPOQASA-N,isolated,jan2025,CHEMBL82242,QUERCITRIN,,33,20,6.82,Aldo-keto reductase family 1 member B1 (Homo sapiens)
+caffeine,RYYVLZVUVIJVGH-UHFFFAOYSA-N,artifact_suspect,gamal2022b,CHEMBL113,CAFFEINE,4.0,197,33,9.22,Cannabinoid receptor 1 (Homo sapiens)
+4-acetoxyphenol,HBMCQTHGYMTCOF-UHFFFAOYSA-N,reported,gamal2022b,CHEMBL3039093,4-ACETOXYPHENOL,,0,0,,

@@ -5,3 +5,8 @@ __pycache__/
 work/
 *.pdbqt
 *.xml
+
+# API caches: large, regenerable, not part of the record
+data/cache/
+
+# docking work dir (receptors, poses) — regenerate with scripts/04_dock.py
