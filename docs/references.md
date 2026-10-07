@@ -75,6 +75,29 @@
 
 ---
 
+## 5ب. مسار الصابونين والترانسكريبتوم (أُضيف 2026-10-07 مع `docs/03` §6)
+
+| المفتاح | المرجع | DOI | التحقّق |
+|---|---|---|---|
+| `jo2025` | Jo S, El-Demerdash A, Owen C, et al. *Unlocking saponin biosynthesis in soapwort.* Nat Chem Biol 2025; 21: 215–226. PMID 39043959. | [10.1038/s41589-024-01681-7](https://doi.org/10.1038/s41589-024-01681-7) | abstract + وظائف إنزيماتها في مدخلات Swiss-Prot (SobAS1, CYP716A378/379, CYP72A984, CSL1, UGT74CD1, UGT73CC6/DL1/M2, UGT79T1/L3) |
+| `chung2020` | Chung SY, Seki H, Fujisawa Y, Shimoda Y, Hiraga S, Nomura Y, Saito K, Ishimoto M, Muranaka T. *A cellulose synthase-derived enzyme catalyses 3-O-glucuronosylation in saponin biosynthesis.* Nat Commun 2020; 11: 5664. PMID 33199711. | [10.1038/s41467-020-19399-0](https://doi.org/10.1038/s41467-020-19399-0) | abstract |
+| `jozwiak2020` | Jozwiak A, Sonawane PD, Panda S, et al. *Plant terpenoid metabolism co-opts a component of the cell wall biosynthesis machinery.* Nat Chem Biol 2020; 16: 740–748. PMID 32424305. | [10.1038/s41589-020-0541-x](https://doi.org/10.1038/s41589-020-0541-x) | abstract |
+| `zhang2025` | Zhang Y, Zhu P, Wu L, et al. *Unveiling the catalytical roles of three glycosyltransferases in triterpenoid saponins in quinoa.* Plant Biotechnol J 2025; 23: 4214–4227. PMID 40574342. | [10.1111/pbi.70214](https://doi.org/10.1111/pbi.70214) | abstract |
+| `suzuki2018` | Suzuki H, Fukushima EO, Umemoto N, Ohyama K, Seki H, Muranaka T. *Comparative analysis of CYP716A subfamily enzymes for the heterologous production of C-28 oxidized triterpenoids in transgenic yeast.* Plant Biotechnol (Tokyo) 2018; 35: 131–139. PMID 31819715. | [10.5511/plantbiotechnology.18.0416a](https://doi.org/10.5511/plantbiotechnology.18.0416a) | abstract |
+| `lacchini2025` | Lacchini E, Qu T, Moses T, Volkov AN, Goossens A. *Engineering Gypsophila elegans hairy root cultures to produce endosomal escape-enhancing saponins.* Plant Biotechnol J 2025; 23: 3068–3082. PMID 40347514. | [10.1111/pbi.70122](https://doi.org/10.1111/pbi.70122) | abstract |
+| `kushiro2000` | Kushiro T, Shibuya M, Masuda K, Ebizuka Y. *Mutational studies on triterpene synthases: engineering lupeol synthase into β-amyrin synthase.* J Am Chem Soc 2000; 122(29): 6816–6824. | [10.1021/ja0010709](https://doi.org/10.1021/ja0010709) | crossref فقط — موضع البقية `UNVERIFIED` |
+| `mackenzie1997` | Mackenzie PI, Owens IS, Burchell B, et al. *The UDP glycosyltransferase gene superfamily: recommended nomenclature update based on evolutionary divergence.* Pharmacogenetics 1997; 7(4): 255–269. PMID 9295054. | [10.1097/00008571-199708000-00001](https://doi.org/10.1097/00008571-199708000-00001) | abstract (جزئي؛ عتبات النسب المئوية غير مقروءة) |
+| `walker2018` | Walker JF, Yang Y, Feng T, et al. *From cacti to carnivores: Improved phylotranscriptomic sampling and hierarchical homology inference provide further insight into the evolution of Caryophyllales.* Am J Bot 2018; 105(3): 446–462. PMID 29738076. | [10.1002/ajb2.1069](https://doi.org/10.1002/ajb2.1069) | abstract — **أيّ الدراستين ولّدت `SRR6435311` `UNVERIFIED`** |
+| `moralesbriones2021` | Morales-Briones DF, Kadereit G, Tefarikis DT, et al. *Disentangling sources of gene tree discordance in phylogenomic data sets: testing ancient hybridizations in Amaranthaceae s.l.* Syst Biol 2021; 70(2): 219–235. PMID 32785686. | [10.1093/sysbio/syaa066](https://doi.org/10.1093/sysbio/syaa066) | abstract |
+| `jiang2024` | Jiang P, Han P, He M, et al. *Appropriate mowing can promote the growth of Anabasis aphylla through the auxin metabolism pathway.* BMC Plant Biol 2024; 24: 482. PMID 38822275. | [10.1186/s12870-024-05204-3](https://doi.org/10.1186/s12870-024-05204-3) | abstract |
+| `bushmanova2019` | Bushmanova E, Antipov D, Lapidus A, Prjibelski AD. *rnaSPAdes: a de novo transcriptome assembler and its application to RNA-Seq data.* GigaScience 2019; 8(9): giz100. | [10.1093/gigascience/giz100](https://doi.org/10.1093/gigascience/giz100) | الاستشهاد الذي يطبعه rnaSPAdes نفسه |
+
+أدوات الترانسكريبتوم الأخرى (تُقتبس بالاسم والإصدار): fastp 1.4.0، SPAdes 4.0.0، seqkit 2.8.2،
+DIAMOND 2.1.10، salmon 1.10.0، orfipy، pyhmmer 0.12.3، pyfamsa، VeryFastTree 4.0.4.1. نماذج Pfam:
+PF13243، PF13249، PF00067، PF00201، PF01397، PF03936، PF02458، PF03552.
+
+---
+
 ## 6. تصحيحات على المفاتيح السابقة (2026-10-07)
 
 ثلاثة من المفاتيح الخمسة التي كانت في `data/compounds.tsv` **لا تشير إلى أوراق موجودة**. صُحّحت

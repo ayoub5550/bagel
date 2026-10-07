@@ -2,8 +2,8 @@
 # 06_transcriptome_assembly.sh — first de-novo transcriptome of Anabasis articulata (SRR6435311)
 #
 # Steps 1-3 below are the EXACT commands that were run on 2026-10-07 (download, QC, assembly),
-# plus the reference/HMM downloads used for gene mining. Steps 4-7 (ORFs, HMM + DIAMOND, tree,
-# salmon) are NOT automated yet — their plan is in HANDOFF.md §2.
+# plus the reference/HMM downloads used for gene mining. Steps 4-8 (ORFs, HMM + DIAMOND, salmon,
+# trees, candidate table) are in scripts/06b_pathway_mining.sh.
 #
 # Idempotent: every step is skipped if its output already exists. Large files go to $WORK,
 # which is git-ignored (work/). Needs: curl, python3 (>=3.8), uv, ~30 GB disk, >=64 GB RAM.
@@ -77,4 +77,4 @@ done
 # from the UniProt REST search API. WARNING: the query 'protein_name:"beta-amyrin synthase"' also
 # returns lupeol/delta-amyrin synthases — label every reference by its Swiss-Prot function before
 # building a tree, never by the search term that fetched it.
-echo "steps 1-3 done; continue with HANDOFF.md §2 (steps 4-7)"
+echo "steps 1-3 done; continue with: WORK=$WORK bash scripts/06b_pathway_mining.sh (from the repo root)"

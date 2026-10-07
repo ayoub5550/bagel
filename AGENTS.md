@@ -62,6 +62,7 @@ data/*.csv                    مخرجات السكريبتات (لا تُحرّ
 data/qc/                      صور فحص بصري للبنيات المبنيّة حسابيًّا
 scripts/01, 01b, 02..05       سلسلة المعالجة الكيميائية بالترتيب
 scripts/06_transcriptome_assembly.sh  تنزيل SRR6435311 + تنظيف + rnaSPAdes (الملفّات الكبيرة في work/)
+scripts/06b_pathway_mining.sh         ORFs + HMM + DIAMOND + salmon + أشجار + جدول المرشّحين (06b..06e)
 HANDOFF.md                    أين توقّف العمل الآن وكيف تُكمل — يُحدَّث آخر كل جلسة
 ROADMAP.md                    الخارطة: المراحل، التجارب، بوّابات القرار
 CHANGELOG.md                  ما تغيّر ولماذا، بالتاريخ والمنفّذ
