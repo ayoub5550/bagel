@@ -7,7 +7,7 @@
 > **قاعدة هذا الملف:** يُحدَّث في آخر كل جلسة عمل (التاريخ والساعة بالـ UTC). من ينهي جلسة دون
 > تحديثه يترك من بعده أعمى.
 
-**آخر تحديث:** 2026-10-07 03:45 UTC · **المنفّذ:** Viktor (agent)
+**آخر تحديث:** 2026-10-07 04:05 UTC · **المنفّذ:** Viktor (agent)
 
 ---
 
@@ -16,7 +16,8 @@
 1. **المرحلة 1 (المختبر الجاف) منجزة ومدموجة في `main`** عبر
    [PR #1](https://github.com/ayoub5550/bagel/pull/1) (دُمج 2026-10-07 بأمر المالك «ادمج»).
 2. **قيد التشغيل الآن:** أول تجميع ترانسكريبتوم لهذه النبتة (rnaSPAdes على القراءة العامة الوحيدة
-   `SRR6435311`). **لا نتائج جينية بعد.**
+   `SRR6435311`). **أُعيد إطلاقه 04:01 UTC بـ 16 خيطًا** بعد اكتشاف أن التشغيل الأول كان يعمل بخيط واحد
+   (§2 «التشغيل الأول»). **لا نتائج جينية بعد.**
 3. **لا اختراق حتى الآن.** أقرب مرشّحَين: (أ) جينات مسار الصابونين من هذا التجميع (معطيات جديدة لم
    تُنشر)، (ب) حقنة LC-HRMS/MS² واحدة تُقرأ بـ [`data/05_ms_inclusion_list.csv`](data/05_ms_inclusion_list.csv)
    (196 تركيبة غير موصوفة).
@@ -52,13 +53,14 @@ bash scripts/setup_lab.sh                # البيئة الكيميائية (RD
 وناقلات سكّر UGT). المنطق والحدود المعلنة مسبقًا في
 [`docs/03-insilico-results.md`](docs/03-insilico-results.md) §6.
 
-### الحالة لحظة الكتابة (2026-10-07 03:22 UTC)
+### الحالة لحظة الكتابة (2026-10-07 04:05 UTC)
 
 | الخطوة | الحالة | الأرقام (مقيسة) |
 |---|---|---|
 | 1. تنزيل من ENA | ✅ | 32,094,132 زوجًا. R1 = 1,483,376,308 بايت (md5 `b66db361…`)، R2 = 1,491,351,188 بايت (md5 `bb06e1ed…`) |
 | 2. تنظيف fastp 1.4.0 | ✅ | 64,188,264 → 63,972,036 قراءة (99.66% تمرّ). 3,079,166 قراءة قُصّ منها adapter. تكرار 8.77%. ذروة طول القطعة 126. GC 40.9% |
-| 3. تجميع rnaSPAdes 4.0.0 | ⏳ **يعمل منذ 02:08 UTC** | k = 41 ثم 61 (اختيار آلي). عند 03:22 ما زال في بناء رسم K41 («جمع تغطية الـ k-mers»، 1 س 14 د). لا `transcripts.fasta` بعد. **لا تقدير زمني موثوق** |
+| 2ب. اتجاه الشريط | ✅ **RF مؤكَّد** | بيانات SRA: `KAPA stranded` (حقل `DESIGN_DESCRIPTION`). واختبار مستقلّ: DIAMOND blastx لأول 200,000 زوج على `ref/refdb` → 99.0% من إصابات R1 على الشريط المعاكس (108,258 من 109,372) و99.0% من إصابات R2 على الشريط المباشر (102,498 من 103,504) |
+| 3. تجميع rnaSPAdes 4.0.0 | ⏳ **التشغيل الثاني يعمل منذ 04:01 UTC بـ 16 خيطًا** | k = 41 ثم 61 (اختيار آلي). السطر الذي يجب أن تراه في السجلّ: `Maximum # of threads to use (adjusted due to OMP capabilities): 16`. لا `transcripts.fasta` بعد |
 | 4. أُطُر القراءة (ORFs) | ⏸ | — |
 | 5. HMM + DIAMOND | ⏸ | ملفّات HMM السبعة وقاعدة DIAMOND **جاهزة** |
 | 6. شجرة النسب | ⏸ | — |
@@ -74,6 +76,7 @@ bash scripts/setup_lab.sh                # البيئة الكيميائية (RD
 ```bash
 cd /work/temp/bagel_tx
 pgrep -af "rnaspades|spades-core"                    # هل ما زال يعمل؟
+grep "threads to use" logs/rnaspades.stdout          # يجب أن يكون 16 لا 1
 tail -5 asm/spades.log                               # أين وصل
 grep -E "SPAdes pipeline finished|ERROR|finished abnormally" logs/rnaspades.stdout
 ls -la asm/transcripts.fasta 2>/dev/null             # الناتج النهائي
@@ -82,9 +85,10 @@ ls -la asm/transcripts.fasta 2>/dev/null             # الناتج النهائ
 ### إن مات التجميع (إعادة تشغيل البيئة مثلًا)
 ```bash
 cd /work/temp/bagel_tx
-nohup tools/SPAdes-4.0.0-Linux/bin/rnaspades.py --continue -o asm >> logs/rnaspades.stdout 2>&1 &
+nohup env -u OMP_NUM_THREADS -u OMP_THREAD_LIMIT OMP_NUM_THREADS=16 \
+    tools/SPAdes-4.0.0-Linux/bin/rnaspades.py --continue -o asm >> logs/rnaspades.stdout 2>&1 &
 ```
-`--continue` يستأنف من آخر نقطة حفظ. **شغّله دائمًا بـ nohup في الخلفية:** انتهاء مهلة أداة أو
+`--continue` يستأنف من آخر نقطة حفظ. **بلا `env -u OMP_NUM_THREADS` يعمل بخيط واحد** (انظر أدناه). **شغّله دائمًا بـ nohup في الخلفية:** انتهاء مهلة أداة أو
 جلسة يقتل كل العمليات التي أطلقتها.
 
 ### بعد انتهاء التجميع: الخطوات 4–7
@@ -104,7 +108,7 @@ tools/seqkit stats -a -T asm/transcripts.fasta | tee assembly_stats.txt     # ع
 tools/diamond blastp -d ref/refdb -q hits.faa --more-sensitive -e 1e-10 -k 5 -p 16 -o hits.dmnd.tsv \
     --outfmt 6 qseqid sseqid pident length qlen slen qcovhsp scovhsp evalue bitscore stitle
 # 6. شجرة: محاذاة pyfamsa + VeryFastTree (مثبّتان في .venv)، مع CAS (سيكلوأرتينول) كمجموعة خارجية.
-# 7. salmon index على transcripts.fasta ثم quant --libType A   ← يعطي TPM ويكشف هل المكتبة stranded
+# 7. salmon index على transcripts.fasta ثم quant --libType A   ← يعطي TPM (ويجب أن يُخرج ISR — تأكيد ثالث للاتجاه)
 ```
 
 **معايير القبول — لا يُكتب شيء في `docs/` قبلها:**
@@ -119,10 +123,9 @@ query_cov، evalue، pfam، tree_placement، tpm، confidence، notes)، ثم `d
 ومرحلة 4 في `ROADMAP.md`، والنقطة 4 في `README.md` (مكتوب فيها الآن «قيد التشغيل»).
 
 ### تحفّظات معروفة على هذا التشغيل (تُنقل إلى النتائج كما هي)
-1. **مُرّر `--ss rf` (مكتبة موجّهة الشريط) دون دليل.** بيانات SRA لا تقول إن المكتبة stranded
-   (`LIBRARY_SELECTION = unspecified`). تحقّق بـ `salmon --libType A` (الخطوة 7): إن خرج `IU`
-   (غير موجّهة)، فالأرجح إعادة التجميع بلا `--ss` (`SS=none` في السكريبت). أثره على التنقيب محدود
-   لأننا نترجم الشريطين، لكنه قد يجزّئ أو يكرّر النسخ.
+1. ~~`--ss rf` بلا دليل~~ — **أُغلق 04:00 UTC:** المكتبة موجّهة RF بدليلين (جدول الحالة، الخطوة 2ب).
+   أمر الاختبار (على أول 200,000 قراءة من كل ملفّ، بعد `seqkit head -n 200000 | seqkit fq2fa`):
+   `tools/diamond blastx -d ref/refdb.dmnd -q R1_first200k.fa --fast -k 1 -e 1e-5 --threads 16 --outfmt 6 qseqid sseqid pident length qframe evalue bitscore` ثم نسبة الإطارات السالبة في العمود 5 لأوّل إصابة لكل قراءة.
 2. **جودة القواعد في ملفّات FASTQ مُجمَّعة:** كل قاعدة = `?` (Q30). لذا «Q30 = 100%» ليس قياسًا
    حقيقيًّا، وفلتر `-q 20` لا يفعل شيئًا؛ أخطاء التسلسل باقية في القراءات.
 3. **النسيج مجهول:** BioSample `SAMN08284128` (`AnaarSFB`) — حقلا النسيج والموقع «missing».
@@ -130,7 +133,12 @@ query_cov، evalue، pfam، tree_placement، tpm، confidence، notes)، ثم `d
 4. مكتبة واحدة بلا تكرارات: لا تعبير مقارن ممكن.
 5. مجموعات المرجع من بحث UniProt النصّي غير نظيفة: بحث «beta-amyrin synthase» أرجع أيضًا lupeol
    وdelta-amyrin synthase. **وسِم كل مرجع بوظيفته من مدخل Swiss-Prot قبل بناء الشجرة.**
-6. البطء: في هذه البيئة (gVisor) أخذ رسم K41 وحده أكثر من ساعة بـ 16 خيطًا.
+6. **التشغيل الأول (02:08–04:00 UTC) كان بخيط واحد وأُوقف.** البيئة تضبط `OMP_NUM_THREADS=1`،
+   وrnaSPAdes يقصّ عدد الخيوط إلى ما يسمح به OpenMP رغم `-t 16`: سجلّه قال
+   `Maximum # of threads to use (adjusted due to OMP capabilities): 1`، و`ps` أظهر خيطًا واحدًا
+   (NLWP = 1) ووقت CPU مساويًا للوقت المنقضي. بعد 1 س 52 د كان ما زال في K41. الإصلاح: الإطلاق بـ
+   `env -u OMP_NUM_THREADS -u OMP_THREAD_LIMIT OMP_NUM_THREADS=16`. سجلّ التشغيل الأول محفوظ في
+   `logs/rnaspades.run1_singlethread.stdout`.
 
 ---
 

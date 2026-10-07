@@ -17,7 +17,8 @@ WORK=${WORK:-work/tx}
 THREADS=${THREADS:-$(env -u OMP_NUM_THREADS -u OMP_THREAD_LIMIT nproc)}
 THREADS=$(( THREADS > 16 ? 16 : THREADS ))
 MEM_GB=${MEM_GB:-300}
-SS=${SS:-rf}   # strandedness passed to rnaSPAdes. UNVERIFIED for this library — see HANDOFF.md §2 caveat 1.
+SS=${SS:-rf}   # strandedness passed to rnaSPAdes. Verified RF: SRA DESIGN_DESCRIPTION "KAPA stranded" and
+               # DIAMOND blastx frames of 200k R1 reads are 99.0% antisense (HANDOFF.md §2, step 2b).
                # Use SS=none to assemble as unstranded.
 
 mkdir -p "$WORK"/{raw,qc,tools,logs,hmm,ref}
@@ -50,10 +51,12 @@ md5sum raw/R1.fastq.gz raw/R2.fastq.gz | tee raw/md5.txt
     -j fastp.json -h fastp.html > logs/fastp.log 2>&1
 
 # --- 3. assembly (rnaSPAdes 4.0.0; k = 41,61 chosen automatically from read length) -------------
-# Slow in a gVisor sandbox: the K41 graph alone took > 1 h with 16 threads. Run it in the
-# background (nohup) — a tool/session timeout that kills the shell kills the assembler too.
+# The sandbox exports OMP_NUM_THREADS=1 and SPAdes caps -t at the OpenMP limit: run 1 sat on ONE
+# thread for 2 h ("adjusted due to OMP capabilities: 1"). The env -u below is mandatory.
+# Run the whole script in the background (nohup) — a tool/session timeout kills the assembler too.
 SS_ARG=(--ss "$SS"); [ "$SS" = none ] && SS_ARG=()
 if [ ! -s asm/transcripts.fasta ]; then
+  env -u OMP_NUM_THREADS -u OMP_THREAD_LIMIT OMP_NUM_THREADS="$THREADS" \
   tools/SPAdes-4.0.0-Linux/bin/rnaspades.py "${SS_ARG[@]}" -1 qc/R1.trim.fq.gz -2 qc/R2.trim.fq.gz \
       -t "$THREADS" -m "$MEM_GB" -o asm > logs/rnaspades.stdout 2>&1
 fi

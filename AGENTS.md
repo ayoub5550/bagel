@@ -93,6 +93,10 @@ bash scripts/06_transcriptome_assembly.sh          # الترانسكريبتو�
 
 - `nproc` يطبع `1` لأن `OMP_NUM_THREADS=1` مضبوط. استعمل
   `env -u OMP_NUM_THREADS -u OMP_THREAD_LIMIT nproc` → 17، ومرّر `--cpu` يدويًا لـ vina.
+- **نفس المتغيّر يخنق كل برنامج OpenMP رغم خيار `-t`:** rnaSPAdes اشتغل ساعتين بخيط واحد
+  (`adjusted due to OMP capabilities: 1`) قبل أن نكتشف. أطلق أي أداة OpenMP بـ
+  `env -u OMP_NUM_THREADS -u OMP_THREAD_LIMIT OMP_NUM_THREADS=16 …`، وتحقّق خلال الدقيقة الأولى من
+  السجلّ ومن `ps -o nlwp,time,etime` (وقت CPU يجب أن يفوق الوقت المنقضي بكثير).
 - `pip install vina` يفشل (يطلب Boost). الحل: الـ binary الساكن من إصدارات GitHub (في `setup_lab.sh`).
 - موقع MDPI يرجّع **403** للسكريبتات. الحل: Europe PMC (`fullTextXML`) أو
   NCBI `efetch?db=pmc` — وهو الذي أخرج لنا جداول ورقة 2022 كاملة.
@@ -109,7 +113,8 @@ bash scripts/06_transcriptome_assembly.sh          # الترانسكريبتو�
 - **المهام الطويلة (التجميع، الـ docking الكبير) تُطلق بـ `nohup … &` وتُراقَب بملفّ log.** انتهاء مهلة
   أداة أو جلسة يقتل كل العمليات التي أطلقتها. rnaSPAdes يستأنف بـ `--continue -o asm`.
 - ملفّات FASTQ لـ `SRR6435311` من ENA بجودة مُجمَّعة (كل قاعدة `?` = Q30): «Q30 = 100%» في fastp
-  ليس قياسًا حقيقيًّا. وبيانات SRA لا تقول إن المكتبة موجّهة الشريط — تحقّق بـ `salmon --libType A`.
+  ليس قياسًا حقيقيًّا. اتجاه الشريط لا يُقرأ من `LIBRARY_SELECTION` بل من `DESIGN_DESCRIPTION`
+  (هنا `KAPA stranded`)، ويُثبَت بإطار إصابات DIAMOND blastx لعيّنة قراءات (دقيقة واحدة).
 
 ## 6. أسلوب العمل والـ commits
 
