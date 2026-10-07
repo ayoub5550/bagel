@@ -4,6 +4,7 @@
 |---|---|---|
 | **الباقل** (*Anabasis articulata*) | هذه الصفحة وجذر المستودع | المرحلة 1 + الترانسكريبتوم منجزان |
 | **تمر الغرس** (*Phoenix dactylifera* cv. Ghars) | [`projects/ghars/`](projects/ghars/README.md) | بدأ 2026-10-07. الجينوم بلا حذف invertase (+/+)، فهو يتنبّأ بثمرة سكّر محوَّل ([`docs/02`](projects/ghars/docs/02-sugar-locus.md) §3) |
+| مسح: أيّ نبتة صحراوية ما زالت مفتوحة؟ | [`projects/scouting/`](projects/scouting/README.md) | منجز 2026-10-07 على 50 نوعًا. المرشّح الأول **الذنون (*Cistanche*)**، والثاني الدرياس (بحثي فقط). الاختيار للمالك |
 | مرشّحون لاحقًا | `projects/<name>/` | نباتات أخرى؛ الفضة والذهب مخبريًّا — لم يبدأ |
 
 القواعد المشتركة لكل المشاريع في [`AGENTS.md`](AGENTS.md)، وأين توقّف كل مشروع في [`HANDOFF.md`](HANDOFF.md).
