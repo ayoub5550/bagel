@@ -4,6 +4,10 @@
 
 ---
 
+## 2026-10-07 15:35 UTC — الأزرق الثابت انتقل إلى azrak-thabet
+
+- مؤشّر في `HANDOFF.md` §8.1 و`projects/galdieria-blue/README.md` إلى المستودع الجديد [`ayoub5550/azrak-thabet`](https://github.com/ayoub5550/azrak-thabet): ورشة 10 آلاف $، والوصفة، ومختبر حاسوبي.
+
 ## 2026-10-07 (14:45 UTC) — مشروع جديد: الأزرق الثابت من *Galdieria* على سكّر التمر (المرحلة 0)
 **المنفّذ:** Viktor (agent) · الفرع: `feat/galdieria-blue` (فوق `feat/ghars`)
 
