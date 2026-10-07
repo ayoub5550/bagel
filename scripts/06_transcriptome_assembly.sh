@@ -2,8 +2,8 @@
 # 06_transcriptome_assembly.sh — first de-novo transcriptome of Anabasis articulata (SRR6435311)
 #
 # Steps 1-3 below are the EXACT commands that were run on 2026-10-07 (download, QC, assembly),
-# plus the reference/HMM downloads used for gene mining. Steps 4-7 (ORFs, HMM + DIAMOND, tree,
-# salmon) are NOT automated yet — their plan is in HANDOFF.md §2.
+# plus the reference/HMM downloads used for gene mining. Steps 4-8 (ORFs, HMM + DIAMOND, salmon,
+# trees, candidate table) are in scripts/06b_pathway_mining.sh.
 #
 # Idempotent: every step is skipped if its output already exists. Large files go to $WORK,
 # which is git-ignored (work/). Needs: curl, python3 (>=3.8), uv, ~30 GB disk, >=64 GB RAM.
@@ -17,7 +17,8 @@ WORK=${WORK:-work/tx}
 THREADS=${THREADS:-$(env -u OMP_NUM_THREADS -u OMP_THREAD_LIMIT nproc)}
 THREADS=$(( THREADS > 16 ? 16 : THREADS ))
 MEM_GB=${MEM_GB:-300}
-SS=${SS:-rf}   # strandedness passed to rnaSPAdes. UNVERIFIED for this library — see HANDOFF.md §2 caveat 1.
+SS=${SS:-rf}   # strandedness passed to rnaSPAdes. Verified RF: SRA DESIGN_DESCRIPTION "KAPA stranded" and
+               # DIAMOND blastx frames of 200k R1 reads are 99.0% antisense (HANDOFF.md §2, step 2b).
                # Use SS=none to assemble as unstranded.
 
 mkdir -p "$WORK"/{raw,qc,tools,logs,hmm,ref}
@@ -50,10 +51,12 @@ md5sum raw/R1.fastq.gz raw/R2.fastq.gz | tee raw/md5.txt
     -j fastp.json -h fastp.html > logs/fastp.log 2>&1
 
 # --- 3. assembly (rnaSPAdes 4.0.0; k = 41,61 chosen automatically from read length) -------------
-# Slow in a gVisor sandbox: the K41 graph alone took > 1 h with 16 threads. Run it in the
-# background (nohup) — a tool/session timeout that kills the shell kills the assembler too.
+# The sandbox exports OMP_NUM_THREADS=1 and SPAdes caps -t at the OpenMP limit: run 1 sat on ONE
+# thread for 2 h ("adjusted due to OMP capabilities: 1"). The env -u below is mandatory.
+# Run the whole script in the background (nohup) — a tool/session timeout kills the assembler too.
 SS_ARG=(--ss "$SS"); [ "$SS" = none ] && SS_ARG=()
 if [ ! -s asm/transcripts.fasta ]; then
+  env -u OMP_NUM_THREADS -u OMP_THREAD_LIMIT OMP_NUM_THREADS="$THREADS" \
   tools/SPAdes-4.0.0-Linux/bin/rnaspades.py "${SS_ARG[@]}" -1 qc/R1.trim.fq.gz -2 qc/R2.trim.fq.gz \
       -t "$THREADS" -m "$MEM_GB" -o asm > logs/rnaspades.stdout 2>&1
 fi
@@ -74,4 +77,4 @@ done
 # from the UniProt REST search API. WARNING: the query 'protein_name:"beta-amyrin synthase"' also
 # returns lupeol/delta-amyrin synthases — label every reference by its Swiss-Prot function before
 # building a tree, never by the search term that fetched it.
-echo "steps 1-3 done; continue with HANDOFF.md §2 (steps 4-7)"
+echo "steps 1-3 done; continue with: WORK=$WORK bash scripts/06b_pathway_mining.sh (from the repo root)"
