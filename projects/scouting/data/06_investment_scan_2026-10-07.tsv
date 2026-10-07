@@ -1,0 +1,31 @@
+# Investment scan 2026-10-07. Every figure carries a reference key from docs/references.md (section "فرصة استثمارية"). Market-research figures are vendor estimates and disagree; treat as order of magnitude.
+item	metric	value	unit	date_or_period	ref_key	note
+US synthetic dye phase-out	dyes targeted	Green 3, Red 40, Yellow 5, Yellow 6, Blue 1, Blue 2	-	announced 2025-04-22	fda_dyes2025	FDA pledge tracker: by end of 2027
+US synthetic dye phase-out	demand increase for natural colorants if full switch	400-500	%	2026-07	nca_rti2026	quote in NCA/Candy USA natural colorant roadmap
+natural food colors (all)	market size	2.2	USD bn	2025	imarc_natcolors	vendor estimate
+spirulina blue (phycocyanin)	market size	205.6	USD m	2025	mordor2026_blue	vendor estimate
+spirulina blue (phycocyanin)	market size	283.6	USD m	2025	gmi2026_blue	vendor estimate; forecast 1.4 bn by 2035
+non-dairy beverages	share with pH < 4.0	93	%	survey of 379 beverages	tran2025_pc	39% < 3.0 + 54% 3.0-3.99 (Reddy 2016 as cited)
+spirulina phycocyanin	isoelectric point	3.4-4.8	pH	-	adjali2022	aggregation and fading near pI
+galdieria extract blue	US listing	21 CFR 73.167	-	2025-05-12	fr2025_galdieria	identity requires heterotrophic fermentation; Pb<=0.5, As<=0.5, Hg<=0.05 ppm
+galdieria extract blue	EU	positive EFSA opinion	-	2026-03-16	fermentalg_efsa2026	EU authorisation pending at that date
+Fermentalg galdieria blue	revenue target	20	EUR m	2026	fermentalg_rev2026	investor news; UNVERIFIED
+phycocyanin E18 (China)	wholesale price	32	USD/kg	25 kg MOQ, 2026-08	botanicalcube2026	E25 115, E40 280 USD/kg at 1 kg
+algae-derived blue	price	300-600	USD/kg	2026-04	indexbox2026	single vendor report
+G. sulphuraria	phycocyanin content (heterotrophic, high density)	13.88	% DW	8-day culture	wan2016_gald	-
+G. sulphuraria	non-sterile heterotrophic cultivation	10-26	g/L, >40 days	technical scale	pleissner2025_gald	semi-continuous, acidic thermophilic
+G. sulphuraria	phycocyanin thermostability (maltodextrin-grown)	55	degC	-	rahman2019_gald	-
+G. sulphuraria	growth on food-waste hydrolysate	yes	-	-	sloth2017_gald	restaurant and bakery waste
+Algeria common (low-value) dates	quantity	250000	t/yr	FAO 2015 basis	ahmed2017_dates	older sources: 30-50% of production is waste/low value
+Artemia cysts	world demand	3500	t/yr	2026	worldbank2026_artemia	>5000 t by 2035
+Artemia cysts	market value	350-400	USD m/yr	2026	worldbank2026_artemia	>500 m by 2035
+Artemia cysts	market value	150	USD m/yr	FAO manual 2024	fao2024_artemia	different valuation basis
+Artemia cysts	wholesale price	25-180	USD/kg	past decade	artemia_info	low grade to premium decapsulated
+Artemia (Bethioua, Oran)	hatching percentage	74-79	%	2017-2021	chabetdis2021_artemia	nauplii 453-479 um
+Artemia in Algeria	sebkhas with A. salina	>=7	sites	2011	ghomari2011_artemia	co-occurs with parthenogenetic strains
+ectoine (China)	FOB price	55-70	USD/kg	-	ectoine_mkt	market ~48 USD m (2025); top players >65% share
+natural astaxanthin oil	bulk price	150-400	USD/kg	2026-01	avans2026_astax	-
+Dunaliella beta-carotene extract	trade unit price	64-391	USD/kg	2024	tridge_dunaliella	synthetic beta-carotene is not an FD&C certified dye
+prickly pear seed oil (Tunisia)	price	350	EUR/L	2022	africanews2022	-
+cytisinicline	regimen	3 mg TID for 6-12 weeks	-	2026-02	icer2026	= 0.38-0.76 g cytisine per patient course
+manuka honey	market size	426-524	USD m	2025	manuka_mkt	vendor estimates

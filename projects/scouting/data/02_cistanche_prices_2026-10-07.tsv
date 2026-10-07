@@ -1,0 +1,14 @@
+# Cistanche (肉苁蓉) dried-stem wholesale prices read on 2026-10-07. FX open.er-api.com 2026-10-07: 1 USD = 6.7119 CNY = 134.40 DZD.
+# Trade names: 软大芸/软 = C. deserticola (soft), 硬大芸/硬 = C. tubulosa (hard). Quotes and asking prices, not audited transactions.
+source	url	date	market_or_place	grade_zh	grade_meaning	kind	cny_per_kg_low	cny_per_kg_high	usd_per_kg_low	usd_per_kg_high	dzd_per_kg_low	dzd_per_kg_high
+yt1998 药通网	https://www.yt1998.com/pzxq350.html	2026-10-07	Bozhou market, Xinjiang origin	硬	hard type = C. tubulosa, ungraded	daily market quote	17	17	2.53	2.53	340	340
+yt1998 药通网	https://www.yt1998.com/pzxq350.html	2026-10-07	Bozhou market, Xinjiang origin	硬选	hard type, selected	daily market quote	23	23	3.43	3.43	461	461
+yt1998 药通网	https://www.yt1998.com/pzxq350.html	2026-10-07	Bozhou market, Xinjiang origin	软小统	soft type = C. deserticola, small ungraded	daily market quote	18	18	2.68	2.68	360	360
+yt1998 药通网	https://www.yt1998.com/pzxq350.html	2026-10-07	Bozhou market, Xinjiang origin	软中条	soft type, medium strips	daily market quote	37	37	5.51	5.51	741	741
+yt1998 药通网	https://www.yt1998.com/pzxq350.html	2026-08-30	Yulin market	软统货	soft type, ungraded	market news	40	45	5.96	6.70	801	901
+yt1998 药通网	https://www.yt1998.com/pzxq350.html	2026-09-23	Alxa Left Banner, Inner Mongolia (origin)	药厂货	soft type, pharma-factory grade	origin news ('price near cost')	25	30	3.72	4.47	501	601
+yt1998 药通网	https://www.yt1998.com/pzxq350.html	2026-09-23	Alxa Left Banner, Inner Mongolia (origin)	精品选货大条	soft type, premium large strips	origin news	100	150	14.90	22.35	2002	3004
+zyctd 中药材天地网	https://m.zyctd.com/jiage/xq478.html	2026-10-07	headline price (spec not shown)	—	—	daily quote (-12.5% vs last month)	35	35	5.21	5.21	701	701
+zyctd 中药材天地网	https://m.zyctd.com/jiage/xq478.html	2026-10-07	supplier offers, 5-10 t lots	硬…/软大云大选	hard ungraded to soft selected	seller asking prices	20	90	2.98	13.41	400	1802
+yaoshang68 (天地云图 data)	http://www.yaoshang68.com/news/show-98142.html	2022-05-27	Bozhou / Anguo markets	硬大芸	hard type (C. tubulosa)	market news, for trend	48	60	7.15	8.94	961	1201
+yaoshang68 (天地云图 data)	http://www.yaoshang68.com/news/show-98142.html	2022-05-27	Bozhou / Anguo / Yulin markets	软统货	soft type, ungraded	market news, for trend	110	120	16.39	17.88	2203	2403

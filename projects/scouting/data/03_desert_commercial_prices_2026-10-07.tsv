@@ -1,0 +1,25 @@
+# Desert-product price snapshot, read 2026-10-07. FX open.er-api.com (Wed, 07 Oct 2026 00:02:32 +0000): 1 USD = 134.3956 DZD, 0.8887 EUR, 0.3092 KWD, 6.7119 CNY
+# Listings are asking prices, not transactions. 'kind' says what each number is.
+product	item	low	high	currency	per	usd_low	usd_high	date	source	url	kind
+desert truffle (terfess)	Ghardaia retail, Jan 2026 (season start)	10000	12000	DZD	kg	74.41	89.29	2026-03-06	DK News	https://dknews.dz/index.php/2026/03/06/ghardaia-la-saison-des-terfess-fait-chuter-les-prix-et-attise-lappetit-des-gourmets/	press report
+desert truffle (terfess)	Ghardaia retail, Mar 2026 (abundant harvest)	3500	3500	DZD	kg	26.04	26.04	2026-03-06	DK News	https://dknews.dz/index.php/2026/03/06/ghardaia-la-saison-des-terfess-fait-chuter-les-prix-et-attise-lappetit-des-gourmets/	press report
+desert truffle (terfess)	Kuwait market, Algerian/Moroccan/Saudi truffles, medium vs large sizes (unit not stated)	10	22	KWD	unit?	32.35	71.16	2026-01-06	q8news	https://www.q8news.com/691780/	press report; unit unclear
+desert truffle (terfess)	Spain, wild T. claveryi after harvest	20	60	EUR	kg	22.50	67.51	2020-05-02	Informacion Gastronomica	https://informaciongastronomica.com/trufa-del-desierto-murciana-conoce-la-turma/	press report
+dates	Algeria exports 2024, all partners (BACI): 190,309 t, $167.8M	882	882	USD	t	882.00	882.00	2024	Commodity Origins (CEPII BACI)	https://commodityorigins.com/countries/DZA/dates/	trade statistics
+dates	Tunisia exports 2025 (Trade Map): 147,000 t, $347M	2400	2400	USD	t	2400.00	2400.00	2025	Ecofin (Trade Map)	https://www.ecofinagency.com/news/2609-59260-top-5-the-african-countries-shipping-the-most-dates-in-2025	trade statistics
+dates	France imports 2024 from Algeria: 25,073 t, $41.0M (weight measured)	1637	1637	USD	t	1637.00	1637.00	2024	UN Comtrade (reporter France, HS 080410)	https://comtradeapi.un.org/public/v1/preview/C/A/HS	trade statistics
+dates	France imports 2024 from Tunisia: 21,748 t, $46.7M (weight ESTIMATED)	2149	2149	USD	t	2149.00	2149.00	2024	UN Comtrade (reporter France, HS 080410)	https://comtradeapi.un.org/public/v1/preview/C/A/HS	trade statistics; weight estimated
+dates	Germany imports 2024: Algeria 825 t $2.0M vs Tunisia 16,945 t $43.5M	2468	2568	USD	t	2468.00	2568.00	2024	UN Comtrade (reporter Germany, HS 080410)	https://comtradeapi.un.org/public/v1/preview/C/A/HS	trade statistics; TN weight estimated
+dates	Algeria domestic retail average (Ministry of Agriculture daily prices)	520	520	DZD	kg	3.87	3.87	2025-01-26	Sawt Chabab citing MADR	https://sawtchabab.dz/?p=32317	official retail average via press
+date paste	FOB bulk industrial (UAE / Iran)	660	1350	USD	t	660.00	1350.00	2025-2026	TradeKey listing; Amin Farms	https://aminfarms.com/import-bulk-date-paste-from-iran/	supplier listings
+Artemisia herba-alba essential oil	FOB Casablanca, 25-200 kg	90	110	EUR	kg	101.27	123.77	2026	Aromes Bensmim	https://aromes-bensmim.com/en/products/armoise	supplier listing
+Artemisia herba-alba essential oil	FOB Casablanca, 5-25 kg	110	150	EUR	kg	123.77	168.78	2026	Aromes Bensmim	https://aromes-bensmim.com/en/products/armoise	supplier listing
+prickly pear seed oil	bulk EXW Agadir, 200-999 L vs 1-9 L	110	180	USD	L	110.00	180.00	2026	arganoilwholesale.com	https://www.arganoilwholesale.com/bulk.html	supplier listing
+prickly pear seed oil	Tunisia bulk, MOQ 2 L	310	310	USD	L	310.00	310.00	2026	b2bmap (Biovalley Tunisie)	https://b2bmap.com/products/cold-pressed-prickly-pear-seed-oil	supplier listing
+argan oil	bulk cosmetic EXW Agadir, 200-999 L vs 1-9 L	14	28	USD	L	14.00	28.00	2026	arganoilwholesale.com	https://www.arganoilwholesale.com/bulk.html	supplier listing
+spirulina powder	bulk organic 25 kg: EU EUR 8.74/kg (=USD 9.83); US USD 11-17/kg	9.83	17	USD	kg	9.83	17.00	2026	Nuts in Bulk; Total Ingredients	https://wholesale.nutsinbulk.eu/product/organic-spirulina-powder	supplier listings
+pistachio in-shell	transaction unit prices Mar 2026 (US / Vietnam)	9.65	13.18	USD	kg	9.65	13.18	2026-03	Tridge	https://www.tridge.com/market-overview/roasted-in-shell-pistachio	aggregated transactions
+moringa leaf powder	transaction unit prices Apr 2026 (India / Peru)	3.47	17.59	USD	kg	3.47	17.59	2026-04	Tridge	https://www.tridge.com/market-overview/moringa-leaf-powder	aggregated transactions
+jojoba oil golden	India exporter listing	45	70	USD	kg	45.00	70.00	2026-10-06	EximNext	https://eximnext.com/product/jojoba-oil-golden	supplier listing
+gum arabic	hashab (A. senegal) technical grade avg; talha (A. seyal) bulk	1210	3200	USD	t	1210.00	3200.00	2026	Accio report (secondary)	https://www.accio.com/business/gum-arabic-price-per-ton	secondary aggregator
+Cistanche (dried stem)	China wholesale ordinary grades	17	37	CNY	kg	2.53	5.51	2026-10-07	yt1998	https://www.yt1998.com/pzxq350.html	daily market quote
