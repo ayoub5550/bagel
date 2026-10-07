@@ -37,3 +37,16 @@
 | extracts-online.com (Huakang)؛ solomonitg (Solomon) | أسعار عروض FOB للخلاصات. **عروض لا صفقات** |
 | open.er-api.com | سعر الصرف 2026-10-07: 1 دولار = 6.7119 يوان = 134.40 دج |
 
+## المسح التجاري (`02-commercial-desert.md`، 2026-10-07)
+
+| المفتاح | المرجع | DOI | التحقّق |
+|---|---|---|---|
+| `morte2021` | Cultivation of Desert Truffles — A Crop Suitable for Arid and Semi-Arid Zones. *Agronomy* 11:1462 | [10.3390/agronomy11081462](https://doi.org/10.3390/agronomy11081462) | DOI ✅ · مقتطفات من النصّ: أول مزرعة في إسبانيا 2001؛ فرق إسبانيا وتونس وإسرائيل |
+| `andrino2019` | The crop of desert truffle depends on agroclimatic parameters during two key annual periods. *Agron. Sustain. Dev.* | [10.1007/s13593-019-0596-9](https://doi.org/10.1007/s13593-019-0596-9) | DOI ✅ · مقتطفات النصّ (HAL hal-02995102): 355 كغ/هـ/سنة على 15 سنة، مساحة 20 م²، ±318 |
+| `marquesgalvez2020` | Desert truffle genomes reveal their reproductive modes … *New Phytol.* | [10.1111/nph.17044](https://doi.org/10.1111/nph.17044) | DOI ✅ · الملخّص: جينوما *T. claveryi* و*Tirmania nivea* |
+| `andreuardil2026` | *Terfezia claveryi* MAT locus characterization … *Mycorrhiza* | [10.1007/s00572-026-01266-3](https://doi.org/10.1007/s00572-026-01266-3) | DOI ✅ · الملخّص: أحاديّ الصيغة متغاير الاقتران، وطريقة PCR لتتبّع السلالات |
+| `zitounihaouar2014` | Morphological characterization of mycorrhizae formed between three *Terfezia* species and several Cistaceae … *Mycorrhiza* | [10.1007/s00572-013-0550-7](https://doi.org/10.1007/s00572-013-0550-7) | DOI ✅ · العنوان |
+| `zitounihaouar2023` | Bioclimatic Origin Shapes Phylogenetic Structure of *Tirmania*: New Species and New Record from North Africa. *J. Fungi* | [10.3390/jof9050532](https://doi.org/10.3390/jof9050532) | DOI ✅ · العنوان |
+
+**الأسعار** كلّها في `data/03_desert_commercial_prices_2026-10-07.tsv`، ولكلّ سطر رابطه ونوعه (صفقات، أو إحصاء جمركي، أو عرض بائع، أو خبر صحفي). بيانات UN Comtrade مقروءة مباشرة عبر الـ API العامة (HS 080410، 2024).
+
