@@ -1,0 +1,47 @@
+name	aliases	chem_class	plant_part	evidence	source_key
+oleanolic acid		triterpene aglycone	aerial parts	isolated	hussein2012;lotus
+oleanolic acid 3-O-beta-D-glucopyranoside	Calenduloside E aglycone 3-O-glucoside;oleanolic acid 3-glucoside	triterpene saponin (monodesmoside)	aerial parts	isolated	hussein2012
+3-O-beta-D-glucopyranosyl-28-O-beta-D-xylopyranosyl oleanolic acid		triterpene saponin (bidesmoside)	aerial parts	isolated	hussein2012
+daucosterol	beta-sitosterol 3-O-beta-D-glucoside;sitosterol glucoside	sterol glycoside	aerial parts	isolated	hussein2012
+stigmasterol 3-O-beta-D-glucoside	stigmasterol glucoside;stigmasteryl glucoside	sterol glycoside	aerial parts	isolated	hussein2012
+sitostanol 3-O-beta-D-glucoside	beta-sitostanol glucoside;sitostanyl glucoside	sterol glycoside	aerial parts	isolated	hussein2012
+proceric acid		triterpene acid	aerial parts	isolated	hussein2012
+beta-sitosterol		phytosterol	aerial parts	inferred_aglycone	hussein2012
+stigmasterol		phytosterol	aerial parts	inferred_aglycone	hussein2012
+betaine	glycine betaine;trimethylglycine	quaternary ammonium osmolyte	whole plant	reported	lotus
+oxalic acid		organic acid (oxalate)	stems	genus_family	konno1991
+gallic acid		phenolic acid	aerial parts	tentative_lcms	aljoufi2022;chebbah2024
+chlorogenic acid	3-O-caffeoylquinic acid	hydroxycinnamate ester	aerial parts	tentative_hplc	aljoufi2022
+3,5-dicaffeoylquinic acid	isochlorogenic acid A	hydroxycinnamate ester	aerial parts	tentative_hplc	aljoufi2022
+caffeic acid		phenolic acid	aerial parts	tentative_hplc	aljoufi2022
+p-coumaric acid		phenolic acid	aerial parts	tentative_hplc	aljoufi2022
+syringic acid		phenolic acid	aerial parts	tentative_hplc	aljoufi2022
+ellagic acid		ellagitannin-derived phenol	aerial parts	tentative_hplc	aljoufi2022
+pedunculagin	bis-HHDP-glucose;2,3:4,6-bis-O-(S)-hexahydroxydiphenoyl-D-glucose	ellagitannin	aerial parts	tentative_hplc	aljoufi2022
+epigallocatechin gallate	EGCG	flavan-3-ol gallate	aerial parts	tentative_hplc	aljoufi2022
+catechin	catechin hydrate	flavan-3-ol	aerial parts	tentative_hplc	aljoufi2022
+rutin	quercetin-3-O-rutinoside	flavonol glycoside	aerial parts	tentative_hplc	aljoufi2022;chebbah2024
+quercetin		flavonol	aerial parts	tentative_hplc	aljoufi2022
+morin		flavonol	aerial parts	tentative_hplc	aljoufi2022
+myricetin		flavonol	aerial parts	tentative_lcms	chebbah2024
+kaempferol		flavonol	aerial parts	tentative_hplc	aljoufi2022
+isorhoifolin	apigenin-7-O-rutinoside	flavone glycoside	aerial parts	tentative_hplc	aljoufi2022
+quercetin 3,7-di-O-glucoside		flavonol glycoside	aerial parts	tentative_hplc	aljoufi2022
+quercetin 7-O-sophoroside		flavonol glycoside	aerial parts	tentative_hplc	aljoufi2022
+pyrogallol		phenol	aerial parts	tentative_hplc	aljoufi2022
+malic acid		organic acid	aerial parts	tentative_hplc	aljoufi2022
+mandelic acid		organic acid	aerial parts	tentative_hplc	aljoufi2022
+ascorbic acid	vitamin C	vitamin	aerial parts	tentative_hplc	aljoufi2022
+beta-carotene		carotenoid	aerial parts	tentative_lcms	chebbah2024
+anabasine		pyridine-piperidine alkaloid	genus (A. aphylla)	genus_only	lotus
+lupinine		quinolizidine alkaloid	genus (A. aphylla)	genus_only	lotus
+sparteine		quinolizidine alkaloid	genus (A. aphylla)	genus_only	lotus
+aphylline		quinolizidine alkaloid	genus (A. aphylla)	genus_only	lotus
+aphyllidine		quinolizidine alkaloid	genus (A. aphylla)	genus_only	lotus
+butylated hydroxyanisole	BHA	synthetic antioxidant	-	artifact_suspect	chebbah2024
+butylated hydroxytoluene	BHT	synthetic antioxidant	-	artifact_suspect	chebbah2024
+bis(2-ethylhexyl) phthalate	DEHP	plasticizer	-	artifact_suspect	aljoufi2022
+diethyl phthalate		plasticizer	-	artifact_suspect	aljoufi2022
+N-nitrosomorpholine		nitrosamine	-	artifact_suspect	aljoufi2022
+anthrone		anthracene derivative	-	artifact_suspect	chebbah2024
+isopropyl palmitate		cosmetic ester	-	artifact_suspect	aljoufi2022

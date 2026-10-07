@@ -1,0 +1,13 @@
+# Dry-lab stack, versions as actually installed and used (2026-10-07).
+rdkit==2026.3.6
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+biopython==1.88
+openbabel-wheel==3.1.1.23
+meeko==0.8.0
+gemmi==0.7.5
+matplotlib==3.11.2
+requests==2.34.2
+# AutoDock Vina 1.2.5 is installed as a static binary by scripts/setup_lab.sh
