@@ -4,12 +4,12 @@ AutoDock Vina 1.2.5, exhaustiveness 24, 9 modes, seed 20261007, 16 CPUs. Recepto
 
 ## Control check (this decides whether the numbers below mean anything)
 
-| target | protein | control ligand | control score | RMSD to crystal pose | verdict |
-|---|---|---|---|---|---|
-| 4GQR | human pancreatic alpha-amylase | MYC | -7.598 kcal/mol | 0.81 A | **valid** |
-| 2P54 | human PPARalpha ligand-binding domain | 735 | -10.665 kcal/mol | 1.17 A | **valid** |
+| target | protein | control ligand | control score | RMSD to crystal pose (in place) | aligned RMSD (diagnostic only) | verdict |
+|---|---|---|---|---|---|---|
+| 4GQR | human pancreatic alpha-amylase | MYC | -7.598 kcal/mol | 2.29 A | 0.81 A | **valid** |
+| 2P54 | human PPARalpha ligand-binding domain | 735 | -10.67 kcal/mol | 1.39 A | 1.17 A | **valid** |
 
-Acceptance limit: the re-docked crystal ligand must land within 2.5 A of its crystallographic pose.
+Acceptance limit: the re-docked crystal ligand must land within 2.5 A of its crystallographic pose, measured **in place** (rdMolAlign.CalcRMS, no superposition). Until 2026-10-09 this table used the aligned RMSD (GetBestRMS), which superimposes the pose on the crystal ligand first and so cannot see a pose docked in the wrong place; the aligned value is shown for comparison only (CHANGELOG 2026-10-09).
 
 ## 4GQR — human pancreatic alpha-amylase
 
@@ -43,7 +43,7 @@ Why this target: pure saponins of this plant activate PPARalpha (salaheldine2019
 
 | ligand | class | Vina (kcal/mol) | heavy atoms | ligand efficiency (-kcal/mol per heavy atom) | rot. bonds | note |
 |---|---|---|---|---|---|---|
-| CONTROL 735 (crystal ligand, re-docked) | positive control | -10.665 | 33 | 0.323 | 7 |  |
+| CONTROL 735 (crystal ligand, re-docked) | positive control | -10.67 | 33 | 0.323 | 7 |  |
 | quercetin | plant phenolic | -7.812 | 22 | 0.355 | 1 |  |
 | kaempferol | plant phenolic | -7.808 | 21 | 0.372 | 1 |  |
 | myricetin | plant phenolic | -7.655 | 23 | 0.333 | 1 |  |
@@ -56,9 +56,9 @@ Why this target: pure saponins of this plant activate PPARalpha (salaheldine2019
 | NEG betaine (osmolyte, expect no fit) | negative control | -3.823 | 8 | 0.478 | 2 |  |
 | SAP-6 lupane 23-O-Glc ester | plant saponin | -2.111 | 46 | 0.046 | 5 |  |
 | AGL-5 23-al-lupenoic acid | plant triterpenoid aglycone | -1.527 | 34 | 0.045 | 3 |  |
-| AGL-6 lupene-23,28-dioic acid | plant triterpenoid aglycone | -0.439 | 35 | 0.013 | 3 |  |
-| SAP-3 nor-saponin (PPARa 2.25-fold) | plant saponin | 0.65 | 44 | -0.015 | 4 |  |
-| AGL-4 20-OH-30-nor-oleanene-23,28-dioic acid | plant triterpenoid aglycone | 0.89 | 35 | -0.025 | 2 |  |
+| AGL-6 lupene-23,28-dioic acid | plant triterpenoid aglycone | -0.4386 | 35 | 0.013 | 3 |  |
+| SAP-3 nor-saponin (PPARa 2.25-fold) | plant saponin | 0.6501 | 44 | -0.015 | 4 |  |
+| AGL-4 20-OH-30-nor-oleanene-23,28-dioic acid | plant triterpenoid aglycone | 0.8901 | 35 | -0.025 | 2 |  |
 | AGL-3 30-nor-oleanadienoic acid | plant triterpenoid aglycone | 1.112 | 32 | -0.035 | 1 |  |
 | AGL-2 23-al-30-nor-oleanadienoic acid | plant triterpenoid aglycone | 2.043 | 33 | -0.062 | 2 |  |
 | AGL-1 oleanolic acid | plant triterpenoid aglycone | 2.125 | 33 | -0.064 | 1 |  |
