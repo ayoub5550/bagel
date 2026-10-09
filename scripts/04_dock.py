@@ -37,7 +37,7 @@ from pathlib import Path
 import numpy as np
 from openbabel import pybel
 from rdkit import Chem, RDLogger
-from rdkit.Chem import AllChem, rdMolDescriptors
+from rdkit.Chem import AllChem, rdMolAlign, rdMolDescriptors
 from meeko import MoleculePreparation, PDBQTWriterLegacy
 
 RDLogger.DisableLog("rdApp.*")
@@ -232,28 +232,50 @@ def efficiency(score: float | None, heavy_atoms: int) -> float | None:
     return round(-score / heavy_atoms, 3)
 
 
-def control_rmsd(template_smiles: str, crystal_pdb: Path, docked_pdbqt: Path) -> float | None:
-    """Symmetry-aware RMSD between the re-docked best pose and the crystal pose."""
-    try:
-        template = Chem.MolFromSmiles(template_smiles)
-        cryst = Chem.MolFromPDBBlock(crystal_pdb.read_text(), removeHs=True,
-                                     proximityBonding=True)
-        cryst = AllChem.AssignBondOrdersFromTemplate(template, cryst)
+def _control_mols(template_smiles: str, crystal_pdb: Path, docked_pdbqt: Path):
+    """(re-docked best pose, crystal pose) as RDKit mols with template bond orders, same frame."""
+    template = Chem.MolFromSmiles(template_smiles)
+    cryst = Chem.MolFromPDBBlock(crystal_pdb.read_text(), removeHs=True,
+                                 proximityBonding=True)
+    cryst = AllChem.AssignBondOrdersFromTemplate(template, cryst)
 
-        pose_pdb = docked_pdbqt.with_suffix(".model1.pdb")
-        model: list[str] = []
-        for line in docked_pdbqt.read_text().splitlines():
-            if line.startswith("ENDMDL"):
-                break
-            if line.startswith(("ATOM", "HETATM")):
-                model.append(line[:66] + "\n")
-        pose_pdb.write_text("".join(model) + "END\n")
-        probe = Chem.MolFromPDBBlock(pose_pdb.read_text(), removeHs=True,
-                                     proximityBonding=True)
-        probe = AllChem.AssignBondOrdersFromTemplate(template, probe)
-        return float(AllChem.GetBestRMS(probe, cryst))
+    pose_pdb = docked_pdbqt.with_suffix(".model1.pdb")
+    model: list[str] = []
+    for line in docked_pdbqt.read_text().splitlines():
+        if line.startswith("ENDMDL"):
+            break
+        if line.startswith(("ATOM", "HETATM")):
+            model.append(line[:66] + "\n")
+    pose_pdb.write_text("".join(model) + "END\n")
+    probe = Chem.MolFromPDBBlock(pose_pdb.read_text(), removeHs=True,
+                                 proximityBonding=True)
+    probe = AllChem.AssignBondOrdersFromTemplate(template, probe)
+    return probe, cryst
+
+
+def control_rmsd(template_smiles: str, crystal_pdb: Path, docked_pdbqt: Path) -> float | None:
+    """Symmetry-aware RMSD between the re-docked best pose and the crystal pose, IN PLACE.
+
+    Fixed 2026-10-09 (CHANGELOG): this used AllChem.GetBestRMS, which first superimposes the pose on the
+    crystal ligand and then measures. That answers "is the SHAPE right?", not "is the pose in the right
+    PLACE?", so a pose docked elsewhere in the pocket still passed. rdMolAlign.CalcRMS measures in the
+    receptor frame (no alignment) and still handles symmetry. The aligned value is kept as a diagnostic
+    only (control_rmsd_aligned).
+    """
+    try:
+        probe, cryst = _control_mols(template_smiles, crystal_pdb, docked_pdbqt)
+        return float(rdMolAlign.CalcRMS(probe, cryst))
     except Exception as err:  # noqa: BLE001
         print(f"[04] control RMSD not computable: {err}")
+        return None
+
+
+def control_rmsd_aligned(template_smiles: str, crystal_pdb: Path, docked_pdbqt: Path) -> float | None:
+    """Diagnostic only, NEVER the acceptance test: RMSD after superposition (the pre-2026-10-09 method)."""
+    try:
+        probe, cryst = _control_mols(template_smiles, crystal_pdb, docked_pdbqt)
+        return float(AllChem.GetBestRMS(probe, cryst))
+    except Exception:  # noqa: BLE001
         return None
 
 
@@ -291,10 +313,12 @@ def main() -> int:
             ctrl_score, ctrl_out = run_vina(rec, ctrl_lig, center, size,
                                             tdir / "control_out.pdbqt")
         rmsd = control_rmsd(ref_smiles, lig_pdb, ctrl_out) if ctrl_out else None
+        rmsd_al = control_rmsd_aligned(ref_smiles, lig_pdb, ctrl_out) if ctrl_out else None
         valid = rmsd is not None and rmsd <= CONTROL_RMSD_LIMIT
         summary[pdb_id] = {"name": spec["name"], "why": spec["why"],
                            "control_code": spec["ligand_code"],
                            "control_score": ctrl_score, "control_rmsd": rmsd,
+                           "control_rmsd_aligned": rmsd_al,
                            "valid": valid, "center": center.tolist(),
                            "size": size.tolist()}
         print(f"[04] {pdb_id} CONTROL score {ctrl_score} kcal/mol, RMSD to crystal "
@@ -368,18 +392,23 @@ def write_summary(rows, summary) -> None:
         "",
         "## Control check (this decides whether the numbers below mean anything)",
         "",
-        "| target | protein | control ligand | control score | RMSD to crystal pose | verdict |",
-        "|---|---|---|---|---|---|",
+        "| target | protein | control ligand | control score | RMSD to crystal pose (in place) "
+        "| aligned RMSD (diagnostic only) | verdict |",
+        "|---|---|---|---|---|---|---|",
     ]
     for pdb_id, s in summary.items():
         rmsd = "not computable" if s["control_rmsd"] is None else f"{s['control_rmsd']:.2f} A"
+        al = "—" if s.get("control_rmsd_aligned") is None else f"{s['control_rmsd_aligned']:.2f} A"
         lines.append(f"| {pdb_id} | {s['name']} | {s['control_code']} | "
-                     f"{s['control_score']} kcal/mol | {rmsd} | "
+                     f"{s['control_score']} kcal/mol | {rmsd} | {al} | "
                      f"{'**valid**' if s['valid'] else '**INVALID — scores withheld**'} |")
     lines += [
         "",
         f"Acceptance limit: the re-docked crystal ligand must land within "
-        f"{CONTROL_RMSD_LIMIT} A of its crystallographic pose.",
+        f"{CONTROL_RMSD_LIMIT} A of its crystallographic pose, measured **in place** "
+        "(rdMolAlign.CalcRMS, no superposition). Until 2026-10-09 this table used the aligned RMSD "
+        "(GetBestRMS), which superimposes the pose on the crystal ligand first and so cannot see a pose "
+        "docked in the wrong place; the aligned value is shown for comparison only (CHANGELOG 2026-10-09).",
         "",
     ]
     for pdb_id, s in summary.items():
